@@ -4096,22 +4096,62 @@ input:required {
   font-family: 'Roboto';
   border-radius: 63px;
 }
-.akc-four-block-section{
+
+.akc-four-block-section {
   z-index: 3;
   position: relative;
 }
-.akc-glimpises-bg{
+
+.akc-glimpises-bg {
   background: #FAC80F;
 }
-.bg-2{
+
+.bg-2 {
   background: #FAC80F !important;
 }
-.akc-glimpises-section-title{
+
+.akc-glimpises-section-title {
   font-size: 85px;
   font-weight: 700;
   color: #EC297B;
   line-height: 100px;
 }
-.blog-title{
+
+.blog-title {
   color: #EC297B !important;
+}
+
+.akc-slider-2-txt-1 {
+  font-size: 45px;
+  font-weight: 400;
+  color: #EC297B;
+}
+
+.akc-slider-2-txt-2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.akc-slider-3-txt-1 {
+  font-size: 100px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 90px;
+  margin-top: 50px;
+}
+.akc-slider-3-txt-2{
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+.akc-slider-3-txt-3{
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+.single-welcome-slide{
+  background-color: #FAC80F !important;
 }
