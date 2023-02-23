@@ -3995,6 +3995,7 @@ input:required {
 
 
 /* akc style sheet */
+
 .akc-container-inner {
   margin: 0px 40px;
   padding-bottom: 100px;
@@ -4049,11 +4050,16 @@ input:required {
   margin: 0px 25px;
 }
 
+
 .countdown__time {
   font-size: 64px;
   font-weight: 700;
 }
-
+@media only screen and (max-width: 600px) {
+  .countdown__time {
+    font-size: 34px;
+  }
+}
 .countdown__label {
   font-size: 16px;
   font-weight: 400;
@@ -4095,6 +4101,11 @@ input:required {
   font-weight: 700;
   font-family: 'Roboto';
   border-radius: 63px;
+}
+@media only screen and (max-width: 600px) {
+  .countdown-dot {
+    font-size: 34px;
+  }
 }
 
 .akc-four-block-section {
