@@ -127,42 +127,25 @@
 <body>
    <!-- Preloader -->
    <div id="preloader">
-         <div class="loader"></div>
-      </div>
+      <div class="loader"></div>
+   </div>
    <!-- /Preloader -->
    <!-- Header Area Start -->
    <header class="header-area">
       <div class="classy-nav-container breakpoint-off">
          <div class="container">
             <!-- Classy Menu -->
-            <nav class="classy-navbar justify-content-between" id="conferNav">
-               <!-- Logo -->
-               <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" width="80" height="80"
-                     alt=""></a>
-               <!-- Navbar Toggler -->
-               <div class="classy-navbar-toggler">
-                  <span class="navbarToggler"><span></span><span></span><span></span></span>
-               </div>
-               <!-- Menu -->
-               <div class="classy-menu">
-                  <!-- Menu Close Button -->
-                  <div class="classycloseIcon">
-                     <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                  </div>
-                  <!-- Nav Start -->
-                  <div class="classynav">
-                     <ul id="nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="/activities.html">Event Details</a></li>
-                        <li><a href="/infopack.html">Infopack</a></li>
-                        <li><a href="#about">About us</a></li>
-                        <li><a href="#about-holi">Holi</a></li>
-                        <li><a href="#sponsors">Sponsors</a></li>
-                        <li><a href="faq.html">FAQs</a></li>
-                        <li><a href="#contactus">Contact</a></li>
-                     </ul>
-                     <!-- Get Tickets Button -->
-                     <script src="https://billetto.no/embed.js"></script>
+            <!-- <nav class="classy-navbar justify-content-between" id="conferNav"> -->
+               <div class="row">
+                  <div class="col text-left d-flex align-items-center ">
+                     <!-- Logo -->
+                     <div class="classy-menu " >
+                        <!-- Menu Close Button -->
+                        <!-- <div class="classycloseIcon">
+                           <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div> -->
+
+                        <script src="https://billetto.no/embed.js"></script>
                      <style>
                         .billetto-btn {
                            line-height: 1.75rem;
@@ -181,11 +164,12 @@
                            font-size: 16px;
                            border-radius: 6px;
                            color: #fff;
-                           background: #8b24fb;
-                           border-color: #8b24fb;
+                           /* background: #333333; */
+                           /* border-color: #333333; */
                            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
                            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
                            text-decoration: none;
+                           border: 1px solid white;
                         }
 
                         .billetto-btn:hover,
@@ -204,20 +188,84 @@
                         .billetto-btn[disabled]:hover,
                         .billetto-btn[disabled]:focus,
                         .billetto-btn[disabled]:active {
-                           color: rgba(0, 0, 0, 0.25);
-                           background: #f5f5f5;
-                           border-color: #d9d9d9;
+                           color: #fff;
+                           /* background: #333333; */
+                           border-color: #fff;
                            text-shadow: none;
                            box-shadow: none;
                         }
                      </style>
                      <a class="billetto-btn"
-                        href="https://billetto.no/en/e/holi-oslo-colour-festival-tickets-621408/select?color=%238b24fb&locale=en&whitelabel=true">Get
-                        tickets</a>
+                        href="https://billetto.no/en/e/holi-oslo-colour-festival-tickets-621408/select?color=%238b24fb&locale=en&whitelabel=true" >BOOK NOW</a>
+                        <!-- Nav Start -->
+                        
+                     </div>
+
+                    
                   </div>
-                  <!-- Nav End -->
+                  <!-- Navbar Toggler -->
+                  <!-- <div class="classy-navbar-toggler">
+                     <span class="navbarToggler"><span></span><span></span><span></span></span>
+                  </div> -->
+                  <!-- Menu -->
+                  <div class="col text-center justify-content-center d-flex align-items-center">
+                     <a href="./index.html" class="text-center" ><img src="./img/core-img/logo.png" width="80"
+                        height="80" alt=""></a>
+                     <!-- Nav End -->
+                     
+                  </div>
+                  <div class="col d-flex justify-content-end align-items-center">
+                     <div class="d-flex">
+                        
+                        <i class="fa-brands fa-facebook mr-2 text-white"></i>
+                        <i class="fa-brands fa-instagram mr-2 text-white"></i>
+                        <i class="fa-brands fa-youtube mr-2 text-white"></i>
+                        <div class="btn-group">
+                           
+                           <i class="fa-solid fa-bars mr-2 text-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                           <!-- <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Right-aligned menu
+                           </button> -->
+                           <div class="dropdown-menu dropdown-menu-right">
+                              <ul id="nav">
+                                 <li class="active"><a href="index.html">Home</a></li>
+                                 <li><a href="/activities.html">Event Details</a></li>
+                                 <li><a href="/infopack.html">Infopack</a></li>
+                                 <li><a href="#about">About us</a></li>
+                                
+                                 <li><a href="faq.html">FAQs</a></li>
+                                 <li><a href="#contactus">Contact</a></li>
+                              </ul>
+                             <!-- <button class="dropdown-item" type="button">Action</button>
+                             <button class="dropdown-item" type="button">Another action</button>
+                             <button class="dropdown-item" type="button">Something else here</button>
+                            -->
+                           </div>
+                         </div>
+                       
+
+                     </div>
+
+                     <div class="classynav">
+
+
+<!-- 
+                        <ul id="nav">
+                           <li class="active"><a href="index.html">Home</a></li>
+                           <li><a href="/activities.html">Event Details</a></li>
+                           <li><a href="/infopack.html">Infopack</a></li>
+                           <li><a href="#about">About us</a></li>
+                           <li><a href="#about-holi"></a></li>
+                     <li><a href="#sponsors"></a></li>
+                           <li><a href="faq.html">FAQs</a></li>
+                           <li><a href="#contactus">Contact</a></li>
+                        </ul> -->
+                        <!-- Get Tickets Button -->
+
+                     </div>
+                  </div>
                </div>
-            </nav>
+            <!-- </nav> -->
          </div>
       </div>
    </header>
@@ -226,43 +274,8 @@
    <section class="welcome-area">
       <div class="welcome-slides owl-carousel">
          <!-- Single Slide -->
-         <div class="single-welcome-slide bg-img  jarallax" style="background-image: url(img/core-img/slider-img-1.png);">
-            <div class="container h-100">
-               <div class="row h-100 align-items-center">
-                  <!-- Welcome Text -->
-                  <div class="col-12">
-                     <div class="welcome-text text-right">
-                        <!-- <h2 data-animation="fadeInUp" data-delay="300ms">Holi <br>Oslo Colour<br> Festival</h2> -->
-                        <!-- <h6 data-animation="fadeInUp" data-delay="500ms">Dronning Margretes Vei 11, 0663 Oslo</h6> -->
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- Single Slide -->
-         <div class="single-welcome-slide akc-slider" style="background-image: url(img/core-img/slider-img-2.png);">
-            <div class="container h-100">
-               <div class="row h-100 align-items-center">
-                  <!-- Welcome Text -->
-                  <div class="col-12">
-                     <div class="text-center">
-                        <div class="akc-slider-2-txt-1">Oslo Colour Festival 2022 Opening Ceremony</div>
-                        <div>
-                           <img src="img/core-img/slider-img-inner-2.png" alt="">
-                        </div>
-                        <div>
-                           <div class="akc-slider-2-txt-2">H.E. Excellency <b>Dr. B Bala Bhaskar</b> - Ambassador India to the Kingdom of Norway (Centre)
-                              H.E. <b>Tore Hattrem</b> – Secretary General, Ministry of Foreign Affairs in Norway (2nd from Right)
-                             <b> Mr. Erik Solheim</b> (Ex Member of Parliament and Environmental Minister) (2nd from Left)
-                              <b>Ms. Ragnhild Bergheim</b> – Mayor of Lørenskog (Extreme Left) | <b>Mr. Tore Naerland</b> - President Bike for Peace (Extreme Right)</div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- single slide -->
-         <div class="single-welcome-slide bg-img  jarallax" style="background-image: url(img/core-img/slider-img-3.png);">
+         <div class="single-welcome-slide bg-img  jarallax"
+            style="background-image: url(img/core-img/slider-img-3.png);">
             <div class="container">
                <div class="row">
                   <!-- Welcome Text -->
@@ -281,6 +294,50 @@
                </div>
             </div>
          </div>
+
+
+         <!-- Single Slide -->
+         <div class="single-welcome-slide akc-slider" style="background-image: url(img/core-img/slider-img-2.png);">
+            <div class="container h-100">
+               <div class="row h-100 align-items-center">
+                  <!-- Welcome Text -->
+                  <div class="col-12">
+                     <div class="text-center">
+                        <!-- <div class="akc-slider-2-txt-1">Oslo Colour Festival 2022 Opening Ceremony</div> -->
+                        <div>
+                           <img src="img/core-img/slider-img-inner-2.png" alt="">
+                        </div>
+                        <div>
+                           <div class="akc-slider-2-txt-2">H.E. Excellency <b>Dr. B Bala Bhaskar</b> - Ambassador India
+                              to the Kingdom of Norway (Centre)
+                              H.E. <b>Tore Hattrem</b> – Secretary General, Ministry of Foreign Affairs in Norway (2nd
+                              from Right)
+                              <b> Mr. Erik Solheim</b> (Ex Member of Parliament and Environmental Minister) (2nd from
+                              Left)
+                              <b>Ms. Ragnhild Bergheim</b> – Mayor of Lørenskog (Extreme Left) | <b>Mr. Tore
+                                 Naerland</b> - President Bike for Peace (Extreme Right)
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- single slide -->
+         <div class="single-welcome-slide bg-img  jarallax"
+            style="background-image: url(img/core-img/slider-img-1.png);">
+            <div class="container h-100">
+               <div class="row h-100 align-items-center">
+                  <!-- Welcome Text -->
+                  <div class="col-12">
+                     <div class="welcome-text text-right">
+                        <!-- <h2 data-animation="fadeInUp" data-delay="300ms">Holi <br>Oslo Colour<br> Festival</h2> -->
+                        <!-- <h6 data-animation="fadeInUp" data-delay="500ms">Dronning Margretes Vei 11, 0663 Oslo</h6> -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
       <!-- Scroll Icon -->
       <div class="icon-scroll" id="scrollDown"></div>
@@ -290,7 +347,7 @@
    <!-- four block -->
    <section class="akc-four-block-section">
       <div class="container">
-         <div class="akc-container-inner" >
+         <div class="akc-container-inner">
             <div class="row">
                <div class="col-md-6 p-0">
                   <div class="akc-block h-100">
@@ -318,30 +375,30 @@
                <div class="col-md-6 p-0">
                   <div class="akc-block-2 h-200">
                      <div class="akc-block-bg-3 h-200">
-                           <!-- js countdown timer -->
-                           <div class="countdown-timer akc-block-timer" data-date="2023/05/06">
-                              <div class="countdown d-flex justify-content-center">
-                                 <div class="countdown__item">
-                                    <div class="countdown__time days">00</div>
-                                    <div class="countdown__label">Days</div>
-                                 </div>
-                                 <div class="countdown-dot">:</div>
-                                 <div class="countdown__item">
-                                    <div class="countdown__time hours">00</div>
-                                    <div class="countdown__label">Hours</div>
-                                 </div>
-                                 <div class="countdown-dot">:</div>
-                                 <div class="countdown__item">
-                                    <div class="countdown__time minutes">00</div>
-                                    <div class="countdown__label">Minutes</div>
-                                 </div>
-                                 <div class="countdown-dot">:</div>
-                                 <div class="countdown__item">
-                                    <div class="countdown__time seconds">00</div>
-                                    <div class="countdown__label">Seconds</div>
-                                 </div>
+                        <!-- js countdown timer -->
+                        <div class="countdown-timer akc-block-timer" data-date="2023/05/06">
+                           <div class="countdown d-flex justify-content-center">
+                              <div class="countdown__item">
+                                 <div class="countdown__time days">00</div>
+                                 <div class="countdown__label">Days</div>
+                              </div>
+                              <div class="countdown-dot">:</div>
+                              <div class="countdown__item">
+                                 <div class="countdown__time hours">00</div>
+                                 <div class="countdown__label">Hours</div>
+                              </div>
+                              <div class="countdown-dot">:</div>
+                              <div class="countdown__item">
+                                 <div class="countdown__time minutes">00</div>
+                                 <div class="countdown__label">Minutes</div>
+                              </div>
+                              <div class="countdown-dot">:</div>
+                              <div class="countdown__item">
+                                 <div class="countdown__time seconds">00</div>
+                                 <div class="countdown__label">Seconds</div>
                               </div>
                            </div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -349,9 +406,8 @@
                   <div class="akc-block h-100" style="border: 3px solid #fff;">
                      <div class="h-100 akc-bg-4" style="background-image: url('img/core-img/block-4.png');">
                         <div class="text-center">
-                           <div class="akc-block-4-txt-1">OSLO'S 
-                              GREATEST CHANT 
-                              AND CULTURAL EVENT! 
+                           <div class="akc-block-4-txt-1">OSLO'S
+                              GREATEST  CULTURAL EVENT!
                            </div>
                            <div>
                               <a href="" class="akc-block-4-btn">BOOK NOW</a>
@@ -367,11 +423,11 @@
    <!-- four block end -->
 
    <!-- About Us And Countdown Area Start -->
-   <section class="about-us-countdown-area section-padding-100-0" id="about">
+   <!-- <section class="about-us-countdown-area section-padding-100-0" id="about">
       <div class="container">
-         <div class="row align-items-center">
+         <div class="row align-items-center"> -->
             <!-- About Content -->
-            <div class="col-12 col-md-6">
+            <!-- <div class="col-12 col-md-6">
                <div class="about-content-text mb-80">
                   <h6 class="wow fadeInUp" data-wow-delay="300ms">About us!</h6>
                   <h3 class="wow fadeInUp" data-wow-delay="300ms">Welcome to Oslo Colour Festival</h3>
@@ -383,9 +439,9 @@
                   <p class="wow fadeInUp" data-wow-delay="300ms">This would be one of a kind, biggest event dedicated to
                      the Indo Norwegian integration.
                </div>
-            </div>
+            </div> -->
             <!-- About Thumb -->
-            <div class="col-12 col-md-6">
+            <!-- <div class="col-12 col-md-6">
                <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
                   <img src="img/bg-img/2.jpeg" style="width: 400px; height: 500px;" alt="">
                </div>
@@ -395,9 +451,9 @@
       <div class="countdown-up-area">
          <div class="container">
             <div class="row align-items-center">
-               <div class="col-12 col-md-12">
+               <div class="col-12 col-md-12"> -->
                   <!-- Countdown Text -->
-                  <div class="countdown-content-text mb-100 wow fadeInUp" data-wow-delay="300ms">
+                  <!-- <div class="countdown-content-text mb-100 wow fadeInUp" data-wow-delay="300ms">
                      <h6>Happy Holi</h6>
                      <h4>OSLO'S GREATEST CHANT AND Cultural Event! MUSIC, Street Food Festival, KID'S AREA, YOGA,
                         Playing Holi with Colours.</h4>
@@ -405,26 +461,26 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!-- Counter Up Area -->
       <!--  -->
-   </section>
+   <!-- </section> -->
    <!-- About Us And Countdown Area End -->
    <!-- Our Speakings Area Start -->
-   <section class="our-speaker-area  section-padding-100-60" id="about-holi">
+   <!-- <section class="our-speaker-area  section-padding-100-60" id="about-holi">
       <div class="container">
-         <div class="row">
+         <div class="row"> -->
             <!-- Heading -->
-            <div class="col-12">
+            <!-- <div class="col-12">
                <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
                   <h4 style="color:black;">Holi - An Indian Festival</h4>
                </div>
             </div>
-         </div>
-         <div class="container">
-            <div class="row align-items-center">
+         </div> -->
+         <!-- <div class="container">
+            <div class="row align-items-center"> -->
                <!-- About Content -->
-               <div class="col-12 col-md-6">
+               <!-- <div class="col-12 col-md-6">
                   <div class="about-content-text mb-80">
                      <h3 class="wow fadeInUp" data-wow-delay="300ms">About Festival of Colours</h3>
                      <p class="wow fadeInUp" data-wow-delay="300ms" style="color:black;">In India, Holi announces the
@@ -436,9 +492,9 @@
                         and playing with colours. This creates an environment of leaving differences behind and create
                         more harmony & integration between people of all age groups, cultural background and religion.
                   </div>
-               </div>
+               </div> -->
                <!-- About Thumb -->
-               <div class="col-12 col-md-6">
+               <!-- <div class="col-12 col-md-6">
                   <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
                      <img src="img/bg-img/holi-1.jpeg" style="width: 400px; height: 500px;" alt="">
                   </div>
@@ -446,14 +502,14 @@
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
    <!-- Our Speakings Area End -->
    <!-- Our Schedule Area Start -->
-   <section class="our-schedule-area section-padding-100">
+   <!-- <section class="our-schedule-area section-padding-100">
       <div class="container">
-         <div class="row">
+         <div class="row"> -->
             <!-- Heading -->
-            <div class="col-12">
+            <!-- <div class="col-12">
                <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
                   <p>7. MAI SATURDAY</p>
                   <h4>at 13:00 Vallhall Arena, Oslo</h4>
@@ -462,9 +518,9 @@
          </div>
          <div class="row">
             <div class="col-12">
-               <div class="schedule-tab">
+               <div class="schedule-tab"> -->
                   <!-- Nav Tabs -->
-               </div>
+               <!-- </div> -->
                <!-- Tab Content -->
                <div class="tab-content" id="conferScheduleTabContent">
                   <div class="tab-pane fade show active" id="step-one" role="tabpanel" aria-labelledby="monday-tab">
@@ -528,12 +584,12 @@
    </section>
    <!-- Our Schedule Area End -->
    <!-- Our Ticket Pricing Table Area Start -->
-   <section class="our-ticket-pricing-table-area bg-img bg-gradient-overlay section-padding-100-0 jarallax"
+   <!-- <section class="our-ticket-pricing-table-area bg-img bg-gradient-overlay section-padding-100-0 jarallax"
       style="background-image: url(img/bg-img/14.jpg);">
       <div class="container">
-         <div class="row">
+         <div class="row"> -->
             <!-- Heading -->
-            <div class="col-12">
+            <!-- <div class="col-12">
                <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
                   <p>Choose a Ticket</p>
                   <h4>Ticket Pricing</h4>
@@ -543,13 +599,13 @@
          <div class="row" style="
                display: flex;
                justify-content: center;
-               ">
+               "> -->
             <!-- Single Ticket Pricing Table -->
-            <div class="col-12 col-lg-4">
+            <!-- <div class="col-12 col-lg-4">
                <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
-                  <h6 class="ticket-plan">Age above 6</h6>
+                  <h6 class="ticket-plan">Age above 6</h6> -->
                   <!-- Ticket Icon -->
-                  <div class="ticket-icon">
+                  <!-- <div class="ticket-icon">
                      <img src="img/core-img/p1.png" alt="">
                   </div>
                   <h2 class="ticket-price"><span>NOK</span>50</h2>
@@ -604,20 +660,20 @@
                   </style>
                   <a class="billetto-btn"
                      href="https://billetto.no/en/e/holi-oslo-colour-festival-tickets-621408/select?color=%238b24fb&locale=en&whitelabel=true">Get
-                     tickets</a>
+                     tickets</a> -->
                   <!-- Ticket Pricing Table Details -->
-                  <div class="ticket-pricing-table-details">
+                  <!-- <div class="ticket-pricing-table-details">
                      <p><i class="zmdi zmdi-check"></i> One Day Ticket</p>
                      <p><i class="zmdi zmdi-check"></i> Unlimited colours</p>
                   </div>
                </div>
-            </div>
+            </div> -->
             <!-- Single Ticket Pricing Table -->
-            <div class="col-12 col-md-6 col-lg-4">
+            <!-- <div class="col-12 col-md-6 col-lg-4">
                <div class="single-ticket-pricing-table  text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
-                  <h6 class="ticket-plan">Age Below 6</h6>
+                  <h6 class="ticket-plan">Age Below 6</h6> -->
                   <!-- Ticket Icon -->
-                  <div class="ticket-icon">
+                  <!-- <div class="ticket-icon">
                      <img src="img/core-img/p1.png" alt="">
                   </div>
                   <h2 class="ticket-price">FREE</h2>
@@ -673,8 +729,8 @@
                   <a class="billetto-btn"
                      href="https://billetto.no/en/e/holi-oslo-colour-festival-tickets-621408/select?color=%238b24fb&locale=en&whitelabel=true">Get
                      tickets</a>
-                  <!-- Ticket Pricing Table Details -->
-                  <div class="ticket-pricing-table-details">
+                   Ticket Pricing Table Details -->
+                  <!-- <div class="ticket-pricing-table-details">
                      <p><i class="zmdi zmdi-check"></i> One Day Ticket</p>
                      <p><i class="zmdi zmdi-check"></i> Unlimited colours</p>
                   </div>
@@ -682,7 +738,7 @@
             </div>
          </div>
       </div>
-   </section>
+   </section> --> 
    <!-- Our Ticket Pricing Table Area End -->
 
 
@@ -697,70 +753,76 @@
                   </div>
                </div>
             </div>
-             <div class="row">
-                 <!-- Single Blog Area -->
-                 <div class="col-12 col-md-6 col-xl-4">
-                     <div class="single-blog-area bg-2  style-2 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
-                         <!-- Single blog Thumb -->
-                         <div class="single-blog-thumb">
-                             <img src="img/core-img/glimpses.png" alt="">
-                         </div>
-                         <div class="single-blog-text text-center">
-                             <a class="blog-title" href="#">CULTURAL PROGRAM</a>
-                         </div>
-                         <div class="blog-btn">
-                             <a href="#"><i class="zmdi zmdi-long-arrow-right"></i></a>
-                         </div>
+            <div class="row">
+               <!-- Single Blog Area -->
+               <div class="col-12 col-md-6 col-xl-4">
+                  <div class="single-blog-area bg-2  style-2 wow fadeInUp" data-wow-delay="300ms"
+                     style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                     <!-- Single blog Thumb -->
+                     <div class="single-blog-thumb" style="height: 200px;">
+                        <img src="img/core-img/1.JPG" alt="">
                      </div>
-                 </div>
- 
-                 <!-- Single Blog Area -->
-                 <div class="col-12 col-md-6 col-xl-4">
-                  <div class="single-blog-area bg-2  style-2 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
-                      <!-- Single blog Thumb -->
-                      <div class="single-blog-thumb">
-                          <img src="img/core-img/glimpses.png" alt="">
-                      </div>
-                      <div class="single-blog-text text-center">
-                          <a class="blog-title" href="#">COLOUR CELEBRATION</a>
-                      </div>
-                      <div class="blog-btn">
-                          <a href="#"><i class="zmdi zmdi-long-arrow-right"></i></a>
-                      </div>
+                     <div class="single-blog-text text-center">
+                        <a class="blog-title" href="#">CULTURAL PROGRAM</a>
+                     </div>
+                     <div class="blog-btn">
+                        <a href="#"><i class="zmdi zmdi-long-arrow-right"></i></a>
+                     </div>
                   </div>
-              </div>
- 
-                 <!-- Single Blog Area -->
-                 <div class="col-12 col-md-6 col-xl-4">
-                  <div class="single-blog-area bg-2  style-2 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
-                      <!-- Single blog Thumb -->
-                      <div class="single-blog-thumb">
-                          <img src="img/core-img/glimpses.png" alt="">
-                      </div>
-                      <div class="single-blog-text text-center">
-                          <a class="blog-title" href="#">MEDIA COVERAGE</a>
-                      </div>
-                      <div class="blog-btn">
-                          <a href="#"><i class="zmdi zmdi-long-arrow-right"></i></a>
-                      </div>
+               </div>
+
+               <!-- Single Blog Area -->
+               <div class="col-12 col-md-6 col-xl-4">
+                  <div class="single-blog-area bg-2  style-2 wow fadeInUp" data-wow-delay="300ms"
+                     style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                     <!-- Single blog Thumb -->
+                     <div class="single-blog-thumb" style="height: 200px;">
+                        <img src="img/core-img/2.jpeg" alt="" >
+                     </div>
+                     <div class="single-blog-text text-center">
+                        <a class="blog-title" href="#">COLOUR CELEBRATION</a>
+                     </div>
+                     <div class="blog-btn">
+                        <a href="#"><i class="zmdi zmdi-long-arrow-right"></i></a>
+                     </div>
                   </div>
-              </div>
-                 
-             </div>
+               </div>
+
+               <!-- Single Blog Area -->
+               <div class="col-12 col-md-6 col-xl-4">
+                  <div class="single-blog-area bg-2  style-2 wow fadeInUp" data-wow-delay="300ms"
+                     style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                     <!-- Single blog Thumb -->
+                     <div class="single-blog-thumb" style="height: 200px;">
+                        <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/qqHV32KM9rQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                     </div>
+                     <div class="single-blog-text text-center">
+                        <a class="blog-title" href="#">MEDIA COVERAGE</a>
+                     </div>
+                     <div class="blog-btn">
+                        <a href="#"><i class="zmdi zmdi-long-arrow-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+
+
+
+               
+            </div>
          </div>
-     </div>
+      </div>
    </section>
    <!-- end -->
 
    <!-- Our Sponsor And Client Area Start -->
-   <section class="our-schedule-area section-padding-100">
+   <section class="our-schedule-area section-padding-100" style="background-color: #fff;">
       <div class="container">
          <div class="row">
             <!-- Heading -->
             <div class="col-12">
                <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
                   <p>Sponsors</p>
-                  <h4>Official Sponsors</h4>
+                  <h4 style="color: gray;">Official Sponsors</h4>
                </div>
             </div>
          </div>
@@ -770,87 +832,76 @@
                   <!-- Nav Tabs -->
                </div>
                <!-- Tab Content -->
+
                <div class="tab-content" id="conferScheduleTabContent">
                   <div class="tab-pane fade show active" id="step-one" role="tabpanel" aria-labelledby="monday-tab">
                      <!-- Single Tab Content -->
                      <div class="single-tab-content">
-                        <div class="parent" style="margin-top: 30px;">
-                           <div class="single-client-content">
+                        <div class="parent" style="margin-top: 30px; display: flex; flex-wrap: wrap;">
+                           <div class="single-client-content" style="width: 200px;">
                               <div class="single-client-text">
                                  <!-- <h4 style="color:white;text-align: center;">Gold Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms"
-                                    style="display:flex;flex-direction: column;">
+                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms" style="">
                                     <a href="https://www.capgemini.com/no-no/" target="_blank"><img
-                                          src="https://www.capgemini.com/in-en/wp-content/themes/capgemini-komposite/assets/images/logo.svg"
-                                          alt=""></a>
+                                          src="img/core-img/Capegimini.png" alt=""></a>
                                  </div>
                               </div>
 
                            </div>
-                           <div class="single-client-content">
+                           <div class="single-client-content" style="width: 200px;">
                               <div class="single-client-text">
                                  <!-- <h4 style="color:white;text-align: center;">Gold Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms"
-                                    style="display:flex;flex-direction: column;">
-                                    <a href="https://www.tcs.com/" target="_blank"><img
-                                          src="https://www.tcs.com/content/dam/tcs/images/Newtcslogo/tcs-logo-tata-white-1x-dec2021.png"
+                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms" style="">
+                                    <a href="https://www.tcs.com/" target="_blank"><img src="img/core-img/TCS.png"
                                           alt=""></a>
                                  </div>
                               </div>
 
                            </div>
-                           <div class="single-client-content">
+                           <div class="single-client-content" style="width: 200px;">
                               <div class="single-client-text">
                                  <!-- <h4 style="color:white;text-align: center;">Silver Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms"
-                                    style="display:flex;flex-direction: column;">
+                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms" style="">
                                     <a href="https://www.infosys.com/" target="_blank"><img
-                                          src="https://oslocolourfestival.no/img/core-img/Infosys_logo.svg" alt=""></a>
+                                          src="img/core-img/Infosys 1.png" alt=""></a>
                                  </div>
                               </div>
 
                            </div>
-                           <div class="single-client-content">
+                           <div class="single-client-content" style="width: 200px;">
                               <div class="single-client-text">
                                  <!-- <h4 style="color:white;text-align: center;">Bronze Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms"
-                                    style="display:flex;flex-direction: column;">
-                                    <a href="https://agrim.no/" target="_blank"><img
-                                          src="https://agrim.no/wp-content/uploads/2020/10/cropped-logo-1.png"
+                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms" style="">
+                                    <a href="https://agrim.no/" target="_blank"><img src="img/core-img/Agrim.png"
                                           alt=""></a>
                                  </div>
                               </div>
 
                            </div>
-                           <div class="single-client-content">
+                           <div class="single-client-content" style="width: 200px;">
                               <div class="single-client-text">
                                  <!-- <h4 style="color:white;text-align: center;">Display Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms"
-                                    style="display:flex;flex-direction: column;">
-                                    <a href="#" target="_blank"><img
-                                          src="http://oslocolourfestival.no/img/core-img/scandicdesi.png" alt=""></a>
+                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms" style="">
+                                    <a href="#" target="_blank"><img src="img/core-img/Scandic Desi 1.png" alt=""></a>
                                  </div>
                               </div>
 
                            </div>
-                           <div class="single-client-content">
+                           <div class="single-client-content" style="width: 200px;">
                               <div class="single-client-text">
                                  <!-- <h4 style="color:white;text-align: center;">Display Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms"
-                                    style="display:flex;flex-direction: column;">
-                                    <a href="#" target="_blank"><img
-                                          src="http://oslocolourfestival.no/img/core-img/LM_CT_logo_NOR.svg" alt=""></a>
+                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms" style="">
+                                    <a href="#" target="_blank"><img src="img/core-img/Lofoten 1.png" alt=""></a>
                                  </div>
                               </div>
 
                            </div>
-                           <div class="single-client-content">
+                           <div class="single-client-content" style="width: 200px;">
                               <div class="single-client-text">
                                  <!-- <h4 style="color:white;text-align: center;">Display Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms"
-                                    style="display:flex;flex-direction: column;">
+                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms" style="">
                                     <a href="https://lofotenseaweed.no/" target="_blank"><img
-                                          src="img/core-img/lofoten.png" alt=""></a>
+                                          src="img/core-img/Lyca Mobile 1.png" alt=""></a>
                                  </div>
                               </div>
                            </div>
@@ -859,11 +910,13 @@
                   </div>
                </div>
                <!-- tab content -->
-               
+
             </div>
          </div>
       </div>
    </section>
+
+
    <section class="contact-our-area section-padding-100-0" id="contactus">
       <div class="container">
          <div class="row">
@@ -1007,7 +1060,8 @@
                <div class="col-12 col-md-6">
                   <div class="copywrite-text">
                      <p>
-                        Copyright &copy;<script>
+                        Copyright &copy;
+                        <script>
                            document.write(new Date().getFullYear());
                         </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
                            aria-hidden="true"></i> by Indian community in Norway.
@@ -1027,6 +1081,19 @@
          </div>
       </div>
    </footer>
+   <div class="learnmore p-3" id="cookies_warn_show">
+      <div class="d-flex justify-content-between align-items-center" >
+         <div class="text-white">This Website Uses Cookies to Ensure You get the best expirence on our Website. <u>Learn more</u></div>
+         <button type="button" class="btn btn-danger " onclick="removeCookieWarn()">Got it!</button>
+      </div>
+      
+   </div>
+   <script>
+      function removeCookieWarn(){
+         console.log('called');
+         document.getElementById('cookies_warn_show').remove();he
+      }
+   </script>
    <!-- Footer Area End -->
    <!-- **** All JS Files ***** -->
    <!-- jQuery 2.2.4 -->
@@ -1039,6 +1106,8 @@
    <script src="js/confer.bundle.js"></script>
    <!-- Active -->
    <script src="js/default-assets/active.js"></script>
+   <!-- kit -->
+   <script src="https://kit.fontawesome.com/7f9bada808.js" crossorigin="anonymous"></script>
 
    <script>
       //countdown timer .countdown-timer and get end date as attibute data-date

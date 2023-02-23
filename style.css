@@ -4055,9 +4055,24 @@ input:required {
   font-size: 64px;
   font-weight: 700;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   .countdown__time {
     font-size: 34px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .countdown__time {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .countdown__time {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .countdown__time {
+    font-size: 18px;
   }
 }
 .countdown__label {
@@ -4102,12 +4117,21 @@ input:required {
   font-family: 'Roboto';
   border-radius: 63px;
 }
+@media only screen and (max-width: 900px) {
+  .countdown__time {
+    font-size: 45px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .countdown-dot {
     font-size: 34px;
   }
 }
-
+@media only screen and (max-width: 400px) {
+  .countdown-dot {
+    font-size: 12px;
+  }
+}
 .akc-four-block-section {
   z-index: 3;
   position: relative;
@@ -4165,4 +4189,13 @@ input:required {
 }
 .single-welcome-slide{
   background-color: #FAC80F !important;
+}
+.learnmore{
+
+  background-color: #1D28B2;
+  color: #fff;
+  position: fixed ;
+  bottom: 0;
+  z-index: 99999;
+  width: 100%;
 }
