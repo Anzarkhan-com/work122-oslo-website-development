@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>Oslo Colour Festival - Holi in Norway</title>
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/favicon_io/favicon.ico">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Float four columns side by side */
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+
+        /* Remove extra left and right margins, due to padding in columns */
+        .row {
+            margin: 0 -5px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the counter cards */
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            /* this adds the "card" effect */
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+
+        /* Responsive columns - one column layout (vertical) on small screens */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+
+        .parent {
+            display: grid;
+            grid-gap: 25px;
+            grid-template-columns: repeat(3, 150px);
+            justify-content: center;
+            grid-template-rows: repeat(3, 150px);
+        }
+
+        .parent>div {
+            padding: 10px;
+            border-radius: 5px;
+            display: grid;
+            place-items: center;
+        }
+
+        .parent>div {
+            font-family: sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+    <style>
+        .single-tab-content .row {
+            justify-content: center;
+        }
+
+        .single-client-content {
+            height: 100%;
+        }
+    </style>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "110132881638672");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+    <!-- Your SDK code -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v13.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    </script>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Classy Menu -->
+                <!-- <nav class="classy-navbar justify-content-between" id="conferNav"> -->
+                <div class="row">
+                    <div class="col text-left d-flex align-items-center ">
+                        <!-- Logo -->
+                        <div class="classy-menu ">
+                            <!-- Menu Close Button -->
+                            <!-- <div class="classycloseIcon">
+                           <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div> -->
+
+                            <script src="https://billetto.no/embed.js"></script>
+                            <style>
+                                .billetto-btn {
+                                    line-height: 1.75rem;
+                                    position: relative;
+                                    display: inline-block;
+                                    font-weight: 400;
+                                    white-space: nowrap;
+                                    text-align: center;
+                                    background-image: none;
+                                    border: 1px solid transparent;
+                                    cursor: pointer;
+                                    user-select: none;
+                                    touch-action: manipulation;
+                                    height: 32px;
+                                    padding: 1px 15px;
+                                    font-size: 16px;
+                                    border-radius: 6px;
+                                    color: #fff;
+                                    background: #333333;
+                                    border-color: #333333;
+                                    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+                                    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+                                    text-decoration: none;
+                                }
+
+                                .billetto-btn:hover,
+                                .billetto-btn:focus,
+                                .billetto-btn:active {
+                                    text-decoration: none;
+                                    outline: 0;
+                                    box-shadow: none;
+                                }
+
+                                .billetto-btn[disabled] {
+                                    cursor: not-allowed;
+                                }
+
+                                .billetto-btn[disabled],
+                                .billetto-btn[disabled]:hover,
+                                .billetto-btn[disabled]:focus,
+                                .billetto-btn[disabled]:active {
+                                    color: #fff;
+                                    background: #333333;
+                                    border-color: #fff;
+                                    text-shadow: none;
+                                    box-shadow: none;
+                                }
+                            </style>
+                            <a class="billetto-btn"
+                                href="https://billetto.no/en/e/holi-oslo-colour-festival-tickets-621408/select?color=%238b24fb&locale=en&whitelabel=true"
+                                style="background-color: #333333;">BOOK NOW</a>
+                            <!-- Nav Start -->
+
+                        </div>
+
+
+                    </div>
+                    <!-- Navbar Toggler -->
+                    <!-- <div class="classy-navbar-toggler">
+                     <span class="navbarToggler"><span></span><span></span><span></span></span>
+                  </div> -->
+                    <!-- Menu -->
+                    <div class="col text-center justify-content-center d-flex align-items-center">
+                        <a href="./index.html" class="text-center"><img src="./img/core-img/logo.png" width="80"
+                                height="80" alt=""></a>
+                        <!-- Nav End -->
+
+                    </div>
+                    <div class="col d-flex justify-content-end align-items-center">
+                        <div class="d-flex">
+
+                            <i class="fa-brands fa-facebook mr-2 text-white"></i>
+                            <i class="fa-brands fa-instagram mr-2 text-white"></i>
+                            <i class="fa-brands fa-youtube mr-2 text-white"></i>
+                            <div class="btn-group">
+
+                                <i class="fa-solid fa-bars mr-2 text-white" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"></i>
+                                <!-- <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Right-aligned menu
+                           </button> -->
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <ul id="nav">
+                                        <li class="active"><a href="index.html">Home</a></li>
+                                        <li><a href="/activities.html">Event Details</a></li>
+                                        <li><a href="/infopack.html">Infopack</a></li>
+                                        <li><a href="#about">About us</a></li>
+
+                                        <li><a href="faq.html">FAQs</a></li>
+                                        <li><a href="#contactus">Contact</a></li>
+                                    </ul>
+                                    <!-- <button class="dropdown-item" type="button">Action</button>
+                             <button class="dropdown-item" type="button">Another action</button>
+                             <button class="dropdown-item" type="button">Something else here</button>
+                            -->
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="classynav">
+
+
+                            <!-- 
+                        <ul id="nav">
+                           <li class="active"><a href="index.html">Home</a></li>
+                           <li><a href="/activities.html">Event Details</a></li>
+                           <li><a href="/infopack.html">Infopack</a></li>
+                           <li><a href="#about">About us</a></li>
+                           <li><a href="#about-holi"></a></li>
+                     <li><a href="#sponsors"></a></li>
+                           <li><a href="faq.html">FAQs</a></li>
+                           <li><a href="#contactus">Contact</a></li>
+                        </ul> -->
+                            <!-- Get Tickets Button -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- </nav> -->
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="akc-glimpises-bg" id="glimpses">
+        <div class="our-blog-area section-padding-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center mb-4">
+
+                            <a class="blog-title" href="gallary.html">All</a>
+                            <a class="blog-title" href="culturalprogram.html">Cultural program</a>
+                            <a class="blog-title" href="colorcelebration.html">Color Celebration</a>
+                            <a class="blog-title" href="mediacoverage.html">Media Coverage</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Single Blog Area -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="single-blog-area bg-2 " style="visibility: visible;">
+                            <!-- Single blog Thumb -->
+                            <div class="single-blog-thumb" style="border-radius: 10px   !important;">
+                                <img src="../extra/color/1.JPG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="single-blog-area bg-2 " style="visibility: visible;">
+                            <!-- Single blog Thumb -->
+                            <div class="single-blog-thumb" style="border-radius: 10px   !important;">
+                                <img src="../extra/color/2.JPG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="single-blog-area bg-2 " style="visibility: visible;">
+                            <!-- Single blog Thumb -->
+                            <div class="single-blog-thumb" style="border-radius: 10px   !important;">
+                                <img src="../extra/color/3.JPG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="single-blog-area bg-2 " style="visibility: visible;">
+                            <!-- Single blog Thumb -->
+                            <div class="single-blog-thumb" style="border-radius: 10px   !important;">
+                                <img src="../extra/color/4.JPG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="single-blog-area bg-2 " style="visibility: visible;">
+                            <!-- Single blog Thumb -->
+                            <div class="single-blog-thumb" style="border-radius: 10px   !important;">
+                                <img src="../extra/color/5.JPG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="single-blog-area bg-2 " style="visibility: visible;">
+                            <!-- Single blog Thumb -->
+                            <div class="single-blog-thumb" style="border-radius: 10px   !important;">
+                                <img src="../extra/color/6.JPG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="single-blog-area bg-2 " style="visibility: visible;">
+                            <!-- Single blog Thumb -->
+                            <div class="single-blog-thumb" style="border-radius: 10px   !important;">
+                                <img src="../extra/color/7.JPG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="single-blog-area bg-2 " style="visibility: visible;">
+                            <!-- Single blog Thumb -->
+                            <div class="single-blog-thumb" style="border-radius: 10px   !important;">
+                                <img src="../extra/color/8.JPG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                     
+                    <!-- Single Blog Area -->
+
+                    <!-- Single Blog Area -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Area Start -->
+    <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">
+        <!-- Main Footer Area -->
+        <div class="main-footer-area">
+            <div class="container">
+                <div class="row">
+                    <!-- Single Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
+                            <!-- Footer Logo -->
+                            <a href="https://www.facebook.com/holiinnorway" class="footer-logo"><img
+                                    src="img/core-img/logo.png" height="80" width="80" alt=""></a>
+                            <p>The Indian community in Norway is bringing together Oslo and Akershus to celebrate the
+                                festival
+                                of colours.</p>
+                            <!-- Social Info -->
+                            <div class="social-info">
+                                <a href="#"><i class="zmdi zmdi-facebook"></i></a>
+                                <!--    <a href="#"><i class="zmdi zmdi-instagram"></i></a>
+                                <a href="#"><i class="zmdi zmdi-twitter"></i></a>
+                                <a href="#"><i class="zmdi zmdi-linkedin"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
+                            <!-- Widget Title -->
+                            <br>
+                            <h5 class="widget-title">Contact</h5>
+                            <!-- Contact Area -->
+                            <div class="footer-contact-info">
+                                <p><i class="zmdi zmdi-map"></i><a
+                                        href="https://www.google.com/maps/place/Vallhall+Arena/@59.9204919,10.8039568,17z/data=!3m1!4b1!4m5!3m4!1s0x46416fb28c0cbb4f:0xb5f1063a32b8e3e9!8m2!3d59.9204919!4d10.8061455"
+                                        style="color:white;" target="_blank">Dronning Margretes Vei 11, 0663 Oslo</a>
+                                </p>
+                                <p><i class="zmdi zmdi-email"></i>info@oslocolourfestival.no</p>
+                                <p><i class="zmdi zmdi-globe"></i> www.oslocolourfestival.no</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget Area -->
+                </div>
+            </div>
+        </div>
+        <!-- Copywrite Area -->
+        <div class="container">
+            <div class="copywrite-content">
+                <div class="row">
+                    <!-- Copywrite Text -->
+                    <div class="col-12 col-md-6">
+                        <div class="copywrite-text">
+                            <p>
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
+                                    aria-hidden="true"></i> by Indian community in Norway.
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Footer Menu -->
+                    <div class="col-12 col-md-6">
+                        <div class="footer-menu">
+                            <ul class="nav">
+                                <li><a href="terms.html" target="_blank"><i class="zmdi zmdi-circle"></i> Terms of
+                                        use</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="learnmore p-3" id="cookies_warn_show">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="text-white">This Website Uses Cookies to Ensure You get the best expirence on our Website.
+                <u>Learn more</u>
+            </div>
+            <button type="button" class="btn btn-danger " onclick="removeCookieWarn()">Got it!</button>
+        </div>
+
+    </div>
+    <script>
+        function removeCookieWarn() {
+            console.log('called');
+            document.getElementById('cookies_warn_show').remove(); he
+        }
+    </script>
+    <!-- Footer Area End -->
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/confer.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+    <!-- kit -->
+    <script src="https://kit.fontawesome.com/7f9bada808.js" crossorigin="anonymous"></script>
+
+    <script>
+        //countdown timer .countdown-timer and get end date as attibute data-date
+        var countdownTimer = document.querySelectorAll('.countdown-timer');
+        countdownTimer.forEach(function (timer) {
+            var endDate = timer.getAttribute('data-date');
+            var days = timer.querySelector('.days');
+            var hours = timer.querySelector('.hours');
+            var minutes = timer.querySelector('.minutes');
+            var seconds = timer.querySelector('.seconds');
+            var timeInterval = setInterval(function () {
+                var t = Date.parse(endDate) - Date.parse(new Date());
+                if (t >= 0) {
+                    var daysT = Math.floor(t / (1000 * 60 * 60 * 24));
+                    var hoursT = Math.floor((t / (1000 * 60 * 60)) % 24);
+                    var minutesT = Math.floor((t / 1000 / 60) % 60);
+                    var secondsT = Math.floor((t / 1000) % 60);
+                    days.innerHTML = daysT;
+                    hours.innerHTML = hoursT;
+                    minutes.innerHTML = minutesT;
+                    seconds.innerHTML = secondsT;
+                } else {
+                    clearInterval(timeInterval);
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+
+</html>
