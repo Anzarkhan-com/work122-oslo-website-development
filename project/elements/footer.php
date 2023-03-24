@@ -9,7 +9,7 @@
                      <!-- Footer Logo -->
                      <a href="https://www.facebook.com/holiinnorway" class="footer-logo"><img
                            src="assets/img/core-img/logo.png" height="80" width="80" alt=""></a>
-                     <p>The Indian community in Norway is bringing together Oslo and Akershus to celebrate the festival
+                     <p>The Indian community in Norway is dgit ringing together Oslo and Akershus to celebrate the festival
                         of colours.</p>
                      <!-- Social Info -->
                      <div class="social-info">
@@ -31,7 +31,7 @@
                         <p><i class="zmdi zmdi-map"></i><a
                               href="https://www.google.com/maps/place/Vallhall+Arena/@59.9204919,10.8039568,17z/data=!3m1!4b1!4m5!3m4!1s0x46416fb28c0cbb4f:0xb5f1063a32b8e3e9!8m2!3d59.9204919!4d10.8061455"
                               style="color:white;" target="_blank">Dronning Margretes Vei 11, 0663 Oslo</a></p>
-                        <p><i class="zmdi zmdi-email"></i>info@oslocolourfestival.no</p>
+                        <p><i class="zmdi zmdi-email"></i>colorfestival@indonord.org</p>
                      </div>
                   </div>
                </div>

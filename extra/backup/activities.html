@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Title -->
+      <title>Activity Schedule - Oslo Colour Festival</title>
+      <!-- Favicon -->
+      <link rel="icon" href="./img/core-img/favicon_io/favicon.ico">
+      <!-- Stylesheet -->
+      <link rel="stylesheet" href="style.css">
+      <!-- Messenger Chat plugin Code -->
+      <div id="fb-root"></div>
+      <!-- Your Chat plugin code -->
+      <div id="fb-customer-chat" class="fb-customerchat">
+      </div>
+      <script>
+         var chatbox = document.getElementById('fb-customer-chat');
+         chatbox.setAttribute("page_id", "1060231507412500");
+         chatbox.setAttribute("attribution", "biz_inbox");
+      </script>
+      <!-- Your SDK code -->
+      <script>
+         window.fbAsyncInit = function() {
+           FB.init({
+             xfbml            : true,
+             version          : 'v13.0'
+           });
+         };
+         
+         (function(d, s, id) {
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) return;
+           js = d.createElement(s); js.id = id;
+           js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
+      <style>
+         table {
+         font-family: Poppins, sans-serif;
+         color: white;
+         border-collapse: collapse;
+         width: 100%;
+         }
+         td, th {
+         border: 1px solid #dddddd;
+         text-align: left;
+         padding: 8px;
+         width: 40px;
+         }
+      </style>
+   </head>
+   <body>
+      <!-- Preloader -->
+      <div id="preloader">
+         <div class="loader"></div>
+      </div>
+      <!-- /Preloader -->
+      <!-- Header Area Start -->
+      <header class="header-area">
+         <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+               <!-- Classy Menu -->
+               <nav class="classy-navbar justify-content-between" id="conferNav">
+                  <!-- Logo -->
+                  <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" width="80" height="80" alt=""></a>
+                  <!-- Navbar Toggler -->
+                  <div class="classy-navbar-toggler">
+                     <span class="navbarToggler"><span></span><span></span><span></span></span>
+                  </div>
+                  <!-- Menu -->
+                  <div class="classy-menu">
+                     <!-- Menu Close Button -->
+                     <div class="classycloseIcon">
+                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                     </div>
+                     <!-- Nav Start -->
+                     <div class="classynav">
+                        <ul id="nav">
+                           <li class="active"><a href="index.html">Home</a></li>
+                           <li ><a href="/infopack.html">InfoPack</a></li>
+                           <li ><a href="/index.html#about">About us</a></li>
+                           <li ><a href="/index.html#about-holi">Holi</a></li>
+                           <li><a href="/index.html#sponsors">Sponsors</a></li>
+                           <li><a href="faq.html">FAQs</a></li>
+                           <li><a href="/index.html#contactus">Contact</a></li>
+                        </ul>
+                        <!-- Get Tickets Button -->
+                        <script src="https://billetto.no/embed.js"></script>
+                        <style>.billetto-btn { line-height: 1.75rem; position: relative; display: inline-block; font-weight: 400; white-space: nowrap; text-align: center; background-image: none; border: 1px solid transparent; cursor: pointer; user-select: none; touch-action: manipulation; height: 32px; padding: 1px 15px; font-size: 16px; border-radius: 6px; color: #fff; background: #8b24fb; border-color: #8b24fb; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12); box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045); text-decoration: none; } .billetto-btn:hover, .billetto-btn:focus, .billetto-btn:active { text-decoration: none; outline: 0; box-shadow: none; } .billetto-btn[disabled] { cursor: not-allowed; } .billetto-btn[disabled], .billetto-btn[disabled]:hover, .billetto-btn[disabled]:focus, .billetto-btn[disabled]:active { color: rgba(0, 0, 0, 0.25); background: #f5f5f5; border-color: #d9d9d9; text-shadow: none; box-shadow: none; }</style>
+                        <a class="billetto-btn" href="https://billetto.no/en/e/holi-oslo-colour-festival-tickets-621408/select?color=%238b24fb&locale=en&whitelabel=true">Get tickets</a>
+                     </div>
+                     <!-- Nav End -->
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <!-- Our Schedule Area Start -->
+      <section class="our-schedule-area section-padding-100">
+         <div class="container">
+            <div class="row">
+               <!-- Heading -->
+               <div class="col-12">
+                  <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="50ms">
+                     <br/>
+                     <p>Our Timetable</p>
+                     <h4>Schedule Plan</h4>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="schedule-tab">
+                     <!-- Nav Tabs -->
+                     <ul class="nav nav-tabs wow fadeInUp" data-wow-delay="50ms" id="conferScheduleTab" role="tablist">
+                        <li class="nav-item">
+                           <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#step-one" role="tab" aria-controls="step-one" aria-expanded="true">Program Details</span></a>
+                        </li>
+                        <!-- Nav Item -->
+                        <li class="nav-item">
+                           <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#step-two" role="tab" aria-controls="step-two" aria-expanded="true">Food Menu</span></a>
+                        </li>
+                        <!-- Nav Item -->
+                        <!--li class="nav-item">
+                           <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#step-two" role="tab" aria-controls="step-two" aria-expanded="true">Venue Plan</span></a>
+                        </li-->
+                        <!-- Nav Item -->
+                        <li class="nav-item">
+                           <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#step-three" role="tab" aria-controls="step-three" aria-expanded="true">Lodd</span></a>
+                        </li>
+                     </ul>
+                  </div>
+                  <!-- Tab Content -->
+                  <div class="tab-content" id="conferScheduleTabContent">
+                     <div class="tab-pane fade show active" id="step-one" role="tabpanel" aria-labelledby="monday-tab">
+                        <!-- Single Tab Content -->
+                        <div class="single-tab-content">
+                           <div class="row">
+                              <div class="col-12">
+                                 <!-- Single Schedule Area -->
+                                 <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="50ms">
+                                    <!-- Single Schedule Thumb and Info -->
+                                    <table>
+                                       <tr>
+                                          <th >Serial No.</th>
+                                          <th>Event Name</th>
+                                          <th>Event Start Time</th>
+                                       </tr>
+                                       <tr>
+                                          <td style="background: #DF42B1;">13:00</td>
+                                          <td style="background: #DF42B1;"></td>
+                                          <td style="background: #DF42B1;"></td>
+                                       </tr>
+                                       <tr>
+                                          <td>1</td>
+                                          <td>Inauguration</td>
+                                          <td>13:00</td>
+                                       </tr>
+                                       <tr>
+                                          <td>2</td>
+                                          <td>National Anthem</td>
+                                          <td>13:16</td>
+                                       </tr>
+                                       <tr>
+                                          <td>3</td>
+                                          <td>Instrumental</td>
+                                          <td>13:21</td>
+                                       </tr>
+                                       <tr>
+                                          <td>4</td>
+                                          <td>Yoga for Alle</td>
+                                          <td>13:34</td>
+                                       </tr>
+                                       <tr>
+                                          <td>5</td>
+                                          <td>State Presentation - Kerala</td>
+                                          <td>13:45</td>
+                                       </tr>
+                                       <!--tr>
+                                          <td>6</td>
+                                          <td>Inaugration</td>
+                                          <td>13:00</td>
+                                       </tr-->
+                                       <tr>
+                                          <td>7</td>
+                                          <td>Kids Fashion Show</td>
+                                          <td>13:51</td>
+                                       </tr>
+                                       <tr>
+                                          <td style="background: #DF42B1;">14:00</td>
+                                          <td style="background: #DF42B1;"></td>
+                                          <td style="background: #DF42B1;"> </td>
+                                       </tr>
+                                       <tr>
+                                          <td>8</td>
+                                          <td>Sponsorers</td>
+                                          <td>14:16</td>
+                                       </tr>
+                                       <tr>
+                                          <td>9</td>
+                                          <td>State Presentation-Gujarat</td>
+                                          <td>14:20</td>
+                                       </tr>
+                                       <tr>
+                                          <td>10</td>
+                                          <td>State Presentation-MP</td>
+                                          <td>14:26</td>
+                                       </tr>
+                                       <tr>
+                                          <td>11</td>
+                                          <td>State presentation-Maharashtra</td>
+                                          <td>14:32</td>
+                                       </tr>
+                                       <tr>
+                                          <td>12</td>
+                                          <td>Lottery announcement and stage set up for HP</td>
+                                          <td>14:38</td>
+                                       </tr>
+                                       <tr>
+                                          <td>13</td>
+                                          <td>State presentation-Himachal Pradesh</td>
+                                          <td>14:40</td>
+                                       </tr>
+                                       <tr>
+                                          <td>14</td>
+                                          <td>State presentation-Karnataka</td>
+                                          <td>14:46</td>
+                                       </tr>
+                                       <tr>
+                                          <td>15</td>
+                                          <td>State presentation-Rajasthan</td>
+                                          <td>14:52</td>
+                                       </tr>
+                                       <tr>
+                                          <td>16</td>
+                                          <td>Lottery announcement and stage set up for voice of India</td>
+                                          <td>14:58</td>
+                                       </tr>
+                                       <tr>
+                                          <td style="background: #DF42B1;">15:00</td>
+                                          <td style="background: #DF42B1;"></td>
+                                          <td style="background: #DF42B1;"></td>
+                                       </tr>
+                                       <tr>
+                                          <td>17</td>
+                                          <td>Voice of India</td>
+                                          <td>15:00</td>
+                                       </tr>
+                                       <tr>
+                                          <td>18</td>
+                                          <td>State presentation-Telugu speaking states</td>
+                                          <td>15:16</td>
+                                       </tr>
+                                       <tr>
+                                          <td>19</td>
+                                          <td>State presentation-Kashmir</td>
+                                          <td>15:27</td>
+                                       </tr>
+                                       <tr>
+                                          <td>20</td>
+                                          <td>Youngistan of Norway</td>
+                                          <td>15:31</td>
+                                       </tr>
+                                       <tr>
+                                          <td>21</td>
+                                          <td>State presentation-Bihar</td>
+                                          <td>15:36</td>
+                                       </tr>
+                                       <tr>
+                                          <td>22</td>
+                                          <td>Lottery announcement and stage set up for tamil nadu</td>
+                                          <td>15:42</td>
+                                       </tr>
+                                       <tr>
+                                          <td>23</td>
+                                          <td>State presentation-Tamil Nadu</td>
+                                          <td>15:47</td>
+                                       </tr>
+                                       <tr>
+                                          <td>24</td>
+                                          <td>Lottery announcement and removal</td>
+                                          <td>15:53</td>
+                                       </tr>
+                                       <tr>
+                                          <td>25</td>
+                                          <td>State presentation-Odisha</td>
+                                          <td>15:58</td>
+                                       </tr>
+                                       <tr>
+                                          <td style="background: #DF42B1;">16:00</td>
+                                          <td style="background: #DF42B1;"></td>
+                                          <td style="background: #DF42B1;"></td>
+                                       </tr>
+                                       <tr>
+                                          <td>26</td>
+                                          <td>State presentation-North East</td>
+                                          <td>16:04</td>
+                                       </tr>
+                                       <tr>
+                                          <td>27</td>
+                                          <td>State presentation-UP & Uttrakhand</td>
+                                          <td>16:18</td>
+                                       </tr>
+                                       <tr>
+                                          <td>28</td>
+                                          <td>State presentation-Goa</td>
+                                          <td>16:29</td>
+                                       </tr>
+                                       <tr>
+                                          <td>29</td>
+                                          <td>State presentation-Haryana</td>
+                                          <td>16:35</td>
+                                       </tr>
+                                       <tr>
+                                          <td>30</td>
+                                          <td>State presentation-West Bengal</td>
+                                          <td>16:41</td>
+                                       </tr>
+                                       <tr>
+                                          <td>31</td>
+                                          <td>State presentation-Punjab</td>
+                                          <td>16:47</td>
+                                       </tr>
+                                       <tr>
+                                          <td>32</td>
+                                          <td>Vande Mataram</td>
+                                          <td>16:53</td>
+                                       </tr>
+                                       <tr>
+                                          <td>33</td>
+                                          <td>Lottery withdrawl -announcement bumper prize</td>
+                                          <td>16:59</td>
+                                       </tr>
+                                       <tr>
+                                          <td>34</td>
+                                          <td>Vote of Thanks</td>
+                                          <td>17:02</td>
+                                       </tr>
+                                       <tr>
+                                          <td>35</td>
+                                          <td>Holi Playing</td>
+                                          <td>17:03</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane fade" id="step-two" role="tabpanel" aria-labelledby="tuesday-tab">
+                        <!-- Single Tab Content -->
+                        <div class="single-tab-content">
+                           <div class="row">
+                              <div class="col-12">
+                                 <!-- Single Schedule Area -->
+                                 <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="50ms">
+                                    <!-- Single Schedule Thumb and Info -->
+                                    <table>
+                                       <tr>
+                                          <th>Dish Name</th>
+                                          <th>Price</th>
+                                       </tr>
+                                       <tr>
+                                          <td style="background: #DF42B1;">Oslo Rasooi</td>
+                                          <td style="background: #DF42B1;"></td>
+                                       </tr>
+                                       <tr>
+                                          <td>Daal Baati</td>
+                                          <td>55</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Daal Pakwan</td>
+                                          <td>55</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Litti Choka</td>
+                                          <td>65</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Nimbu Masala Drink</td>
+                                          <td>20</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Potato Balls</td>
+                                          <td>45</td>
+                                       </tr>
+                                       <tr>
+                                          <td style="background: #DF42B1;">Banarsi</td>
+                                          <td style="background: #DF42B1;"></td>
+                                       </tr>
+                                       <tr>
+                                          <td>Paneer Bhurji Baguette</td>
+                                          <td>59</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Bun Maska</td>
+                                          <td>29</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Mango Lassi/Thandai</td>
+                                          <td>49</td>
+                                       </tr>
+                                       <tr>
+                                          <td>NewBy teas (25 count)</td>
+                                          <td>99</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Banarsi Kesariya Laddo</td>
+                                          <td>10/79 (Box of 9 Pcs)</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Chocolate Modak</td>
+                                          <td>25/199 (Box of 9 Pcs)</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Nankhatai (2 Pcs)</td>
+                                          <td>30</td>
+                                       </tr>
+                                       <tr>
+                                          <td style="background: #DF42B1;">Aahar</td>
+                                          <td style="background: #DF42B1;"></td>
+                                       </tr>
+                                       <tr>
+                                          <td>Pav Bhaji</td>
+                                          <td>75</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Dahi Bhalla</td>
+                                          <td>49</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Aloo Tikki Chaat</td>
+                                          <td>69</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Paani Poori</td>
+                                          <td>49</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Kesar/Mango Lassi</td>
+                                          <td>39</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Chicken Tikka Tandoori</td>
+                                          <td>75</td>
+                                       </tr>
+                                       <tr>
+                                          <td style="background: #DF42B1;">Glimpse of Delhi</td>
+                                          <td style="background: #DF42B1;"></td>
+                                       </tr>
+                                       <tr>
+                                          <td>Kachori (2 Pcs)</td>
+                                          <td>39</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Kachori with Aloo(2 Pcs)</td>
+                                          <td>59</td>
+                                       </tr>
+                                       <tr>
+                                       </tr>
+                                       <td>Chicken Kathi Roll</td>
+                                       <td>69</td>
+                                       </tr>
+                                       <tr>
+                                       <td>Paneer Kathi Roll</td>
+                                       <td>69</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Bhalla Papdi Chaat</td>
+                                          <td>69</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Moong Daal Pakora (5 Pcs)</td>
+                                          <td>39</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Aam Panna </td>
+                                          <td>25</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Rabdi Falooda</td>
+                                          <td>39</td>
+                                       </tr>
+                                       <tr>
+                                          <td style="background: #DF42B1;">Chennai Express</td>
+                                          <td style="background: #DF42B1;"></td>
+                                       </tr>
+                                       <tr>
+                                          <td>Veg/Chicken Samosa</td>
+                                          <td>25/35</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Sambhar Idli</td>
+                                          <td>50</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Rasam/Thayir/Sambhar Vadai   </td>
+                                          <td>30</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Kesari/Curd Rice</td>
+                                          <td>35/50</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Veg/Chicken Biryani</td>
+                                          <td>75</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Naanari Sharbat</td>
+                                          <td>25</td>
+                                       </tr>
+                                       <tr>
+                                          <td style="background: #DF42B1;">Kathmandu</td>
+                                          <td style="background: #DF42B1;"></td>
+                                       </tr>
+                                        <tr>
+                                          <td>Momos Veg (Fried/Steamed)-5pcs  </td>
+                                          <td>65</td>
+                                       </tr>
+                                        <tr>
+                                          <td>Momos Chicken (Fried/Steamed)-5pcs </td>
+                                          <td>75</td>
+                                       </tr>
+                                        <tr>
+                                          <td>Chatpate</td>
+                                          <td>55</td>
+                                       </tr>
+                                        <tr>
+                                          <td>Brus</td>
+                                          <td>30</td>
+                                       </tr>
+
+                                        <tr>
+                                          <td style="background: #DF42B1;">Balla Food Basket   </td>
+                                          <td style="background: #DF42B1;"></td>
+                                       </tr>
+                                        <tr>
+                                          <td>Plain/Onion Dosa </td>
+                                          <td>65</td>
+                                       </tr>
+                                        <tr>
+                                          <td>Masala Dosa </td>
+                                          <td>65</td>
+                                       </tr>
+                                        <tr>
+                                          <td>Rasmalai </td>
+                                          <td>50</td>
+                                       </tr>
+                                        <tr>
+                                          <td>Chilli Chicken</td>
+                                          <td>70</td>
+                                       </tr>
+                                        <tr>
+                                          <td>Gulab Jamun</td>
+                                          <td>50</td>
+                                       </tr>
+                                       </tr>    
+                                    </table>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane fade" id="step-three" role="tabpanel" aria-labelledby="tuesday-tab">
+                        
+                        <div class="row justify-content-between">
+                           <div class="col-12 col-sm-3">
+                              <div class="contact-information mb-100">
+                                 <!-- Single Contact Info -->
+                                 <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                                    <p>Lodd available at </p>
+                                    <h6 style="Color:white">Infodesk/Helpdesk</h6>
+                                 </div>
+                                 <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                                    <p>Price:</p>
+                                    <h6 style="Color:white">20kr</h6>
+                                 </div>
+                                 <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                                    <p>Vipps on :</p>
+                                    <h6 style="Color:white">40280519</h6>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12 col-sm-8">
+                              <!-- Contact Form -->
+                              <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">
+                                 <div class="contact_form">
+                                       <div class="contact_input_area">
+                                          <div class="row">
+                                              <div class="col-12">
+                                                 <!-- Single Schedule Area -->
+                                                 <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="50ms">
+                                                    <img src="img/bg-img/LoddWithQRCode.png"  style="width: 800px; height: 800px;" alt="">
+                                                 </div>
+                                              </div>
+                                           </div>
+                                       </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     </div>
+                           
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+       <!-- Contact Area End -->
+      <!-- Footer Area Start -->
+      <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">
+         <!-- Main Footer Area -->
+         <div class="main-footer-area">
+            <div class="container">
+               <div class="row">
+                  <!-- Single Footer Widget Area -->
+                  <div class="col-12 col-sm-6 col-lg-3">
+                     <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="50ms">
+                        <!-- Footer Logo -->
+                        <a href="https://www.facebook.com/holiinnorway" class="footer-logo"><img src="img/core-img/logo.png" height="80" width="80" alt=""></a>
+                        <p>The Indian community in Norway is bringing together Oslo and Akershus to celebrate the festival of colours.</p>
+                        <!-- Social Info -->
+                        <div class="social-info">
+                           <a href="#"><i class="zmdi zmdi-facebook"></i></a>
+                           <!--    <a href="#"><i class="zmdi zmdi-instagram"></i></a>
+                              <a href="#"><i class="zmdi zmdi-twitter"></i></a>
+                              <a href="#"><i class="zmdi zmdi-linkedin"></i></a> -->
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Single Footer Widget Area -->
+                  <div class="col-12 col-sm-6 col-lg-3">
+                     <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="50ms">
+                        <!-- Widget Title -->
+                        <br>
+                        <h5 class="widget-title">Contact</h5>
+                        <!-- Contact Area -->
+                        <div class="footer-contact-info">
+                           <p><i class="zmdi zmdi-map"></i><a href="https://www.google.com/maps/place/Vallhall+Arena/@59.9204919,10.8039568,17z/data=!3m1!4b1!4m5!3m4!1s0x46416fb28c0cbb4f:0xb5f1063a32b8e3e9!8m2!3d59.9204919!4d10.8061455" style="color:white;" target="_blank">Dronning Margretes Vei 11, 0663 Oslo</a></p>
+                           <p><i class="zmdi zmdi-email"></i>info@oslocolourfestival.no</p>
+                           <p><i class="zmdi zmdi-globe"></i> www.oslocolourfestival.no</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Single Footer Widget Area -->
+               </div>
+            </div>
+         </div>
+         <!-- Copywrite Area -->
+         <div class="container">
+            <div class="copywrite-content">
+               <div class="row">
+                  <!-- Copywrite Text -->
+                  <div class="col-12 col-md-6">
+                     <div class="copywrite-text">
+                        <p>
+                           Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Indian community in Norway.
+                           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                     </div>
+                  </div>
+                  <!-- Footer Menu -->
+                  <div class="col-12 col-md-6">
+                     <div class="footer-menu">
+                        <ul class="nav">
+                           <li><a href="terms.html" target="_blank"><i class="zmdi zmdi-circle"></i> Terms of use</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Footer Area End -->
+      <!-- **** All JS Files ***** -->
+      <!-- jQuery 2.2.4 -->
+      <script src="js/jquery.min.js"></script>
+      <!-- Popper -->
+      <script src="js/popper.min.js"></script>
+      <!-- Bootstrap -->
+      <script src="js/bootstrap.min.js"></script>
+      <!-- All Plugins -->
+      <script src="js/confer.bundle.js"></script>
+      <!-- Active -->
+      <script src="js/default-assets/active.js"></script>
+   </body>
+</html>
