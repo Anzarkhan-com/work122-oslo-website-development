@@ -369,6 +369,22 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-12 col-md-6 col-xl-4 all cultural-program">
+                        <div class="single-blog-area bg-2 " style="visibility: visible;">
+                            <!-- Single blog Thumb -->
+                            <div class="single-blog-thumb" style="border-radius: 10px   !important;">
+                                <img src= "assets/img/cultural/culturalnew/26.jpg" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 all cultural-program">
+                        <div class="single-blog-area bg-2 " style="visibility: visible;">
+                            <!-- Single blog Thumb -->
+                            <div class="single-blog-thumb" style="border-radius: 10px   !important;">
+                                <img src= "assets/img/cultural/culturalnew/27.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-12 col-md-6 col-xl-4 all media-queries">
                         <a href="https://www.aftenposten.no/oslo/byliv/i/Or9yW1/planlegg-vaaren-10-morsomme-ting-som-skjer-i-oslo" target="_blank">
