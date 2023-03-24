@@ -85,14 +85,14 @@
                               <div class="akc-dropdown">
                                  <ul id="nav">
                                     <li class="active"><a href="index.php">Home</a></li>
-                                    <li><a href="#glipses">Oslo Color Festival 2022</a></li>
+                                    <li><a href="gallary.php">Oslo Color Festival 2022</a></li>
                                     <li><a href="#sponsors">Official Sponsors</a></li>
                                     <li><a href="#events">Event Details 2023</a></li>
                                     <li><a href="infopack.php">Infopack</a></li>
                                     <li><a href="faq.php">FAQs</a></li>
                                     <li><a href="about.html">About us</a></li>
                                     <li><a href="#contactus">Contact</a></li>
-                                    <li><a href="gallary.php">Gallary</a></li>
+                                    <!-- <li><a href="gallary.php">Gallary</a></li> -->
                                  </ul>
                               </div>
                            </div>
