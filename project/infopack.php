@@ -136,9 +136,9 @@
         <div class="container">
 
             <ul>
-                <li>Here you will find important and practical information about the <b>Holi! Oslo Colour Festival.</b> </li>
+                <li>Here you will find important and practical information about the <b>Oslo Colour Festival.</b> </li>
                 <li>Please read the document carefully and if you have any queries, please do not hesitate to contact us at
-                    <a href="mailto:colorfestival@indonord.org">colorfestival@indonord.</a>
+                    <a href="mailto:colorfestival@indonord.org">colorfestival@indonord.org</a>
                 </li>
             </ul>
             </br>
@@ -165,33 +165,35 @@
                             <td><a href="mailto:colorfestival@indonord.org">colorfestival@indonord.org
                                 </a></td>
                         </tr>
-                        <tr>
+                        <!-- <tr>
                             <td>Event Detailed Plan</td>
                             <td>
                                 <div class="container">
-                                    <!-- <div class="row align-items-center">
+                                    <div class="row align-items-center">
                                          <div class="col-12 col-md-6">
                                             <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
                                                 <h3 class="wow fadeInUp" data-wow-delay="300ms">Scan with smartphone camera</h3>
                                                 <img src="assets/img/core-img/activities.png" style="width: 200px; height: 200px;" alt="">
                                             </div>
-                                        </div> -->
-                                        <!-- About Content -->
-                                        <!-- <div class="col-12 col-md-6">
+                                        </div> 
+                                        
+                                        <div class="col-12 col-md-6">
                                             <div class="about-content-text mb-80">
                                                 <a href="/activities.html" class="btn confer-btn w-100 mb-30">Click Here<i class="zmdi zmdi-long-arrow-right"></i></a>
                                             </div>
-                                        </div> -->
-                                        <!-- About Thumb -->
+                                        </div>
+                                        
 
-                                    <!-- </div> --> 
+                                    </div>
                                 </div>
                             </td>
-                        </tr>
+                        </tr> -->
                     </tbody>
                 </table>
             </ul>
-            <h5>Practical Information</h5>
+            </br>
+            </br>
+            <h5>Practical Information</h5></br>
             <ul>
                 <li style="list-style: decimal;list-style-position: inside;">Check-in starts at 12:00.</span></li>
                 <li style="list-style: decimal;list-style-position: inside;">Keep QR code/EntryPass visible for smooth check-in. </span></li>
@@ -200,24 +202,24 @@
                 <li style="list-style: decimal;list-style-position: inside;">Please use QR Code which is connected to Parking before entering to the parking area</span></li>
                 <li style="list-style: decimal;list-style-position: inside;">A wristband will be provided during Check In.</span></li>
             </ul>
-            </br>
+            </br></br>
             <h5>Food</h5></br>
             <ul>
                 <li style="list-style: decimal;list-style-position: inside;">Food from outside is not allowed, it can be purchased at Food counters.</span></li>
                 <li style="list-style: decimal;list-style-position: inside;">If you have any food allergies, check ingredients before buying food.</span></li>
             </ul>
-            </br>
+            </br></br>
             <h5>Color Celebration</h5></br>
             <ul>
-                <li style="list-style: decimal;list-style-position: inside;">Holi will be celebrated outside the arena.</span></li>
-                <li style="list-style: decimal;list-style-position: inside;">No outside Colours will be allowed for playing Holi. Colour will be provided.</span></li>
+                <li style="list-style: decimal;list-style-position: inside;">Colour festival will be celebrated outside the arena.</span></li>
+                <li style="list-style: decimal;list-style-position: inside;">No outside Colours will be allowed for playing. Colour will be provided.</span></li>
                 <li style="list-style: decimal;list-style-position: inside;">Do not use chemical infused or harmful colours</span></li>
                 <li style="list-style: decimal;list-style-position: inside;">Don't apply colours in the area near to eyes, nose, mouth and open wounds.</span></li>
-                <li style="list-style: decimal;list-style-position: inside;">Use of water during holi is not allowed</span></li>
+                <li style="list-style: decimal;list-style-position: inside;">Use of water during colour festival is not allowed</span></li>
                 <li style="list-style: decimal;list-style-position: inside;">Kids should be accompanied by parents.</span></li>
-                <li style="list-style: decimal;list-style-position: inside;">It is recommended to have an extra pair of clothes to participate in Holi.</span></li>
+                <li style="list-style: decimal;list-style-position: inside;">It is recommended to have an extra pair of clothes to participate in colour festival.</span></li>
             </ul>
-            </br>
+            </br></br>
             <h5>General</h5></br>
             <ul>
                 <li style="list-style: decimal;list-style-position: inside;">Keep the wristband on your wrist throughout the event.</span></li>
