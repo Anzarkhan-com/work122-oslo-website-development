@@ -716,7 +716,7 @@
                   <!-- Single Contact Info -->
                   <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
                      <p>Email:</p>
-                     <h6><a href="mailto:colorfestival@indonord.org" style="Color:white">colorfestival@indonord.org</a>
+                     <h6><a href="mailto:OCF@indonord.org" style="Color:white">OCF@indonord.org</a>
                      </h6>
                   </div>
                </div>

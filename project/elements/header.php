@@ -90,7 +90,7 @@
                                     <li><a href="#events">Event Details 2023</a></li>
                                     <li><a href="infopack.php">Infopack</a></li>
                                     <li><a href="faq.php">FAQs</a></li>
-                                    <li><a href="about.html">About us</a></li>
+                                    <li><a href="about.php">About us</a></li>
                                     <li><a href="#contactus">Contact</a></li>
                                     <!-- <li><a href="gallary.php">Gallary</a></li> -->
                                  </ul>

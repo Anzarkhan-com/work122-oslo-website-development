@@ -26,95 +26,12 @@
     </div>
     <!-- /Preloader -->
     <!-- Header Area Start -->
-    <header class="header-area">
-        <div class="classy-nav-container breakpoint-off">
-            <div class="container">
-                <!-- Classy Menu -->
-                <nav class="classy-navbar justify-content-between" id="conferNav">
-                    <!-- Logo -->
-                    <a class="nav-brand" href="./index.php"><img src="assets/img/core-img/logo.png" width="80" height="80" alt=""></a>
-                    <!-- Navbar Toggler -->
-                    <div class="classy-navbar-toggler">
-                        <span class="navbarToggler"><span></span><span></span><span></span></span>
-                    </div>
-                    <!-- Menu -->
-                    <div class="classy-menu">
-                        <!-- Menu Close Button -->
-                        <div class="classycloseIcon">
-                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                        </div>
-                        <!-- Nav Start -->
-                        <div class="classynav">
-                            <ul id="nav">
-                                <li class="active"><a href="index.php">Home</a></li>
-                                <li><a href="/activities.html">Event Details</a></li>
-                                <li><a href="#about">About us</a></li>
-                                <li><a href="#about-holi">Holi</a></li>
-                                <li><a href="#sponsors">Sponsors</a></li>
-                                <li><a href="faq.php">FAQs</a></li>
-                                <li><a href="#contactus">Contact</a></li>
-                            </ul>
-                            <!-- Get Tickets Button -->
-                            <script src="https://billetto.no/embed.js"></script>
-                            <style>
-                                .billetto-btn {
-                                    line-height: 1.75rem;
-                                    position: relative;
-                                    display: inline-block;
-                                    font-weight: 400;
-                                    white-space: nowrap;
-                                    text-align: center;
-                                    background-image: none;
-                                    border: 1px solid transparent;
-                                    cursor: pointer;
-                                    user-select: none;
-                                    touch-action: manipulation;
-                                    height: 32px;
-                                    padding: 1px 15px;
-                                    font-size: 16px;
-                                    border-radius: 6px;
-                                    color: #fff;
-                                    background: #8b24fb;
-                                    border-color: #8b24fb;
-                                    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
-                                    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
-                                    text-decoration: none;
-                                }
-
-                                .billetto-btn:hover,
-                                .billetto-btn:focus,
-                                .billetto-btn:active {
-                                    text-decoration: none;
-                                    outline: 0;
-                                    box-shadow: none;
-                                }
-
-                                .billetto-btn[disabled] {
-                                    cursor: not-allowed;
-                                }
-
-                                .billetto-btn[disabled],
-                                .billetto-btn[disabled]:hover,
-                                .billetto-btn[disabled]:focus,
-                                .billetto-btn[disabled]:active {
-                                    color: rgba(0, 0, 0, 0.25);
-                                    background: #f5f5f5;
-                                    border-color: #d9d9d9;
-                                    text-shadow: none;
-                                    box-shadow: none;
-                                }
-                            </style>
-                            <a class="billetto-btn" href="https://billetto.no/en/e/holi-oslo-colour-festival-tickets-621408/select?color=%238b24fb&locale=en&whitelabel=true">Get tickets</a>
-                        </div>
-                        <!-- Nav End -->
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </header>
+    <?php
+    require_once "elements/header.php"
+    ?>
     <!-- Header Area End -->
     <!-- Breadcrumb Area Start -->
-    <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(assets/img/bg-img/37.jpg);">
+    <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(assets/img/bg-img/term.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -122,7 +39,7 @@
                         <h2 class="page-title">Terms of use</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -182,87 +99,22 @@
             <h3>Medical</h3>
             <p style="color:black">Participants are strongly encouraged to go for a medical examination and/ or consult their medical practitioner prior to registration and before the actual event day. The Organiser reserves the right to stop any participant deemed physically incapable of continuing the event to prevent further injuries to himself/herself or others.<br /><br /></p>
             <h3>Personal Data</h3>
-            <p style="color:black">By participating in the Event, you hereby agree that the Organiser may store and use your information as well as any images shared for any marketing, event publicity purposes in the future. Please note that no personal information will be shared with any third parties unless you have (via other avenues) specifically agreed to us sharing these details and you can opt out at any time by emailing to <a href="mailto:colorfestival@indonord.org">colorfestival@indonord.org</a>.</p>
+            <p style="color:black">By participating in the Event, you hereby agree that the Organiser may store and use your information as well as any images shared for any marketing, event publicity purposes in the future. Please note that no personal information will be shared with any third parties unless you have (via other avenues) specifically agreed to us sharing these details and you can opt out at any time by emailing to <a href="mailto:OCF@indonord.org">OCF@indonord.org</a>.</p>
             <h3> Colour Celebration:</h3>
             <p style="color:black">No outside Colours will be allowed for playing. Colour will be provided by the organiser.</p>
             <h3>Food</h3>
             <p style="color:black"> Please do on bring outside food. Food can be purchased at Food counters at nominal charges and it's a wonderful opportunity to taste delicious Indian Cuisines. Please follow allergy instructions at the food counter. If you have special needs/food allergy you can bring your own food with prior approval from organisers.<br /><br /></p>
             <h3>Inquiries</h3>
-            For general inquiries pertaining to the event, please write to <a href="mailto:colorfestival@indonord.org">colorfestival@indonord.org
+            For general inquiries pertaining to the event, please write to <a href="mailto:OCF@indonord.org">OCF@indonord.org
             </a></p>
         </div>
     </div>
     </div>
     <!-- Our Blog Area End -->
     <!-- Footer Area Start -->
-    <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">
-        <!-- Main Footer Area -->
-        <div class="main-footer-area">
-            <div class="container">
-                <div class="row">
-                    <!-- Single Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
-                            <!-- Footer Logo -->
-                            <a href="#" class="footer-logo"><img src="assets/img/core-img/logo.png" height="80" width="80" alt=""></a>
-                            <p>The Indian community in Norway is bringing together Oslo and Akershus to celebrate the festival of colours.</p>
-                            <!-- Social Info -->
-                            <div class="social-info">
-                                <a href="https://www.facebook.com/holiinnorway"><i class="zmdi zmdi-facebook"></i></a>
-                                <a href="https://www.instagram.com/oslocolourfestival.no"><i class="zmdi zmdi-instagram"></i></a>
-                                <!--    <a href="#"><i class="zmdi zmdi-instagram"></i></a>
-                              <a href="#"><i class="zmdi zmdi-twitter"></i></a>
-                              <a href="#"><i class="zmdi zmdi-linkedin"></i></a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
-                            <!-- Widget Title -->
-                            <br>
-                            <h5 class="widget-title">Contact</h5>
-                            <!-- Contact Area -->
-                            <div class="footer-contact-info">
-                                <p style="color:white;"><i class="zmdi zmdi-map"></i><a href="https://www.google.com/maps/place/Vallhall+Arena/@59.9204919,10.8039568,17z/data=!3m1!4b1!4m5!3m4!1s0x46416fb28c0cbb4f:0xb5f1063a32b8e3e9!8m2!3d59.9204919!4d10.8061455" style="color:white;" target="_blank">Dronning Margretes Vei 11, 0663 Oslo</a></p>
-                                <p><i class="zmdi zmdi-email"></i>colorfestival@indonord.org
-                                </p>
-                                <p><i class="zmdi zmdi-globe"></i> www.oslocolourfestival.no</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Footer Widget Area -->
-                </div>
-            </div>
-        </div>
-        <!-- Copywrite Area -->
-        <div class="container">
-            <div class="copywrite-content">
-                <div class="row">
-                    <!-- Copywrite Text -->
-                    <div class="col-12 col-md-6">
-                        <div class="copywrite-text">
-                            <p>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;<script>
-                                    document.write(new Date().getFullYear());
-                                </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Indians in Norway.
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Footer Menu -->
-                    <div class="col-12 col-md-6">
-                        <div class="footer-menu">
-                            <ul class="nav">
-                                <li><a href="terms.php"><i class="zmdi zmdi-circle"></i> Terms of use</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php
+    require_once "elements/footer.php"
+    ?>
     <!-- Footer Area End -->
     <!-- **** All JS Files ***** -->
     <!-- jQuery 2.2.4 -->
@@ -275,6 +127,7 @@
     <script src="assets/js/confer.bundle.js"></script>
     <!-- Active -->
     <script src="assets/js/default-assets/active.js"></script>
+    <script src="https://kit.fontawesome.com/7f9bada808.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
