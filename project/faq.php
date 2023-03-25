@@ -133,8 +133,8 @@
    <div class="our-blog-area section-padding-100">
       <div class="container">
          <h3>FAQs</h3>
-         <p class="accordion">Q1. Wh o are we and what is color festival?</p>
-         <div class="panel">A. We are the Indian community in collaboration with the Embassy of India in Norway and are organising a festival “Colour Festival in Oslo” on 7th May 2022 at Vallhall Arena, Oslo. The event is being organised to exhibit the rich cultural & regional diversity of India, encouraging non-Indians to connect to India through the celebration of the festival of colours, and celebrating colour festival with the Indian community at a grand scale in Norway.
+         <p class="accordion">Q1. Who are we and what is color festival?</p>
+         <div class="panel">A. We are the Indian community in collaboration with the Embassy of India in Norway and are organising a festival “Colour Festival in Oslo” on 6th May 2023 at Vallhall Arena, Oslo. The event is being organised to exhibit the rich cultural & regional diversity of India, encouraging non-Indians to connect to India through the celebration of the festival of colours, and celebrating colour festival with the Indian community at a grand scale in Norway.
             <ul>
                </br>
                <li style="list-style: decimal;list-style-position: inside;">Color Celebration is a popular ancient Indian festival, also known as the festival of colours</span></li>

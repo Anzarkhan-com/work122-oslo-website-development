@@ -58,9 +58,12 @@
                         }
                      </style>
                      <a class="billetto-btn"
-                        href="https://billetto.no/en/e/holi-oslo-colour-festival-tickets-621408/select?color=%238b24fb&locale=en&whitelabel=true" >BOOK NOW</a>
+                        href=" https://billetto.no/en/e/oslo-colour-festival-2023-tickets-799853/select?color=%238b24fb&locale=en&whitelabel=true" >BOOK NOW</a>
                         <!-- Nav Start -->
                      </div>
+
+
+                    
                   </div>
                   <!-- Menu -->
                   <div class="col text-center justify-content-center d-flex align-items-center">
