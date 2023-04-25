@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
@@ -21,30 +20,25 @@
         * {
             box-sizing: border-box;
         }
-
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
-
         /* Float four columns side by side */
         .column {
             float: left;
             width: 25%;
             padding: 0 10px;
         }
-
         /* Remove extra left and right margins, due to padding in columns */
         .row {
             margin: 0 -5px;
         }
-
         /* Clear floats after the columns */
         .row:after {
             content: "";
             display: table;
             clear: both;
         }
-
         /* Style the counter cards */
         .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -53,7 +47,6 @@
             text-align: center;
             background-color: #f1f1f1;
         }
-
         /* Responsive columns - one column layout (vertical) on small screens */
         @media screen and (max-width: 600px) {
             .column {
@@ -62,7 +55,6 @@
                 margin-bottom: 20px;
             }
         }
-
         .parent {
             display: grid;
             grid-gap: 25px;
@@ -70,14 +62,12 @@
             justify-content: center;
             grid-template-rows: repeat(3, 150px);
         }
-
         .parent>div {
             padding: 10px;
             border-radius: 5px;
             display: grid;
             place-items: center;
         }
-
         .parent>div {
             font-family: sans-serif;
             font-size: 24px;
@@ -88,7 +78,6 @@
         .single-tab-content .row {
             justify-content: center;
         }
-
         .single-client-content {
             height: 100%;
         }
@@ -122,7 +111,6 @@
     </script>
     </script>
 </head>
-
 <body>
     <!-- Preloader -->
     <!-- <div id="preloader">
@@ -198,8 +186,6 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="row py-5">
                 <div class="col px-3 d-flex align-items-center">
                     <div class="row d-flex align-items-center justify-content-center">
@@ -208,7 +194,6 @@
                                 <img src="assets/img/partner-logo/malhistream.png" alt="partner logo" class="img-fluid">
                             </a>
                         </div>
-
                     </div>
                 </div>
                 <div class="col px-3 d-flex align-items-center">
@@ -236,14 +221,11 @@
                                 <img src="assets/img/partner-logo/lofoten-seaweed.png" alt="partner logo" class="img-fluid">
                             </a>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
     <section>
         <div class="container">
             <div class="row pt-5">
@@ -251,8 +233,6 @@
                     <h2 style="color: #808080;">RAFFLE PARTNERS</h2>
                 </div>
             </div>
-
-
             <div class="row py-5">
                 <div class="col px-3 d-flex align-items-center">
                     <div class="row d-flex align-items-center">
@@ -261,11 +241,8 @@
                                 <img src="assets/img/partner-logo/qatar.png" alt="partner logo" class="img-fluid">
                             </a>
                         </div>
-
                     </div>
                 </div>
-
-
                 <div class="col px-3 d-flex align-items-center">
                     <div class="row d-flex align-items-center">
                         <div class="col d-flex align-items-center ">
@@ -273,12 +250,8 @@
                                 <img src="assets/img/partner-logo/tusenfryd.png" alt="partner logo" class="img-fluid">
                             </a>
                         </div>
-
                     </div>
                 </div>
-
-
-
                 <div class="col px-3 d-flex align-items-center">
                     <div class="row d-flex align-items-center">
                         <div class="col d-flex align-items-center ">
@@ -286,11 +259,8 @@
                                 <img src="assets/img/partner-logo/megazone.png" alt="partner logo" class="img-fluid">
                             </a>
                         </div>
-
                     </div>
                 </div>
-
-
                 <div class="col px-3 d-flex align-items-center">
                     <div class="row d-flex align-items-center">
                         <div class="col d-flex align-items-center ">
@@ -298,11 +268,8 @@
                                 <img src="assets/img/partner-logo/rituals.png" alt="partner logo" class="img-fluid">
                             </a>
                         </div>
-
                     </div>
                 </div>
-
-
                 <div class="col px-3 d-flex align-items-center">
                     <div class="row d-flex align-items-center">
                         <div class="col d-flex align-items-center ">
@@ -310,18 +277,55 @@
                                 <img src="assets/img/partner-logo/timma.png" alt="partner logo" class="img-fluid">
                             </a>
                         </div>
-
                     </div>
                 </div>
-
             </div>
 
 
+            <div class="row py-5">
+                <div class="col"></div>
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center ">
+                            <a href="">
+                                <img src="assets/img/partner-logo/snx.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center ">
+                            <a href="">
+                                <img src="assets/img/partner-logo/oslo-pass.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center ">
+                            <a href="">
+                                <img src="assets/img/partner-logo/burger-king.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center ">
+                            <a href="">
+                                <img src="assets/img/partner-logo/nila-indian-rendezvous.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+
+            </div>
         </div>
     </section>
-
-
-
     <!-- Footer Area Start -->
     <?php
     require_once 'elements/footer.php'
@@ -367,5 +371,4 @@
         });
     </script>
 </body>
-
 </html>
