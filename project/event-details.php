@@ -134,8 +134,18 @@
     require_once 'elements/header.php'
     ?>
     <!-- Header Area End -->
-    <section >
-<img src="assets/img/banners/2.png" alt="event banner" class="w-100 img-fluid">
+    <section>
+        <img src="assets/img/banners/2.png" alt="event banner" class="w-100 img-fluid">
+    </section>
+    <!-- partner logo section  -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Footer Area Start -->
     <?php
