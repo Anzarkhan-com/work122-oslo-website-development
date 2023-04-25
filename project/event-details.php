@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>Oslo Colour Festival - Holi in Norway</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/core-img/favicon_io/favicon.ico">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Float four columns side by side */
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+
+        /* Remove extra left and right margins, due to padding in columns */
+        .row {
+            margin: 0 -5px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the counter cards */
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            /* this adds the "card" effect */
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+
+        /* Responsive columns - one column layout (vertical) on small screens */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+
+        .parent {
+            display: grid;
+            grid-gap: 25px;
+            grid-template-columns: repeat(3, 150px);
+            justify-content: center;
+            grid-template-rows: repeat(3, 150px);
+        }
+
+        .parent>div {
+            padding: 10px;
+            border-radius: 5px;
+            display: grid;
+            place-items: center;
+        }
+
+        .parent>div {
+            font-family: sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+    <style>
+        .single-tab-content .row {
+            justify-content: center;
+        }
+
+        .single-client-content {
+            height: 100%;
+        }
+    </style>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "110132881638672");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+    <!-- Your SDK code -->
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v13.0'
+            });
+        };
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/assets/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    </script>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <!-- <div id="preloader">
+      <div class="loader"></div>
+   </div> -->
+    <!-- /Preloader -->
+    <!-- Header Area Start -->
+    <?php
+    require_once 'elements/header.php'
+    ?>
+    <!-- Header Area End -->
+    <section >
+<img src="assets/img/banners/2.png" alt="event banner" class="w-100 img-fluid">
+    </section>
+    <!-- Footer Area Start -->
+    <?php
+    require_once 'elements/footer.php'
+    ?>
+    <!-- Footer Area End -->
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="assets/js/confer.bundle.js"></script>
+    <!-- Active -->
+    <script src="assets/js/default-assets/active.js"></script>
+    <!-- kit -->
+    <script src="https://kit.fontawesome.com/7f9bada808.js" crossorigin="anonymous"></script>
+    <script>
+        //countdown timer .countdown-timer and get end date as attibute data-date
+        var countdownTimer = document.querySelectorAll('.countdown-timer');
+        countdownTimer.forEach(function(timer) {
+            var endDate = timer.getAttribute('data-date');
+            var days = timer.querySelector('.days');
+            var hours = timer.querySelector('.hours');
+            var minutes = timer.querySelector('.minutes');
+            var seconds = timer.querySelector('.seconds');
+            var timeInterval = setInterval(function() {
+                var t = Date.parse(endDate) - Date.parse(new Date());
+                if (t >= 0) {
+                    var daysT = Math.floor(t / (1000 * 60 * 60 * 24));
+                    var hoursT = Math.floor((t / (1000 * 60 * 60)) % 24);
+                    var minutesT = Math.floor((t / 1000 / 60) % 60);
+                    var secondsT = Math.floor((t / 1000) % 60);
+                    days.innerHTML = daysT;
+                    hours.innerHTML = hoursT;
+                    minutes.innerHTML = minutesT;
+                    seconds.innerHTML = secondsT;
+                } else {
+                    clearInterval(timeInterval);
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+
+</html>
