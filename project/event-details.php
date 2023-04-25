@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
@@ -20,25 +21,30 @@
         * {
             box-sizing: border-box;
         }
+
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
+
         /* Float four columns side by side */
         .column {
             float: left;
             width: 25%;
             padding: 0 10px;
         }
+
         /* Remove extra left and right margins, due to padding in columns */
         .row {
             margin: 0 -5px;
         }
+
         /* Clear floats after the columns */
         .row:after {
             content: "";
             display: table;
             clear: both;
         }
+
         /* Style the counter cards */
         .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -47,6 +53,7 @@
             text-align: center;
             background-color: #f1f1f1;
         }
+
         /* Responsive columns - one column layout (vertical) on small screens */
         @media screen and (max-width: 600px) {
             .column {
@@ -55,6 +62,7 @@
                 margin-bottom: 20px;
             }
         }
+
         .parent {
             display: grid;
             grid-gap: 25px;
@@ -62,12 +70,14 @@
             justify-content: center;
             grid-template-rows: repeat(3, 150px);
         }
+
         .parent>div {
             padding: 10px;
             border-radius: 5px;
             display: grid;
             place-items: center;
         }
+
         .parent>div {
             font-family: sans-serif;
             font-size: 24px;
@@ -78,6 +88,7 @@
         .single-tab-content .row {
             justify-content: center;
         }
+
         .single-client-content {
             height: 100%;
         }
@@ -111,6 +122,7 @@
     </script>
     </script>
 </head>
+
 <body>
     <!-- Preloader -->
     <!-- <div id="preloader">
@@ -147,6 +159,10 @@
                             </a>
                         </div>
                     </div>
+                    <div class="row d-flex flex-column">
+                        <div class="col"></div>
+                    </div>
+
                 </div>
                 <div class="col px-3 d-flex align-items-center">
                     <div class="row d-flex align-items-center">
@@ -371,4 +387,5 @@
         });
     </script>
 </body>
+
 </html>
