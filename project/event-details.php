@@ -140,9 +140,9 @@
     <!-- partner logo section  -->
     <section>
         <div class="container">
-            <div class="row pt-5" >
+            <div class="row pt-5">
                 <div class="col-md-12 text-center">
-                   <h2 style="color: #808080;">PARTNERS</h2>
+                    <h2 style="color: #808080;">PARTNERS</h2>
                 </div>
             </div>
             <div class="row py-5">
@@ -242,6 +242,86 @@
             </div>
         </div>
     </section>
+
+
+    <section>
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-12 text-center">
+                    <h2 style="color: #808080;">RAFFLE PARTNERS</h2>
+                </div>
+            </div>
+
+
+            <div class="row py-5">
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center ">
+                            <a href="">
+                                <img src="assets/img/partner-logo/qatar.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center ">
+                            <a href="">
+                                <img src="assets/img/partner-logo/tusenfryd.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center ">
+                            <a href="">
+                                <img src="assets/img/partner-logo/megazone.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center ">
+                            <a href="">
+                                <img src="assets/img/partner-logo/rituals.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center ">
+                            <a href="">
+                                <img src="assets/img/partner-logo/timma.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
     <!-- Footer Area Start -->
     <?php
     require_once 'elements/footer.php'
