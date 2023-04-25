@@ -112,17 +112,17 @@
 
    <!-- Header Area End -->
    <!-- Breadcrumb Area Start -->
-   <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(assets/img/bg-img/37.jpg);">
+   <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(assets/img/bg-img/faq.jpg);">
       <div class="container h-100">
          <div class="row h-100 align-items-center">
             <div class="col-12">
                <div class="breadcrumb-content">
-                  <h2 class="page-title">Frequently Asked Questions</h2>
+                  <!-- <h2 class="page-title">Frequently Asked Questions</h2>
                   <nav aria-label="breadcrumb">
                      <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                      </ol>
-                  </nav>
+                  </nav> -->
                </div>
             </div>
          </div>
@@ -130,7 +130,7 @@
    </section>
    <!-- Breadcrumb Area End -->
    <!-- Our Blog Area Start -->
-   <div class="our-blog-area section-padding-100">
+   <div class="our-blog-area section-padding-100" style="padding-top:25px !important;">
       <div class="container">
          <h3>FAQs</h3>
          <p class="accordion">Q1. Who are we and what is color festival?</p>

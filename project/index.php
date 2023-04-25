@@ -204,7 +204,7 @@
    </section>
    <!-- Welcome Area End -->
    <!-- four block -->
-   <section class="akc-four-block-section">
+   <section class="akc-four-block-section" id="events">
       <div class="container">
          <div class="akc-container-inner">
             <div class="row">
@@ -226,7 +226,7 @@
                            hues of joy, carefreeness, love, unity and togetherness.
                         </div>
                         <div>
-                           <a href="" class="akc-block-2-btn">Read More...</a>
+                           <a href="about.php" class="akc-block-2-btn">Read More...</a>
                         </div>
                      </div>
                   </div>
@@ -269,7 +269,7 @@
                               GREATEST  CULTURAL EVENT!
                            </div>
                            <div>
-                              <a href="" class="akc-block-4-btn">BOOK NOW</a>
+                              <a href=" https://billetto.no/en/e/oslo-colour-festival-2023-tickets-799853/select?color=%238b24fb&locale=en&whitelabel=true" target="_blank" class="akc-block-4-btn">BOOK NOW</a>
                            </div>
                         </div>
                      </div>
@@ -589,7 +589,7 @@
    </section>
    <!-- end -->
    <!-- Our Sponsor And Client Area Start -->
-   <section class="our-schedule-area section-padding-100" style="background-color: #fff;">
+   <section class="our-schedule-area section-padding-100" id="sponsors" style="background-color: #fff;">
       <div class="container">
          <div class="row">
             <!-- Heading -->

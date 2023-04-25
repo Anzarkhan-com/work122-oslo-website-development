@@ -31,7 +31,7 @@
     ?>
     <!-- Header Area End -->
     <!-- Breadcrumb Area Start -->
-    <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(assets/img/bg-img/infopack.jpg);">
+    <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(assets/img/bg-img/infopack1.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -49,7 +49,7 @@
     </section>
     <!-- Breadcrumb Area End -->
     <!-- Our Blog Area Start -->
-    <div class="our-blog-area section-padding-100">
+    <div class="our-blog-area section-padding-100" style="padding-top:25px !important;">
         <div class="container">
 
             <ul>

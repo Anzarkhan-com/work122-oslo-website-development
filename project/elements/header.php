@@ -58,7 +58,7 @@
                         }
                      </style>
                      <a class="billetto-btn"
-                        href=" https://billetto.no/en/e/oslo-colour-festival-2023-tickets-799853/select?color=%238b24fb&locale=en&whitelabel=true" >BOOK NOW</a>
+                        href=" https://billetto.no/en/e/oslo-colour-festival-2023-tickets-799853/select?color=%238b24fb&locale=en&whitelabel=true" target="_blank">BOOK NOW</a>
                         <!-- Nav Start -->
                      </div>
 
@@ -67,7 +67,7 @@
                   </div>
                   <!-- Menu -->
                   <div class="col text-center justify-content-center d-flex align-items-center">
-                     <a href="./index.html" class="text-center" ><img src="assets/img/core-img/logo.png" width="80"
+                     <a href="./index.php" class="text-center" ><img src="assets/img/core-img/logo.png" width="80"
                         height="80" alt=""></a>
                      <!-- Nav End -->
                   </div>
@@ -89,12 +89,12 @@
                                  <ul id="nav">
                                     <li class="active"><a href="index.php">Home</a></li>
                                     <li><a href="gallary.php">Oslo Color Festival 2022</a></li>
-                                    <li><a href="#sponsors">Official Sponsors</a></li>
-                                    <li><a href="#events">Event Details 2023</a></li>
+                                    <li><a href="index.php#sponsors">Official Sponsors</a></li>
+                                    <li><a href="index.php#events">Event Details 2023</a></li>
                                     <li><a href="infopack.php">Infopack</a></li>
                                     <li><a href="faq.php">FAQs</a></li>
                                     <li><a href="about.php">About us</a></li>
-                                    <li><a href="#contactus">Contact</a></li>
+                                    <li><a href="index.php#contactus">Contact</a></li>
                                     <!-- <li><a href="gallary.php">Gallary</a></li> -->
                                  </ul>
                               </div>
