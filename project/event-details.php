@@ -140,9 +140,104 @@
     <!-- partner logo section  -->
     <section>
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="" alt="">
+            <div class="row pt-5" >
+                <div class="col-md-12 text-center">
+                   <h2 style="color: #808080;">PARTNERS</h2>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center ">
+                            <a href="">
+                                <img src="assets/img/partner-logo/yara.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-center">
+                            <a href="">
+                                <img src="assets/img/partner-logo/tgs.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center justify-content-center">
+                            <a href="">
+                                <img src="assets/img/partner-logo/skg.png" alt="partner logo" class="img-fluid" style="max-width:150px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center justify-content-center">
+                            <a href="">
+                                <img src="assets/img/partner-logo/tech-agrim.png" alt="partner logo" class="img-fluid" style="max-width:150px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center justify-content-center">
+                            <a href="">
+                                <img src="assets/img/partner-logo/nimbu.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-center">
+                            <a href="">
+                                <img src="assets/img/partner-logo/new-delhi.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-center">
+                            <a href="">
+                                <img src="assets/img/partner-logo/akser-haveli.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row py-5">
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col d-flex align-items-center justify-content-center">
+                            <a href="">
+                                <img src="assets/img/partner-logo/malhistream.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col d-flex align-items-center justify-content-center">
+                            <a href="">
+                                <img src="assets/img/partner-logo/inglot.png" alt="partner logo" class="img-fluid" style="max-width:150px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col d-flex align-items-center justify-content-center">
+                            <a href="">
+                                <img src="assets/img/partner-logo/scandic-desi.png" alt="partner logo" class="img-fluid" style="max-width:150px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col px-3 d-flex align-items-center">
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col d-flex align-items-center justify-content-center">
+                            <a href="">
+                                <img src="assets/img/partner-logo/lofoten-seaweed.png" alt="partner logo" class="img-fluid">
+                            </a>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
