@@ -146,7 +146,7 @@
                 </div>
             </div>
             <div class="row py-5">
-                <div class="col px-3 d-flex align-items-center">
+                <div class="col px-3 ">
                     <div class="row d-flex align-items-center">
                         <div class="col d-flex align-items-center ">
                             <a href="">
@@ -160,11 +160,14 @@
                         </div>
                     </div>
                     <div class="row d-flex flex-column">
-                        <div class="col"></div>
+                        <div class="col">
+                            <img src="assets/img/partner-logo/silver-partner.png" alt="partner logo" class="img-fluid">
+
+                        </div>
                     </div>
 
                 </div>
-                <div class="col px-3 d-flex align-items-center">
+                <div class="col px-3 ">
                     <div class="row d-flex align-items-center">
                         <div class="col d-flex align-items-center justify-content-center">
                             <a href="">
@@ -172,8 +175,14 @@
                             </a>
                         </div>
                     </div>
+                    <div class="row d-flex flex-column">
+                        <div class="col">
+                            <img src="assets/img/partner-logo/silver-partner.png" alt="partner logo" class="img-fluid">
+
+                        </div>
+                    </div>
                 </div>
-                <div class="col px-3 d-flex align-items-center">
+                <div class="col px-3 ">
                     <div class="row d-flex align-items-center">
                         <div class="col d-flex align-items-center justify-content-center">
                             <a href="">
@@ -182,7 +191,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col px-3 d-flex align-items-center">
+                <div class="col px-3 ">
                     <div class="row d-flex align-items-center">
                         <div class="col d-flex align-items-center justify-content-center">
                             <a href="">
@@ -203,7 +212,7 @@
                 </div>
             </div>
             <div class="row py-5">
-                <div class="col px-3 d-flex align-items-center">
+                <div class="col px-3">
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col d-flex align-items-center justify-content-center">
                             <a href="">
@@ -212,7 +221,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col px-3 d-flex align-items-center">
+                <div class="col px-3">
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col d-flex align-items-center justify-content-center">
                             <a href="">
@@ -221,7 +230,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col px-3 d-flex align-items-center">
+                <div class="col px-3">
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col d-flex align-items-center justify-content-center">
                             <a href="">
@@ -230,7 +239,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col px-3 d-flex align-items-center">
+                <div class="col px-3">
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col d-flex align-items-center justify-content-center">
                             <a href="">
