@@ -145,8 +145,6 @@
                     <h2 style="color: #808080;">PARTNERS</h2>
                 </div>
             </div>
-        </div>
-        <div class="container">
             <div class="row py-5">
                 <div class="col-md-12 d-flex justify-content-center align-items-end">
                     <div class="col-md-3">
@@ -186,9 +184,7 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="container">
             <div class="row py-5">
                 <div class="col-md-12 d-flex justify-content-center align-items-end">
                     <div class="col-md-3">
@@ -245,9 +241,7 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="container">
             <div class="row py-5">
                 <div class="col-md-12 d-flex justify-content-center align-items-end">
                     <div class="col-md-3">
@@ -308,7 +302,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
     <section>
