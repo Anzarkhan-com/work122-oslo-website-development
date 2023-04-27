@@ -145,9 +145,9 @@
                     <h2 style="color: #808080;">PARTNERS</h2>
                 </div>
             </div>
-            <div class="row py-5">
-                <div class="col-md-12 d-flex justify-content-center align-items-end">
-                    <div class="col-md-3">
+            <div class="container pt-5">
+                <div class="row justify-content-center align-items-end">
+                    <div class="col-md-3 py-4">
                         <div class="row d-flex align-items-center">
                             <div class="col d-flex align-items-center ">
                                 <a href="">
@@ -168,7 +168,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 py-4">
                         <div class="row d-flex align-items-center">
                             <div class="col d-flex align-items-center ">
                                 <a href="">
@@ -185,9 +185,10 @@
                 </div>
             </div>
 
-            <div class="row py-5">
-                <div class="col-md-12 d-flex justify-content-center align-items-end">
-                    <div class="col-md-3">
+
+            <div class="container pt-4">
+                <div class="row align-items-end">
+                    <div class="col-md-4 py-3 text-center">
                         <div class="row d-flex align-items-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
@@ -195,13 +196,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="row d-flex flex-column">
+                        <div class="row d-flex ">
                             <div class="col">
                                 <img src="assets/img/partner-logo/pkg-partner.png" alt="partner logo" class="img-fluid">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 py-3 text-center">
                         <div class="row d-flex align-items-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
@@ -215,7 +216,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 py-3 text-center">
                         <div class="row d-flex align-items-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
@@ -242,9 +243,9 @@
                 </div>
             </div>
 
-            <div class="row py-5">
-                <div class="col-md-12 d-flex justify-content-center align-items-end">
-                    <div class="col-md-3">
+            <div class="container py-4">
+                <div class="row align-items-end">
+                    <div class="col-md-3 py-3">
                         <div class="row d-flex align-items-center justify-content-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
@@ -258,7 +259,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 pt-5 pb-3">
                         <div class="row d-flex align-items-center justify-content-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
@@ -272,7 +273,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 py-3">
                         <div class="row d-flex align-items-center justify-content-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
@@ -286,7 +287,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 py-3">
                         <div class="row d-flex align-items-center justify-content-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
@@ -311,98 +312,57 @@
                     <h2 style="color: #808080;">RAFFLE PARTNERS</h2>
                 </div>
             </div>
-            <div class="row py-5">
-                <div class="col px-3 d-flex align-items-center">
-                    <div class="row d-flex align-items-center">
-                        <div class="col d-flex align-items-center ">
-                            <a href="">
-                                <img src="assets/img/partner-logo/qatar.png" alt="partner logo" class="img-fluid">
-                            </a>
-                        </div>
+            <div class="container pt-5">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-2 py-5 text-center">
+                        <a href="">
+                            <img src="assets/img/partner-logo/qatar.png" alt="partner logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-2 py-5 text-center">
+                        <a href="">
+                            <img src="assets/img/partner-logo/tusenfryd.png" alt="partner logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-2 py-5 text-center">
+                        <a href="">
+                            <img src="assets/img/partner-logo/megazone.png" alt="partner logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-2 py-5 text-center">
+                        <a href="">
+                            <img src="assets/img/partner-logo/rituals.png" alt="partner logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-2 py-5 text-center">
+                        <a href="">
+                            <img src="assets/img/partner-logo/visit-oslo.png" alt="partner logo" class="img-fluid">
+                        </a>
                     </div>
                 </div>
-                <div class="col px-3 d-flex align-items-center">
-                    <div class="row d-flex align-items-center">
-                        <div class="col d-flex align-items-center ">
-                            <a href="">
-                                <img src="assets/img/partner-logo/tusenfryd.png" alt="partner logo" class="img-fluid">
-                            </a>
-                        </div>
+                <div class="row py-4 align-items-center">
+                    <div class="col-md-3 py-5 text-center">
+                        <a href="">
+                            <img src="assets/img/partner-logo/timma.png" alt="partner logo" class="img-fluid">
+                        </a>
                     </div>
-                </div>
-                <div class="col px-3 d-flex align-items-center">
-                    <div class="row d-flex align-items-center">
-                        <div class="col d-flex align-items-center ">
-                            <a href="">
-                                <img src="assets/img/partner-logo/megazone.png" alt="partner logo" class="img-fluid">
-                            </a>
-                        </div>
+                    <div class="col-md-3 py-5 text-center">
+                        <a href="">
+                            <img src="assets/img/partner-logo/snx.png" alt="partner logo" class="img-fluid">
+                        </a>
                     </div>
-                </div>
-                <div class="col px-3 d-flex align-items-center">
-                    <div class="row d-flex align-items-center">
-                        <div class="col d-flex align-items-center ">
-                            <a href="">
-                                <img src="assets/img/partner-logo/rituals.png" alt="partner logo" class="img-fluid">
-                            </a>
-                        </div>
+                    <div class="col-md-3 py-5 text-center">
+                        <a href="">
+                            <img src="assets/img/partner-logo/burger-king.png" alt="partner logo" class="img-fluid">
+                        </a>
                     </div>
-                </div>
-                <div class="col px-3 d-flex align-items-center">
-                    <div class="row d-flex align-items-center">
-                        <div class="col d-flex align-items-center ">
-                            <a href="">
-                                <img src="assets/img/partner-logo/timma.png" alt="partner logo" class="img-fluid">
-                            </a>
-                        </div>
+                    <div class="col-md-3 py-5 text-center">
+                        <a href="">
+                            <img src="assets/img/partner-logo/nila-indian-rendezvous.png" alt="partner logo" class="img-fluid">
+                        </a>
                     </div>
                 </div>
             </div>
-
-
-            <div class="row py-5">
-                <div class="col"></div>
-                <div class="col px-3 d-flex align-items-center">
-                    <div class="row d-flex align-items-center">
-                        <div class="col d-flex align-items-center ">
-                            <a href="">
-                                <img src="assets/img/partner-logo/snx.png" alt="partner logo" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col px-3 d-flex align-items-center">
-                    <div class="row d-flex align-items-center">
-                        <div class="col d-flex align-items-center ">
-                            <a href="">
-                                <img src="assets/img/partner-logo/oslo-pass.png" alt="partner logo" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="col px-3 d-flex align-items-center">
-                    <div class="row d-flex align-items-center">
-                        <div class="col d-flex align-items-center ">
-                            <a href="">
-                                <img src="assets/img/partner-logo/burger-king.png" alt="partner logo" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col px-3 d-flex align-items-center">
-                    <div class="row d-flex align-items-center">
-                        <div class="col d-flex align-items-center ">
-                            <a href="">
-                                <img src="assets/img/partner-logo/nila-indian-rendezvous.png" alt="partner logo" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col"></div>
-
-            </div>
-        </div>
     </section>
     <!-- Footer Area Start -->
     <?php
