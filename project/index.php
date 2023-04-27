@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="description" content="">
@@ -20,25 +21,30 @@
       * {
          box-sizing: border-box;
       }
+
       body {
          font-family: Arial, Helvetica, sans-serif;
       }
+
       /* Float four columns side by side */
       .column {
          float: left;
          width: 25%;
          padding: 0 10px;
       }
+
       /* Remove extra left and right margins, due to padding in columns */
       .row {
          margin: 0 -5px;
       }
+
       /* Clear floats after the columns */
       .row:after {
          content: "";
          display: table;
          clear: both;
       }
+
       /* Style the counter cards */
       .card {
          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -47,6 +53,7 @@
          text-align: center;
          background-color: #f1f1f1;
       }
+
       /* Responsive columns - one column layout (vertical) on small screens */
       @media screen and (max-width: 600px) {
          .column {
@@ -55,6 +62,7 @@
             margin-bottom: 20px;
          }
       }
+
       .parent {
          display: grid;
          grid-gap: 25px;
@@ -62,12 +70,14 @@
          justify-content: center;
          grid-template-rows: repeat(3, 150px);
       }
+
       .parent>div {
          padding: 10px;
          border-radius: 5px;
          display: grid;
          place-items: center;
       }
+
       .parent>div {
          font-family: sans-serif;
          font-size: 24px;
@@ -78,6 +88,7 @@
       .single-tab-content .row {
          justify-content: center;
       }
+
       .single-client-content {
          height: 100%;
       }
@@ -94,13 +105,13 @@
    </script>
    <!-- Your SDK code -->
    <script>
-      window.fbAsyncInit = function () {
+      window.fbAsyncInit = function() {
          FB.init({
             xfbml: true,
             version: 'v13.0'
          });
       };
-      (function (d, s, id) {
+      (function(d, s, id) {
          var js, fjs = d.getElementsByTagName(s)[0];
          if (d.getElementById(id)) return;
          js = d.createElement(s);
@@ -111,6 +122,7 @@
    </script>
    </script>
 </head>
+
 <body>
    <!-- Preloader -->
    <!-- <div id="preloader">
@@ -126,8 +138,7 @@
    <section class="welcome-area">
       <div class="welcome-slides owl-carousel">
          <!-- Single Slide -->
-         <div class="single-welcome-slide bg-img  jarallax"
-            style="background-image: url(assets/img/core-img/slider-img-3.png);">
+         <div class="single-welcome-slide bg-img  jarallax" style="background-image: url(assets/img/core-img/slider-img-3.png);">
             <div class="container">
                <div class="row">
                   <!-- Welcome Text -->
@@ -176,16 +187,14 @@
             </div>
          </div>
          <!-- single slide -->
-         <div class="single-welcome-slide bg-img  jarallax"
-            style="background-image: url(assets/img/core-img/slider/slider-3.jpg);">
+         <div class="single-welcome-slide bg-img  jarallax" style="background-image: url(assets/img/core-img/slider/slider-3.jpg);">
             <div class="container h-100">
                <div class="row h-100 align-items-center">
                   <!-- Welcome Text -->
                </div>
             </div>
          </div>
-         <div class="single-welcome-slide bg-img  jarallax"
-            style="background-image: url(assets/img/core-img/slider/slider-4.jpg);">
+         <div class="single-welcome-slide bg-img  jarallax" style="background-image: url(assets/img/core-img/slider/slider-4.jpg);">
             <div class="container h-100">
                <div class="row h-100 align-items-center">
                   <!-- Welcome Text -->
@@ -266,7 +275,7 @@
                      <div class="h-100 akc-bg-4" style="background-image: url('assets/img/core-img/block-4.png');">
                         <div class="text-center">
                            <div class="akc-block-4-txt-1">OSLO'S
-                              GREATEST  CULTURAL EVENT!
+                              GREATEST CULTURAL EVENT!
                            </div>
                            <div>
                               <a href=" https://billetto.no/en/e/oslo-colour-festival-2023-tickets-799853/select?color=%238b24fb&locale=en&whitelabel=true" target="_blank" class="akc-block-4-btn">BOOK NOW</a>
@@ -284,8 +293,8 @@
    <!-- <section class="about-us-countdown-area section-padding-100-0" id="about">
       <div class="container">
          <div class="row align-items-center"> -->
-            <!-- About Content -->
-            <!-- <div class="col-12 col-md-6">
+   <!-- About Content -->
+   <!-- <div class="col-12 col-md-6">
                <div class="about-content-text mb-80">
                   <h6 class="wow fadeInUp" data-wow-delay="300ms">About us!</h6>
                   <h3 class="wow fadeInUp" data-wow-delay="300ms">Welcome to Oslo Colour Festival</h3>
@@ -298,8 +307,8 @@
                      the Indo Norwegian integration.
                </div>
             </div> -->
-            <!-- About Thumb -->
-            <!-- <div class="col-12 col-md-6">
+   <!-- About Thumb -->
+   <!-- <div class="col-12 col-md-6">
                <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
                   <img src="assets/img/bg-img/2.jpeg" style="width: 400px; height: 500px;" alt="">
                </div>
@@ -310,8 +319,8 @@
          <div class="container">
             <div class="row align-items-center">
                <div class="col-12 col-md-12"> -->
-                  <!-- Countdown Text -->
-                  <!-- <div class="countdown-content-text mb-100 wow fadeInUp" data-wow-delay="300ms">
+   <!-- Countdown Text -->
+   <!-- <div class="countdown-content-text mb-100 wow fadeInUp" data-wow-delay="300ms">
                      <h6>Happy Holi</h6>
                      <h4>OSLO'S GREATEST CHANT AND Cultural Event! MUSIC, Street Food Festival, KID'S AREA, YOGA,
                         Playing Holi with Colours.</h4>
@@ -320,25 +329,25 @@
             </div>
          </div>
       </div> -->
-      <!-- Counter Up Area -->
-      <!--  -->
+   <!-- Counter Up Area -->
+   <!--  -->
    <!-- </section> -->
    <!-- About Us And Countdown Area End -->
    <!-- Our Speakings Area Start -->
    <!-- <section class="our-speaker-area  section-padding-100-60" id="about-holi">
       <div class="container">
          <div class="row"> -->
-            <!-- Heading -->
-            <!-- <div class="col-12">
+   <!-- Heading -->
+   <!-- <div class="col-12">
                <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
                   <h4 style="color:black;">Holi - An Indian Festival</h4>
                </div>
             </div>
          </div> -->
-         <!-- <div class="container">
+   <!-- <div class="container">
             <div class="row align-items-center"> -->
-               <!-- About Content -->
-               <!-- <div class="col-12 col-md-6">
+   <!-- About Content -->
+   <!-- <div class="col-12 col-md-6">
                   <div class="about-content-text mb-80">
                      <h3 class="wow fadeInUp" data-wow-delay="300ms">About Festival of Colours</h3>
                      <p class="wow fadeInUp" data-wow-delay="300ms" style="color:black;">In India, Holi announces the
@@ -351,8 +360,8 @@
                         more harmony & integration between people of all age groups, cultural background and religion.
                   </div>
                </div> -->
-               <!-- About Thumb -->
-               <!-- <div class="col-12 col-md-6">
+   <!-- About Thumb -->
+   <!-- <div class="col-12 col-md-6">
                   <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
                      <img src="assets/img/bg-img/holi-1.jpeg" style="width: 400px; height: 500px;" alt="">
                   </div>
@@ -366,8 +375,8 @@
    <!-- <section class="our-schedule-area section-padding-100">
       <div class="container">
          <div class="row"> -->
-            <!-- Heading -->
-            <!-- <div class="col-12">
+   <!-- Heading -->
+   <!-- <div class="col-12">
                <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
                   <p>7. MAI SATURDAY</p>
                   <h4>at 13:00 Vallhall Arena, Oslo</h4>
@@ -377,17 +386,17 @@
          <div class="row">
             <div class="col-12">
                <div class="schedule-tab"> -->
-                  <!-- Nav Tabs -->
-               <!-- </div> -->
-               <!-- Tab Content -->
+   <!-- Nav Tabs -->
+   <!-- </div> -->
+   <!-- Tab Content -->
    <!-- Our Schedule Area End -->
    <!-- Our Ticket Pricing Table Area Start -->
    <!-- <section class="our-ticket-pricing-table-area bg-img bg-gradient-overlay section-padding-100-0 jarallax"
       style="background-image: url(img/bg-img/14.jpg);">
       <div class="container">
          <div class="row"> -->
-            <!-- Heading -->
-            <!-- <div class="col-12">
+   <!-- Heading -->
+   <!-- <div class="col-12">
                <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
                   <p>Choose a Ticket</p>
                   <h4>Ticket Pricing</h4>
@@ -398,12 +407,12 @@
                display: flex;
                justify-content: center;
                "> -->
-            <!-- Single Ticket Pricing Table -->
-            <!-- <div class="col-12 col-lg-4">
+   <!-- Single Ticket Pricing Table -->
+   <!-- <div class="col-12 col-lg-4">
                <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                   <h6 class="ticket-plan">Age above 6</h6> -->
-                  <!-- Ticket Icon -->
-                  <!-- <div class="ticket-icon">
+   <!-- Ticket Icon -->
+   <!-- <div class="ticket-icon">
                      <img src="assets/img/core-img/p1.png" alt="">
                   </div>
                   <h2 class="ticket-price"><span>NOK</span>50</h2>
@@ -456,19 +465,19 @@
                   <a class="billetto-btn"
                      href="https://billetto.no/en/e/holi-oslo-colour-festival-tickets-621408/select?color=%238b24fb&locale=en&whitelabel=true">Get
                      tickets</a> -->
-                  <!-- Ticket Pricing Table Details -->
-                  <!-- <div class="ticket-pricing-table-details">
+   <!-- Ticket Pricing Table Details -->
+   <!-- <div class="ticket-pricing-table-details">
                      <p><i class="zmdi zmdi-check"></i> One Day Ticket</p>
                      <p><i class="zmdi zmdi-check"></i> Unlimited colours</p>
                   </div>
                </div>
             </div> -->
-            <!-- Single Ticket Pricing Table -->
-            <!-- <div class="col-12 col-md-6 col-lg-4">
+   <!-- Single Ticket Pricing Table -->
+   <!-- <div class="col-12 col-md-6 col-lg-4">
                <div class="single-ticket-pricing-table  text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
                   <h6 class="ticket-plan">Age Below 6</h6> -->
-                  <!-- Ticket Icon -->
-                  <!-- <div class="ticket-icon">
+   <!-- Ticket Icon -->
+   <!-- <div class="ticket-icon">
                      <img src="assets/img/core-img/p1.png" alt="">
                   </div>
                   <h2 class="ticket-price">FREE</h2>
@@ -522,7 +531,7 @@
                      href="https://billetto.no/en/e/holi-oslo-colour-festival-tickets-621408/select?color=%238b24fb&locale=en&whitelabel=true">Get
                      tickets</a>
                    Ticket Pricing Table Details -->
-                  <!-- <div class="ticket-pricing-table-details">
+   <!-- <div class="ticket-pricing-table-details">
                      <p><i class="zmdi zmdi-check"></i> One Day Ticket</p>
                      <p><i class="zmdi zmdi-check"></i> Unlimited colours</p>
                   </div>
@@ -530,7 +539,7 @@
             </div>
          </div>
       </div>
-   </section> --> 
+   </section> -->
    <!-- Our Ticket Pricing Table Area End -->
    <!-- Glimpise off -->
    <section class="akc-glimpises-bg" id="glimpses">
@@ -546,8 +555,7 @@
             <div class="row">
                <!-- Single Blog Area -->
                <div class="col-12 col-md-6 col-xl-4">
-                  <div class="single-blog-area bg-2  style-2 wow fadeInUp" data-wow-delay="300ms"
-                     style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                  <div class="single-blog-area bg-2  style-2 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
                      <!-- Single blog Thumb -->
                      <div class="single-blog-thumb" style="height: 200px;">
                         <img src="assets/img/core-img/glipses-1.jpg" alt="">
@@ -559,11 +567,10 @@
                </div>
                <!-- Single Blog Area -->
                <div class="col-12 col-md-6 col-xl-4">
-                  <div class="single-blog-area bg-2  style-2 wow fadeInUp" data-wow-delay="300ms"
-                     style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                  <div class="single-blog-area bg-2  style-2 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
                      <!-- Single blog Thumb -->
                      <div class="single-blog-thumb" style="height: 200px;">
-                        <img src="assets/img/core-img/2.jpeg" alt="" >
+                        <img src="assets/img/core-img/2.jpeg" alt="">
                      </div>
                      <div class="single-blog-text text-center">
                         <a class="blog-title" href="#">COLOUR CELEBRATION</a>
@@ -572,11 +579,10 @@
                </div>
                <!-- Single Blog Area -->
                <div class="col-12 col-md-6 col-xl-4">
-                  <div class="single-blog-area bg-2  style-2 wow fadeInUp" data-wow-delay="300ms"
-                     style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                  <div class="single-blog-area bg-2  style-2 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
                      <!-- Single blog Thumb -->
                      <div class="single-blog-thumb" style="height: 200px;">
-                        <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/qqHV32KM9rQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qqHV32KM9rQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                      </div>
                      <div class="single-blog-text text-center">
                         <a class="blog-title" href="#">MEDIA COVERAGE</a>
@@ -588,109 +594,232 @@
       </div>
    </section>
    <!-- end -->
-   <!-- Our Sponsor And Client Area Start -->
-   <section class="our-schedule-area section-padding-100" id="sponsors" style="background-color: #fff;">
+   <!-- partner logo section  -->
+   <section>
       <div class="container">
-         <div class="row">
-            <!-- Heading -->
-            <div class="col-12">
-               <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
-                  <p>Sponsors</p>
-                  <h4 style="color: gray;">Official Sponsors</h4>
-               </div>
+         <div class="row pt-5">
+            <div class="col-md-12 text-center">
+               <h2 style="color: #808080;">PARTNERS</h2>
             </div>
          </div>
-         <div>
-            <div>
-               <div>
-                  <!-- Nav Tabs -->
+         <div class="container pt-5">
+            <div class="row justify-content-center align-items-end">
+               <div class="col-md-3 py-4">
+                  <div class="row d-flex align-items-center">
+                     <div class="col d-flex align-items-center ">
+                        <a href="">
+                           <img src="assets/img/partner-logo/yara.png" alt="partner logo" class="img-fluid">
+                        </a>
+                     </div>
+                     <div class="col d-flex align-items-center justify-content-center">
+                        <a href="">
+                           <img src="assets/img/partner-logo/tgs.png" alt="partner logo" class="img-fluid">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="row d-flex flex-column">
+                     <div class="col">
+                        <img src="assets/img/partner-logo/silver-partner.png" alt="partner logo" class="img-fluid">
+
+                     </div>
+                  </div>
+
                </div>
-               <!-- Tab Content -->
-               <div class="tab-content" id="conferScheduleTabContent">
-                  <div class="tab-pane fade show active" id="step-one" role="tabpanel" aria-labelledby="monday-tab">
-                     <!-- Single Tab Content -->
-                     <div class="single-tab-content">
-                        <div class="parent" style="margin-top: 30px; display: flex; flex-wrap: wrap;">
-                           <div class="single-client-content" style="width: 200px;">
-                              <div class="single-client-text">
-                                 <!-- <h4 style="color:white;text-align: center;">Bronze Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms" style="">
-                                    <a href="https://www.tcs.com/" target="_blank"><img src="assets/img/core-img/sponsors/tcs.png"
-                                          alt=""></a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="single-client-content" style="width: 200px;">
-                              <div class="single-client-text">
-                                 <!-- <h4 style="color:white;text-align: center;">Display Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
-                                    <a href="https://www.capgemini.com/" target="_blank"><img
-                                          src="assets/img/core-img/sponsors/logo.svg" alt=""></a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="single-client-content" style="width: 200px;">
-                              <div class="single-client-text">
-                                 <!-- <h4 style="color:white;text-align: center;">Display Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
-                                    <a href="https://www.askerhaveli.no/" target="_blank"><img
-                                          src="assets/img/core-img/sponsors/haveli-logo.png" alt=""></a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="single-client-content" style="width: 200px;">
-                              <div class="single-client-text">
-                                 <!-- <h4 style="color:white;text-align: center;">Display Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
-                                    <a href="https://newdelhi.no/" target="_blank"><img
-                                          src="assets/img/core-img/sponsors/nd-logo.svg" alt=""></a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="single-client-content" style="width: 200px;">
-                              <div class="single-client-text">
-                                 <!-- <h4 style="color:white;text-align: center;">Display Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
-                                    <a href="https://www.infosys.com/" target="_blank"><img src="assets/img/core-img/sponsors/infosys_logo.svg" alt=""></a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="single-client-content" style="width: 200px;">
-                              <div class="single-client-text">
-                                 <!-- <h4 style="color:white;text-align: center;">Display Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
-                                    <a href="https://www.nimbu.no/" target="_blank"><img
-                                          src="assets/img/core-img/sponsors/nimbu.png" alt=""></a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="single-client-content" style="width: 200px;">
-                              <div class="single-client-text">
-                                 <!-- <h4 style="color:white;text-align: center;">Gold Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms" style="">
-                                    <a href="https://www.techagrim.com/" target="_blank"><img
-                                          src="assets/img/core-img/sponsors/agrim.png" alt=""></a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="single-client-content" style="width: 200px;">
-                              <div class="single-client-text">
-                                 <!-- <h4 style="color:white;text-align: center;">Gold Sponsor</h4> -->
-                                 <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms" style="">
-                                    <a href="https://lofotenseaweed.no/" target="_blank"><img
-                                          src="assets/img/core-img/sponsors/lofoten.png" alt=""></a>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- end -->
-                        </div>
+               <div class="col-md-3 py-4">
+                  <div class="row d-flex align-items-center">
+                     <div class="col d-flex align-items-center ">
+                        <a href="">
+                           <img src="assets/img/partner-logo/infosys_logo.svg" alt="partner logo" class="img-fluid">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="row d-flex flex-column">
+                     <div class="col">
+                        <img src="assets/img/partner-logo/bronze-partner.png" alt="partner logo" class="img-fluid">
                      </div>
                   </div>
                </div>
-               <!-- tab content -->
+            </div>
+         </div>
+
+
+         <div class="container pt-4">
+            <div class="row align-items-end">
+               <div class="col-md-4 py-3 text-center">
+                  <div class="row d-flex align-items-center">
+                     <div class="col d-flex align-items-center justify-content-center">
+                        <a href="">
+                           <img src="assets/img/partner-logo/skg.png" alt="partner logo" class="img-fluid" style="max-width: 120px;">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="row d-flex ">
+                     <div class="col">
+                        <img src="assets/img/partner-logo/pkg-partner.png" alt="partner logo" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 py-3 text-center">
+                  <div class="row d-flex align-items-center">
+                     <div class="col d-flex align-items-center justify-content-center">
+                        <a href="">
+                           <img src="assets/img/partner-logo/tech-agrim.png" alt="partner logo" class="img-fluid" style="max-width:150px;">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="row d-flex flex-column">
+                     <div class="col">
+                        <img src="assets/img/partner-logo/digital-partner.png" alt="partner logo" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 py-3 text-center">
+                  <div class="row d-flex align-items-center">
+                     <div class="col d-flex align-items-center justify-content-center">
+                        <a href="">
+                           <img src="assets/img/partner-logo/nimbu.png" alt="partner logo">
+                        </a>
+                     </div>
+                     <div class="col d-flex align-items-center justify-content-center">
+                        <a href="">
+                           <img src="assets/img/partner-logo/new-delhi.png" alt="partner logo">
+                        </a>
+                     </div>
+                     <div class="col d-flex align-items-center justify-content-center">
+                        <a href="">
+                           <img src="assets/img/partner-logo/akser-haveli.png" alt="partner logo">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="row d-flex flex-column">
+                     <div class="col">
+                        <img src="assets/img/partner-logo/hospitality-partner.png" alt="partner logo" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="container py-4">
+            <div class="row align-items-end">
+               <div class="col-md-3 py-3">
+                  <div class="row d-flex align-items-center justify-content-center">
+                     <div class="col d-flex align-items-center justify-content-center">
+                        <a href="">
+                           <img src="assets/img/partner-logo/malhistream.png" alt="partner logo" class="img-fluid">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="row d-flex flex-column">
+                     <div class="col">
+                        <img src="assets/img/partner-logo/live-stream-partner.png" alt="partner logo" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 pt-5 pb-3">
+                  <div class="row d-flex align-items-center justify-content-center">
+                     <div class="col d-flex align-items-center justify-content-center">
+                        <a href="">
+                           <img src="assets/img/partner-logo/inglot.png" alt="partner logo" class="img-fluid" style="max-width:150px;">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="row d-flex flex-column">
+                     <div class="col">
+                        <img src="assets/img/partner-logo/gift-partner.png" alt="partner logo" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 py-3">
+                  <div class="row d-flex align-items-center justify-content-center">
+                     <div class="col d-flex align-items-center justify-content-center">
+                        <a href="">
+                           <img src="assets/img/partner-logo/scandic-desi.png" alt="partner logo" class="img-fluid" style="max-width:150px;">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="row d-flex flex-column">
+                     <div class="col">
+                        <img src="assets/img/partner-logo/display-partner.png" alt="partner logo" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 py-3">
+                  <div class="row d-flex align-items-center justify-content-center">
+                     <div class="col d-flex align-items-center justify-content-center">
+                        <a href="">
+                           <img src="assets/img/partner-logo/lofoten-seaweed.png" alt="partner logo" class="img-fluid">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="row d-flex flex-column">
+                     <div class="col">
+                        <img src="assets/img/partner-logo/nutritional-partner.png" alt="partner logo" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
       </div>
+   </section>
+   <section>
+      <div class="container">
+         <div class="row pt-5">
+            <div class="col-md-12 text-center">
+               <h2 style="color: #808080;">RAFFLE PARTNERS</h2>
+            </div>
+         </div>
+         <div class="container pt-5">
+            <div class="row align-items-center justify-content-center">
+               <div class="col-md-2 py-5 text-center">
+                  <a href="">
+                     <img src="assets/img/partner-logo/qatar.png" alt="partner logo" class="img-fluid">
+                  </a>
+               </div>
+               <div class="col-md-2 py-5 text-center">
+                  <a href="">
+                     <img src="assets/img/partner-logo/tusenfryd.png" alt="partner logo" class="img-fluid">
+                  </a>
+               </div>
+               <div class="col-md-2 py-5 text-center">
+                  <a href="">
+                     <img src="assets/img/partner-logo/megazone.png" alt="partner logo" class="img-fluid">
+                  </a>
+               </div>
+               <div class="col-md-2 py-5 text-center">
+                  <a href="">
+                     <img src="assets/img/partner-logo/rituals.png" alt="partner logo" class="img-fluid">
+                  </a>
+               </div>
+               <div class="col-md-2 py-5 text-center">
+                  <a href="">
+                     <img src="assets/img/partner-logo/visit-oslo.png" alt="partner logo" class="img-fluid">
+                  </a>
+               </div>
+            </div>
+            <div class="row py-4 align-items-center">
+               <div class="col-md-3 py-5 text-center">
+                  <a href="">
+                     <img src="assets/img/partner-logo/timma.png" alt="partner logo" class="img-fluid">
+                  </a>
+               </div>
+               <div class="col-md-3 py-5 text-center">
+                  <a href="">
+                     <img src="assets/img/partner-logo/snx.png" alt="partner logo" class="img-fluid">
+                  </a>
+               </div>
+               <div class="col-md-3 py-5 text-center">
+                  <a href="">
+                     <img src="assets/img/partner-logo/burger-king.png" alt="partner logo" class="img-fluid">
+                  </a>
+               </div>
+               <div class="col-md-3 py-5 text-center">
+                  <a href="">
+                     <img src="assets/img/partner-logo/nila-indian-rendezvous.png" alt="partner logo" class="img-fluid">
+                  </a>
+               </div>
+            </div>
+         </div>
    </section>
    <section class="contact-our-area section-padding-100-0" id="contactus">
       <div class="container">
@@ -709,8 +838,7 @@
                   <!-- Single Contact Info -->
                   <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
                      <p>Address:</p>
-                     <h6><a href="https://www.google.com/maps/place/Vallhall+Arena/@59.9204919,10.8039568,17z/data=!3m1!4b1!4m5!3m4!1s0x46416fb28c0cbb4f:0xb5f1063a32b8e3e9!8m2!3d59.9204919!4d10.8061455"
-                           style="color:white" target="_blank">Dronning Margretes Vei 11, 0663 Oslo</a></h6>
+                     <h6><a href="https://www.google.com/maps/place/Vallhall+Arena/@59.9204919,10.8039568,17z/data=!3m1!4b1!4m5!3m4!1s0x46416fb28c0cbb4f:0xb5f1063a32b8e3e9!8m2!3d59.9204919!4d10.8061455" style="color:white" target="_blank">Dronning Margretes Vei 11, 0663 Oslo</a></h6>
                   </div>
                   <!-- Single Contact Info -->
                   <!-- Single Contact Info -->
@@ -732,36 +860,31 @@
                               <!-- Form Group -->
                               <div class="col-12 col-lg-6">
                                  <div class="form-group">
-                                    <input type="text" class="form-control mb-30" name="name" id="name"
-                                       placeholder="Your Name" required>
+                                    <input type="text" class="form-control mb-30" name="name" id="name" placeholder="Your Name" required>
                                  </div>
                               </div>
                               <!-- Form Group -->
                               <div class="col-12 col-lg-6">
                                  <div class="form-group">
-                                    <input type="text" class="form-control mb-30" name="name" id="name2"
-                                       placeholder="Last Name" required>
+                                    <input type="text" class="form-control mb-30" name="name" id="name2" placeholder="Last Name" required>
                                  </div>
                               </div>
                               <!-- Form Group -->
                               <div class="col-12 col-lg-6">
                                  <div class="form-group">
-                                    <input type="email" class="form-control mb-30" name="email" id="email"
-                                       placeholder="E-mail *" required>
+                                    <input type="email" class="form-control mb-30" name="email" id="email" placeholder="E-mail *" required>
                                  </div>
                               </div>
                               <!-- Form Group -->
                               <div class="col-12 col-lg-6">
                                  <div class="form-group">
-                                    <input type="text" class="form-control mb-30" name="subject" id="subject"
-                                       placeholder="Your Number *" required>
+                                    <input type="text" class="form-control mb-30" name="subject" id="subject" placeholder="Your Number *" required>
                                  </div>
                               </div>
                               <!-- Form Group -->
                               <div class="col-12">
                                  <div class="form-group">
-                                    <textarea name="message" class="form-control mb-30" id="message" cols="30" rows="6"
-                                       placeholder="Your Message *"></textarea required>
+                                    <textarea name="message" class="form-control mb-30" id="message" cols="30" rows="6" placeholder="Your Message *"></textarea required>
                                  </div>
                               </div>
                               <!-- Button -->
@@ -781,8 +904,8 @@
    <!-- Contact Area End -->
    <!-- Footer Area Start -->
    <?php
-    require_once 'elements/footer.php'
-    ?>
+   require_once 'elements/footer.php'
+   ?>
    <!-- Footer Area End -->
    <!-- **** All JS Files ***** -->
    <!-- jQuery 2.2.4 -->
