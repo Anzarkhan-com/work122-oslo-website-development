@@ -793,19 +793,19 @@
                </div>
                <div class="col-md-2 py-5 text-center">
                   <a href="">
-                     <img src="assets/img/partner-logo/visit-oslo.png" alt="partner logo" class="img-fluid">
+                     <img src="assets/img/partner-logo/timma.png" alt="partner logo" class="img-fluid">
                   </a>
                </div>
             </div>
             <div class="row py-4 align-items-center">
                <div class="col-md-3 py-5 text-center">
                   <a href="">
-                     <img src="assets/img/partner-logo/timma.png" alt="partner logo" class="img-fluid">
+                     <img src="assets/img/partner-logo/snx.png" alt="partner logo" class="img-fluid">
                   </a>
                </div>
                <div class="col-md-3 py-5 text-center">
                   <a href="">
-                     <img src="assets/img/partner-logo/snx.png" alt="partner logo" class="img-fluid">
+                     <img src="assets/img/partner-logo/visit-oslo.png" alt="partner logo" class="img-fluid">
                   </a>
                </div>
                <div class="col-md-3 py-5 text-center">
