@@ -240,10 +240,10 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-6 p-0">
+               <!-- <div class="col-md-6 p-0">
                   <div class="akc-block-2 h-200">
                      <div class="akc-block-bg-3 h-200">
-                        <!-- js countdown timer -->
+                        
                         <div class="countdown-timer akc-block-timer" data-date="2023/05/06">
                            <div class="countdown d-flex justify-content-center">
                               <div class="countdown__item">
@@ -269,6 +269,18 @@
                         </div>
                      </div>
                   </div>
+               </div> -->
+
+               <div class="col-md-6 p-0">
+                  <div class="akc-block-2 h-200">
+                     <div class="akc-block-bg-3 h-200 py-5">
+                        <!-- js countdown timer -->
+                       <h1> Live Streaming </h1>
+                       <div>
+                              <a href="https://www.youtube.com/live/YVQjJljsqxQ?feature=share" target="_blank" class="akc-block-4-btn" style="background:blue">VIEW NOW</a>
+                           </div>
+                     </div>
+                  </div>
                </div>
                <div class="col-md-6 p-0">
                   <div class="akc-block h-100" style="border: 3px solid #fff;">
@@ -278,7 +290,7 @@
                               GREATEST CULTURAL EVENT!
                            </div>
                            <div>
-                              <a href=" https://billetto.no/en/e/oslo-colour-festival-2023-tickets-799853/select?color=%238b24fb&locale=en&whitelabel=true" target="_blank" class="akc-block-4-btn">BOOK NOW</a>
+                              <a href="https://billetto.no/en/e/oslo-colour-festival-2023-tickets-799853/select?color=%238b24fb&locale=en&whitelabel=true" target="_blank" class="akc-block-4-btn">BOOK NOW</a>
                            </div>
                         </div>
                      </div>
