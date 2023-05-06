@@ -275,10 +275,12 @@
                   <div class="akc-block-2 h-200">
                      <div class="akc-block-bg-3 h-200 py-5">
                         <!-- js countdown timer -->
-                       <h1> Live Streaming </h1>
-                       <div>
-                              <a href="https://www.youtube.com/live/YVQjJljsqxQ?feature=share" target="_blank" class="akc-block-4-btn" style="background:blue">VIEW NOW</a>
-                           </div>
+                        <h1> Live Streaming </h1>
+                        <div>
+                           <!-- <a href="https://www.youtube.com/live/YVQjJljsqxQ?feature=share" target="_blank" class="akc-block-4-btn" style="background:blue">Watch Now</a> -->
+                           <!-- youtube embed -->
+                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YVQjJljsqxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
                      </div>
                   </div>
                </div>
