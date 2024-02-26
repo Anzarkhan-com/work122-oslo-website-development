@@ -34,10 +34,11 @@
             <div class="col-md-12">
                 <div class="akc-footer-bottom">
                     <div class="akc-footer-bottom-center ">
-                        <p class="text-center  akc-ft-size-large py-2 pb-0">Copyright © 2024 All rights reserved | This template is made with Love by Indian community in Norway.</p>
+                        <p class="text-center  akc-ft-size-large py-2 pb-0">Copyright © 2024 All rights reserved | This
+                            template is made with Love by Indian community in Norway.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
 </section>
