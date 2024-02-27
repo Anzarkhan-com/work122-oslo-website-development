@@ -1,78 +1,106 @@
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 
+body{
+    overflow-x: hidden;
+}
+
 .navbar {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #fff;
-    /* Set the text color of the links */
+  color: #fff;
+  /* Set the text color of the links */
 }
 
 .akc-footer {
-    background-image: url(../images/home-page/contact.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 610px;
+  background-image: url(../images/home-page/contact.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 610px;
 }
 
 .akc-footer-bg {
-    background-color: #ffffff69;
+  background-color: #ffffff69;
 }
 
 .akc-custom-hader {
-    font-family: "Titan One", sans-serif;
-    font-size: 46px;
+  font-family: "Titan One", sans-serif;
+  font-size: 46px;
 }
 
 .akc-custom-subtitle {
-    font-family: "Titan One", sans-serif;
-    font-size: 19px;
+  font-family: "Titan One", sans-serif;
+  font-size: 19px;
 }
 
 .akc-main {
-    background-image: url(../images/home-page/main-hero.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 850px;
+  background-image: url(../images/home-page/main-hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 850px;
 }
 
 .akc-holi {
-    background-image: url(../images/home-page/hero.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 850px;
+  background-image: url(../images/home-page/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 850px;
 }
-.akc-color{
-    background-color: #44C8F5 ;
+.akc-color {
+  background-color: #44c8f5;
 }
-.custom-text-color{
-    color: #0E485B;
+.custom-text-color {
+  color: #0e485b;
 }
-.custom-link{
-    text-decoration: none;
+.custom-link {
+  text-decoration: none;
 }
-.galary-color{
-    font-size: 24px;
-    color: #ED1E79 !important;
+.galary-color {
+  font-size: 24px;
+  color: #ed1e79 !important;
 }
-.akc-client-section{
-    background-color: #E1E1E1 !important;
+.akc-client-section {
+  background-color: #e1e1e1 !important;
 }
-.akc-border-custom{
-    border-bottom: 1px solid #ED1E79;
+.akc-border-custom {
+  border-bottom: 1px solid #ed1e79;
 }
-.footer-custom{
-    background-color: #B2D235;
+.footer-custom {
+  background-color: #b2d235;
 }
-.custom-button{
-    width: 120px;
-    background-color: #ED1E79 !important;
-    color: white !important;
+.custom-button {
+  width: 120px;
+  background-color: #ed1e79 !important;
+  color: white !important;
+}
+
+/* timer  */
+
+#timer {
+  font-size: 3em;
+  font-weight: 100;
+  color: white;
+  text-shadow: 0 0 20px #b13070;
+
+  div {
+    display: inline-block;
+    min-width: 90px;
+
+    span {
+      color: #ffffff;
+      display: block;
+      font-size: 0.35em;
+      font-weight: 400;
+    }
+  }
+}
+.akc-timer{
+    background-image: linear-gradient( #69257B , #D6207C);
 }
