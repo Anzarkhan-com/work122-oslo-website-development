@@ -12,13 +12,13 @@
                         <a class="nav-link active" href="#">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">EVENT DETAILS</a>
+                        <a class="nav-link active" href="event-details.php">EVENT DETAILS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">SPONSORSHIP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">INFOPACK</a>
+                        <a class="nav-link active" href="info-pack.php">INFOPACK</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">FAQ'S</a>
