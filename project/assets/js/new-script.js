@@ -1,5 +1,5 @@
 function updateTimer() {
-    future = Date.parse("March 25, 2024 12:00:00");
+    future = Date.parse("MAY 4, 2024 12:00:00");
     now = new Date();
     diff = future - now;
 
@@ -13,11 +13,6 @@ function updateTimer() {
     m = mins - hours * 60;
     s = secs - mins * 60;
 
-    document.getElementById("timer")
-        .innerHTML =
-        '<div>' + d + '<span>days</span></div>' +
-        '<div>' + h + '<span>hours</span></div>' +
-        '<div>' + m + '<span>minutes</span></div>' +
-        '<div>' + s + '<span>seconds</span></div>';
+    document.getElementById("timer").innerHTML = '<div>' + d + '<span>days</span></div>' + '<div>' + h + '<span>hours</span></div>' + '<div>' + m + '<span>minutes</span></div>' + '<div>' + s + '<span>seconds</span></div>';
 }
 setInterval('updateTimer()', 1000);

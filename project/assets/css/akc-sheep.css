@@ -1,11 +1,11 @@
 /* utility:card */
 .tralim-card {
-  /* 0px 10px 50px 0px rgba(26, 46, 85, 0.1);
+    /* 0px 10px 50px 0px rgba(26, 46, 85, 0.1);
 border-radius: 10px; */
-  box-shadow: 0px 2px 7px 0px rgba(26, 46, 85, 0.1);
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
+    box-shadow: 0px 2px 7px 0px rgba(26, 46, 85, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 /* utility:card */
@@ -14,216 +14,219 @@ border-radius: 10px; */
 
 /* Extra extra small */
 .akc-heading-xxx-small {
-  font-size: 12px;
-  font-weight: bold !important;
-  line-height: 1.2;
+    font-size: 12px;
+    font-weight: bold !important;
+    line-height: 1.2;
 }
 
 /* Extra small */
 .akc-heading-xx-small {
-  font-size: 14px;
-  font-weight: bold !important;
-  line-height: 1.2;
+    font-size: 14px;
+    font-weight: bold !important;
+    line-height: 1.2;
 }
 
 /* Small */
 .akc-heading-x-small {
-  font-size: 16px;
-  font-weight: bold !important;
-  line-height: 1.2;
+    font-size: 16px;
+    font-weight: bold !important;
+    line-height: 1.2;
 }
 
 /* small */
 .akc-heading-small {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.2;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 /* Medium */
 .akc-heading-medium {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1.2;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 /* Large */
 .akc-heading-large {
-  font-size: 28px;
-  font-weight: bold;
-  line-height: 1.2;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 /* Extra large */
 .akc-heading-x-large {
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 1.2;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 /* Extra extra large */
 .akc-heading-xx-large {
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 1.2;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 /* Extra extra extra large */
 .akc-heading-xxx-large {
-  font-size: 60px;
-  font-weight: bold;
-  line-height: 1.2;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 /* Huge */
 .akc-heading-xxxx-large {
-  font-size: 72px;
-  font-weight: bold;
-  line-height: 1.2;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.2;
 }
+
 
 /* utility:heading */
 
 /* utility:paragraph */
 /* Extra small paragraph */
 .akc-paragraph-xx-small {
-  font-size: 12px;
-  line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.5;
 }
 
 /* Small paragraph */
 .akc-paragraph-x-small {
-  font-size: 14px;
-  line-height: 1.5;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 /* Standard paragraph */
 .akc-paragraph {
-  font-size: 16px;
-  line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* Medium paragraph */
 .akc-paragraph-medium {
-  font-size: 18px;
-  line-height: 1.5;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 /* Large paragraph */
 .akc-paragraph-large {
-  font-size: 20px;
-  line-height: 1.5;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 /* Extra large paragraph */
 .akc-paragraph-x-large {
-  font-size: 24px;
-  line-height: 1.5;
+    font-size: 24px;
+    line-height: 1.5;
 }
 
 /* utility:paragraph */
 
+
+
 /* utility:rect-box */
 .akc-rect-box-xxx-small {
-  height: 5px;
-  width: 7px;
+    height: 5px;
+    width: 7px;
 }
 
 .akc-rect-box-xx-small {
-  height: 10px;
-  width: 15px;
+    height: 10px;
+    width: 15px;
 }
 
 .akc-rect-box-x-small {
-  height: 20px;
-  width: 30px;
+    height: 20px;
+    width: 30px;
 }
 
 .akc-rect-box-small {
-  height: 30px;
-  width: 50px;
+    height: 30px;
+    width: 50px;
 }
 
 .akc-rect-box-medium {
-  height: 50px;
-  width: 75px;
+    height: 50px;
+    width: 75px;
 }
 
 .akc-rect-box-large {
-  height: 75px;
-  width: 100px;
+    height: 75px;
+    width: 100px;
 }
 
 .akc-rect-box-x-large {
-  height: 100px;
-  width: 150px;
+    height: 100px;
+    width: 150px;
 }
 
 .akc-rect-box-xx-large {
-  height: 150px;
-  width: 200px;
+    height: 150px;
+    width: 200px;
 }
 
 .akc-rect-box-xxx-large {
-  height: 200px;
-  width: 300px;
+    height: 200px;
+    width: 300px;
 }
 
 /* css:rect-box */
 
 /* Circular boxes */
 .akc-circle-box-xxx-small {
-  height: 5px;
-  width: 5px;
-  border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
 }
 
 .akc-circle-box-xx-small {
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
 }
 
 .akc-circle-box-x-small {
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
 }
 
 .akc-circle-box-small {
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
 }
 
 .akc-circle-box-medium {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 
 .akc-circle-box-large {
-  height: 75px;
-  width: 75px;
-  border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
 }
 
 .akc-circle-box-x-large {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
 
 .akc-circle-box-xx-large {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
 }
 
 .akc-circle-box-xxx-large {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 /* utility:rect-box */
@@ -232,833 +235,891 @@ border-radius: 10px; */
 /* facebook */
 /* Common styles for social buttons */
 .akc-social-btn {
-  border-radius: 100px;
-  height: 50px;
-  width: 50px;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1.5;
-  text-align: center;
-  padding: 10px;
-  margin-right: 10px;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
 }
 
 /* Facebook */
 .akc-btn-facebook {
-  background-color: #3b5998;
-  color: white;
+    background-color: #3b5998;
+    color: white;
 }
 
 .akc-btn-facebook:hover {
-  background-color: #ffffff;
-  color: #3b5998;
-  border: 1px solid #3b5998;
+    background-color: #FFFFFF;
+    color: #3b5998;
+    border: 1px solid #3b5998;
 }
 
 .akc-btn-facebook-light {
-  background-color: #e8f1fe !important;
-  color: #3b5998 !important;
+    background-color: #E8F1FE !important;
+    color: #3b5998 !important;
 }
 
 /* Twitter */
 .akc-btn-twitter {
-  background-color: #000000;
-  color: white;
+    background-color: #000000;
+    color: white;
 }
 
 .akc-btn-twitter:hover {
-  background-color: #ffffff;
-  color: #000000;
-  border: 1px solid #000000;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
 }
 
 .akc-btn-twitter-light {
-  background-color: #2c2b2b1a !important;
-  color: #000000 !important;
+    background-color: #2c2b2b1a !important;
+    color: #000000 !important;
 }
 
 /* WhatsApp */
 .akc-btn-whatsapp {
-  background-color: #25d366;
-  color: white;
+    background-color: #25D366;
+    color: white;
 }
 
 .akc-btn-whatsapp:hover {
-  background-color: #ffffff;
-  color: #25d366;
-  border: 1px solid #25d366;
+    background-color: #FFFFFF;
+    color: #25D366;
+    border: 1px solid #25D366;
 }
 
 .akc-btn-whatsapp-light {
-  background-color: #e9fbf0 !important;
-  color: #25d366 !important;
+    background-color: #E9FBF0 !important;
+    color: #25D366 !important;
 }
 
 /* LinkedIn */
 .akc-btn-linkedin {
-  background-color: #0077b5;
-  color: white;
+    background-color: #0077B5;
+    color: white;
 }
 
 .akc-btn-linkedin:hover {
-  background-color: #ffffff;
-  color: #0077b5;
-  border: 1px solid #0077b5;
+    background-color: #FFFFFF;
+    color: #0077B5;
+    border: 1px solid #0077B5;
 }
 
 .akc-btn-linkedin-light {
-  background-color: #0077b51a !important;
-  color: #0077b5 !important;
+    background-color: #0077B51a !important;
+    color: #0077B5 !important;
 }
 
 /* Telegram */
 .akc-btn-telegram {
-  background-color: #0088cc;
-  color: white;
+    background-color: #0088cc;
+    color: white;
 }
 
 .akc-btn-telegram:hover {
-  background-color: #ffffff;
-  color: #0088cc;
-  border: 1px solid #0088cc;
+    background-color: #FFFFFF;
+    color: #0088cc;
+    border: 1px solid #0088cc;
 }
 
 .akc-btn-telegram-light {
-  background-color: #e6f3fa !important;
-  color: #0088cc !important;
+    background-color: #E6F3FA !important;
+    color: #0088cc !important;
 }
 
 /* Email */
 .akc-btn-email {
-  background-color: #d44638;
-  color: white;
+    background-color: #D44638;
+    color: white;
 }
 
 .akc-btn-email:hover {
-  background-color: #ffffff;
-  color: #d44638;
-  border: 1px solid #d44638;
+    background-color: #FFFFFF;
+    color: #D44638;
+    border: 1px solid #D44638;
 }
 
 .akc-btn-email-light {
-  background-color: #d446381a !important;
-  color: #d44638 !important;
+    background-color: #D446381a !important;
+    color: #D44638 !important;
 }
 
 /* Copy */
 .akc-btn-copy {
-  background-color: #000000;
-  color: white;
+    background-color: #000000;
+    color: white;
 }
 
 .akc-btn-copy:hover {
-  background-color: #ffffff;
-  color: #000000;
-  border: 1px solid #000000;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
 }
 
 .akc-btn-copy-light {
-  background-color: #0000001a;
-  color: #000000;
+    background-color: #0000001a;
+    color: #000000;
 }
+
 
 /* social buttons */
 
+
+
+
+
+
+
 /* Shades of blue */
 .akc-text-blue {
-  color: #0074d9;
+    color: #0074D9;
 }
 
 .akc-text-light-blue {
-  color: #add8e6;
+    color: #ADD8E6;
 }
 
 .akc-text-navy {
-  color: #001f3f;
+    color: #001F3F;
 }
 
 /* Shades of green */
 .akc-text-green {
-  color: #2ecc40;
+    color: #2ECC40;
 }
 
 .akc-text-light-green {
-  color: #8bc34a;
+    color: #8BC34A;
 }
 
 .akc-text-olive {
-  color: #3d9970;
+    color: #3D9970;
 }
 
 /* Shades of red */
 .akc-text-red {
-  color: #ff4136;
+    color: #FF4136;
 }
 
 .akc-text-light-red {
-  color: #ef5350;
+    color: #EF5350;
 }
 
 .akc-text-maroon {
-  color: #800000;
+    color: #800000;
 }
 
 /* Shades of yellow */
 .akc-text-yellow {
-  color: #ffdc00;
+    color: #FFDC00;
 }
 
 .akc-text-light-yellow {
-  color: #fff9c4;
+    color: #FFF9C4;
 }
 
 .akc-text-gold {
-  color: #ffd700;
+    color: #FFD700;
 }
 
 /* Shades of purple */
 .akc-text-violet {
-  color: #9400d3;
+    color: #9400D3;
 }
 
 .akc-text-lavender {
-  color: #e6e6fa;
+    color: #E6E6FA;
 }
 
 .akc-text-mauve {
-  color: #8b008b;
+    color: #8B008B;
 }
 
 /* Shades of pink */
 .akc-text-pink {
-  color: #ff69b4;
+    color: #FF69B4;
 }
 
 .akc-text-light-pink {
-  color: #ffb6c1;
+    color: #FFB6C1;
 }
 
 .akc-text-dark-pink {
-  color: #ff1493;
+    color: #FF1493;
 }
 
 /* Shades of orange */
 .akc-text-orange {
-  color: #ffa500;
+    color: #FFA500;
 }
 
 .akc-text-light-orange {
-  color: #ffcc80;
+    color: #FFCC80;
 }
 
 .akc-text-dark-orange {
-  color: #ff8c00;
+    color: #FF8C00;
 }
 
 /* Shades of gray */
 .akc-text-gray {
-  color: #808080;
+    color: #808080;
 }
 
+
+
 .akc-text-light-gray {
-  color: #d3d3d3;
+    color: #D3D3D3;
 }
 
 .akc-text-dark-gray {
-  color: #a9a9a9;
+    color: #A9A9A9;
 }
+
+
 
 /* Shades of brown */
 .akc-text-brown {
-  color: #8b4513;
+    color: #8B4513;
 }
 
 .akc-text-light-brown {
-  color: #cd853f;
+    color: #CD853F;
 }
 
 .akc-text-dark-brown {
-  color: #a52a2a;
+    color: #A52A2A;
 }
 
 /* Shades of teal */
 .akc-text-teal {
-  color: #008080;
+    color: #008080;
 }
 
 .akc-text-light-teal {
-  color: #00ffff;
+    color: #00FFFF;
 }
 
 .akc-text-dark-teal {
-  color: #006666;
+    color: #006666;
 }
 
 .akc-text-tralim {
-  color: #f58021;
+    color: #F58021;
 }
 
 .akc-text-light-tralim {
-  color: #f58021;
+    color: #F58021;
+
+
+
 }
 
 .akc-text-tralim-secondary {
-  color: #1d3853;
+    color: #1d3853;
 }
 
 .akc-text-propage-secondary {
-  color: #2d2929;
+    color: #2d2929;
 }
 
 /* Shades of cyan */
 
+
+
+
 /* css:fw start */
 .akc-fw-xxx-small {
-  font-weight: 100;
+    font-weight: 100;
 }
 
 .akc-fw-xx-small {
-  font-weight: 200;
+    font-weight: 200;
 }
 
 .akc-fw-x-small {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 .akc-fw-small {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .akc-fw-medium {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .akc-fw-large {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .akc-fw-x-large {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .akc-fw-xx-large {
-  font-weight: 800;
+    font-weight: 800;
 }
 
 .akc-fw-xxx-large {
-  font-weight: 900;
+    font-weight: 900;
 }
 
 /* css:fw end */
 
+
 /* css:font-sizes */
 /* css:font-sizes */
 .akc-ft-size-xx-small {
-  font-size: 10px;
+    font-size: 10px;
 }
 
 .akc-ft-size-x-small {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 .akc-ft-size-small {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .akc-ft-size-medium {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .akc-ft-size-large {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .akc-ft-size-x-large {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 .akc-ft-size-xx-large {
-  font-size: 32px;
+    font-size: 32px;
 }
 
 .akc-ft-size-xxx-large {
-  font-size: 48px;
+    font-size: 48px;
 }
 
 /* css:font-sizes */
 
 /* css:displays */
 .akc-d-none {
-  display: none;
+    display: none;
 }
 
 .akc-d-block {
-  display: block;
+    display: block;
 }
 
 .akc-d-inline {
-  display: inline;
+    display: inline;
 }
 
 .akc-d-inline-block {
-  display: inline-block;
+    display: inline-block;
 }
 
 .akc-d-flex {
-  display: flex;
+    display: flex;
 }
 
 .akc-d-grid {
-  display: grid;
+    display: grid;
 }
 
 /* css:displays */
 
+
 /* css:border-radius */
 /* border */
 .akc-b-radius-xx-small {
-  border-radius: 2px;
+    border-radius: 2px;
 }
 
 /* Extra small */
 .akc-b-radius-x-small {
-  border-radius: 4px;
+    border-radius: 4px;
 }
 
 /* Small */
 .akc-b-radius-small {
-  border-radius: 8px;
+    border-radius: 8px;
 }
 
 /* Medium */
 .akc-b-radius-medium {
-  border-radius: 12px;
+    border-radius: 12px;
 }
 
 /* Large */
 .akc-b-radius-large {
-  border-radius: 16px;
+    border-radius: 16px;
 }
 
 /* Extra large */
 .akc-b-radius-x-large {
-  border-radius: 20px;
+    border-radius: 20px;
 }
+
 
 /* border top right */
 .akc-btr-radius-xx-small {
-  border-top-right-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
 /* Extra small */
 .akc-btr-radius-x-small {
-  border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
 }
 
 /* Small */
 .akc-btr-radius-small {
-  border-top-right-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 /* Medium */
 .akc-btr-radius-medium {
-  border-top-right-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 /* Large */
 .akc-btr-radius-large {
-  border-top-right-radius: 16px;
+    border-top-right-radius: 16px;
 }
 
 /* Extra large */
 .akc-btr-radius-x-large {
-  border-top-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 /* border bottom right */
 .akc-bbr-radius-xx-small {
-  border-bottom-right-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 
 /* Extra small */
 .akc-bbr-radius-x-small {
-  border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 /* Small */
 .akc-bbr-radius-small {
-  border-bottom-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 /* Medium */
 .akc-bbr-radius-medium {
-  border-bottom-right-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 /* Large */
 .akc-bbr-radius-large {
-  border-bottom-right-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 
 /* Extra large */
 .akc-bbr-radius-x-large {
-  border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
+
 
 /* border bottom left */
 .akc-bbl-radius-xx-small {
-  border-bottom-left-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
+
 
 /* Extra small */
 .akc-bbl-radius-x-small {
-  border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 /* Small */
 .akc-bbl-radius-small {
-  border-bottom-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 /* Medium */
 .akc-bbl-radius-medium {
-  border-bottom-left-radius: 12px;
+    border-bottom-left-radius: 12px;
 }
 
 /* Large */
 .akc-bbl-radius-large {
-  border-bottom-left-radius: 16px;
+    border-bottom-left-radius: 16px;
 }
 
 /* Extra large */
 .akc-bbl-radius-x-large {
-  border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 /* border top left */
 .akc-btl-radius-xx-small {
-  border-top-left-radius: 2px;
+    border-top-left-radius: 2px;
 }
+
 
 /* Extra small */
 .akc-btl-radius-x-small {
-  border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
 }
 
 /* Small */
 .akc-btl-radius-small {
-  border-top-left-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 /* Medium */
 .akc-btl-radius-medium {
-  border-top-left-radius: 12px;
+    border-top-left-radius: 12px;
 }
 
 /* Large */
 .akc-btl-radius-large {
-  border-top-left-radius: 16px;
+    border-top-left-radius: 16px;
 }
 
 /* Extra large */
 .akc-btl-radius-x-large {
-  border-top-left-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 /* border top */
 .akc-bt-radius-xx-small {
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
 /* Extra small */
 .akc-bt-radius-x-small {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 
 /* Small */
 .akc-bt-radius-small {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
+
+
+
+
 /* css:border-radius */
+
+
 
 /* css:overflow */
 /* Hidden */
 .akc-oflow-hidden {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 /* Visible */
 .akc-oflow-visible {
-  overflow: visible;
+    overflow: visible;
 }
 
 /* Scroll */
 .akc-oflow-scroll {
-  overflow: scroll;
+    overflow: scroll;
 }
 
 /* Auto */
 .akc-oflow-auto {
-  overflow: auto;
+    overflow: auto;
 }
 
 /* Clip */
 .akc-oflow-clip {
-  overflow: clip;
+    overflow: clip;
 }
 
 /* css:overflow */
 
+
 /* css:cursor */
 .akc-cur-pointer {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .akc-cur-default {
-  cursor: default;
+    cursor: default;
 }
 
 .akc-cur-wait {
-  cursor: wait;
+    cursor: wait;
 }
 
 .akc-cur-text {
-  cursor: text;
+    cursor: text;
 }
 
 .akc-cur-move {
-  cursor: move;
+    cursor: move;
 }
 
 .akc-cur-help {
-  cursor: help;
+    cursor: help;
 }
 
 .akc-cur-not-allowed {
-  cursor: not-allowed;
+    cursor: not-allowed;
 }
 
 .akc-cur-grab {
-  cursor: grab;
+    cursor: grab;
 }
 
 .akc-cur-grabbing {
-  cursor: grabbing;
+    cursor: grabbing;
 }
 
 .akc-cur-crosshair {
-  cursor: crosshair;
+    cursor: crosshair;
 }
 
 .akc-cur-ns-resize {
-  cursor: ns-resize;
+    cursor: ns-resize;
 }
 
 /* css:cursor */
+
 
 /* css:box-shadow */
 /* Extra extra small */
 
+
 .akc-box-shadow-xxx-small {
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Extra small */
 .akc-box-shadow-xx-small {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Small */
 .akc-box-shadow-x-small {
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Medium */
 .akc-box-shadow-medium {
-  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Large */
 .akc-box-shadow-large {
-  box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.2);
+    box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 /* Extra large */
 .akc-box-shadow-x-large {
-  box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.2);
+    box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.2);
 }
 
 /* css:box-shadow */
 
+
+
 /* css:width */
 .akc-width-5px {
-  width: 5px;
+    width: 5px;
 }
 
 .akc-width-10px {
-  width: 10px;
+    width: 10px;
 }
 
 .akc-width-15px {
-  width: 15px;
+    width: 15px;
 }
 
 .akc-width-20px {
-  width: 20px;
+    width: 20px;
 }
 
 .akc-width-25px {
-  width: 25px;
+    width: 25px;
 }
 
 .akc-width-30px {
-  width: 30px;
+    width: 30px;
 }
 
 .akc-width-50px {
-  width: 50px;
+    width: 50px;
 }
 
 .akc-width-75px {
-  width: 75px;
+    width: 75px;
 }
 
 .akc-width-100px {
-  width: 100px;
+    width: 100px;
 }
 
 .akc-width-150px {
-  width: 150px;
+    width: 150px;
 }
 
 .akc-width-200px {
-  width: 200px !important;
+    width: 200px !important;
 }
 
 .akc-width-300px {
-  width: 300px;
+    width: 300px;
 }
 
 /* css:width */
 
+
+
 /* css:background */
 .akc-bg-orange-tralim {
-  background-color: #f58021;
+    background-color: #F58021;
 }
 
 .akc-bg-light-orange-tralim {
-  background-color: #f6f4f1;
+    background-color: #f6f4f1;
 }
 
+
+
 .bg-light-warning {
-  background-color: #fff8dd !important;
+    background-color: #fff8dd !important;
+
 }
 
 .bg-light-primary {
-  background-color: #f1faff !important;
+    background-color: #f1faff !important;
 }
+
+
 
 .bg-light-success {
-  background-color: #e8fff3;
+    background-color: #e8fff3;
+
+
 }
 
+
+
+
 .bg-light-danger {
-  background-color: #f1416c5f;
+    background-color: #f1416c5f;
 }
 
 /* css:background */
 
+
 .float-end {
-  float: right;
+    float: right;
 }
 
 .float-start {
-  float: left;
+    float: left;
 }
 
+
+
+
 .fs-1 {
-  font-size: 1.5rem !important;
+    font-size: 1.5rem !important;
 }
 
 .fs-2 {
-  font-size: 1.25rem !important;
+    font-size: 1.25rem !important;
 }
 
 .fs-3 {
-  font-size: 1rem !important;
+    font-size: 1rem !important;
 }
 
 .fs-4 {
-  font-size: 0.875rem !important;
+    font-size: 0.875rem !important;
 }
 
 .fs-5 {
-  font-size: 0.75rem !important;
+    font-size: 0.75rem !important;
 }
 
 .fs-6 {
-  font-size: 0.625rem !important;
+    font-size: 0.625rem !important;
 }
 
 .fs-10 {
-  font-size: 4rem !important;
+    font-size: 4rem !important;
 }
 
+
+
+
+
 .top-0-bottom-0 {
-  top: 0;
-  bottom: 0;
+    top: 0;
+    bottom: 0;
 }
+
+
+
 
 /* utility borders*/
 .akc-border-bottom-light {
-  border-bottom: 1px solid lightgray;
-  /* Example: A light gray 1px solid border */
+    border-bottom: 1px solid lightgray;
+    /* Example: A light gray 1px solid border */
 }
 
 .akc-border-right-propage {
-  border-right: 1px solid #7265e0;
-  /* Example: A light gray 1px solid border */
+    border-right: 1px solid #7265E0;
+    /* Example: A light gray 1px solid border */
 }
 
 .akc-border-right-light {
-  border-right: 1px solid lightgray;
-  /* Example: A light gray 1px solid border */
+    border-right: 1px solid lightgray;
+    /* Example: A light gray 1px solid border */
 }
 
 .akc-border-light {
-  border: 1px solid lightgray;
-  /* Example: A light gray 1px solid border */
+    border: 1px solid lightgray;
+    /* Example: A light gray 1px solid border */
 }
 
 .akc-border-light-small {
-  border: 0.5px solid lightgray;
-  /* Example: A light gray 1px solid border */
+    border: 0.5px solid lightgray;
+    /* Example: A light gray 1px solid border */
 }
+
 
 /* utility : background */
 .akc-bg-light {
-  background-color: #f6f4f1;
+    background-color: #f6f4f1;
 }
 
 .akc-bg-f5 {
-  background-color: #f5f5f5;
+    background-color: #f5f5f5;
 }
 
 .akc-bg-propage-light {
-  background-color: #f2f0ff;
+    background-color: #f2f0ff;
 }
 
 /* #e1e0ff */
 .akc-bg-propage-light-2 {
-  background-color: #e1e0ff;
+    background-color: #e1e0ff;
 }
 
 .akc-bg-propage {
-  background-color: #7265e0;
+    background-color: #7265E0;
 }
 
 /* utility : background */

@@ -9,17 +9,11 @@
     <!-- Title -->
     <title>Infopack - Oslo Colour Festival</title>
     <!-- Favicon -->
-    <link rel="icon" href="assets/image/old-img/core-img/favicon_io/favicon.ico">
+    <link rel="icon" href="assets/images/old-img/core-img/favicon_io/favicon.ico">
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/akc-sheep.css">
+    <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/css/new-style.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Messenger Chat plugin Code -->
     <div id="fb-root"></div>
     <!-- Your Chat plugin code -->
@@ -28,14 +22,9 @@
 </head>
 
 <body>
-    <!-- Preloader -->
-    <div id="preloader">
-        <div class="loader"></div>
-    </div>
-    <!-- /Preloader -->
     <!-- Header Area Start -->
     <?php
-    require_once "elements/header.php"
+    include 'elements/header.php';
     ?>
     <!-- Header Area End -->
     <!-- Breadcrumb Area Start -->
@@ -59,7 +48,6 @@
     <!-- Our Blog Area Start -->
     <div class="our-blog-area section-padding-100" style="padding-top:25px !important;">
         <div class="container">
-
             <ul>
                 <li>Here you will find important and practical information about the <b>Oslo Colour Festival.</b> </li>
                 <li>Please read the document carefully and if you have any queries, please do not hesitate to contact us at
@@ -67,11 +55,9 @@
                 </li>
             </ul>
             </br>
-
             <h3>Event Details</h3>
             <ul>
                 <table class="table">
-
                     <tbody>
                         <tr>
                             <td>Date</td>
@@ -95,20 +81,17 @@
                             <td>
                                 <div class="container">
                                     <div class="row align-items-center">
-                                         <div class="col-12 col-md-6">
+                                        <div class="col-12 col-md-6">
                                             <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
                                                 <h3 class="wow fadeInUp" data-wow-delay="300ms">Scan with smartphone camera</h3>
                                                 <img src="assets/img/core-img/activities.png" style="width: 200px; height: 200px;" alt="">
                                             </div>
                                         </div> 
-                                        
                                         <div class="col-12 col-md-6">
                                             <div class="about-content-text mb-80">
                                                 <a href="/activities.html" class="btn confer-btn w-100 mb-30">Click Here<i class="zmdi zmdi-long-arrow-right"></i></a>
                                             </div>
                                         </div>
-                                        
-
                                     </div>
                                 </div>
                             </td>
@@ -158,25 +141,25 @@
             </br>
         </div>
     </div>
-
     <!-- Our Blog Area End -->
     <!-- Footer Area Start -->
     <?php
-    require_once "elements/footer.php"
+    include 'elements/footer.php';
     ?>
     <!-- Footer Area End -->
     <!-- **** All JS Files ***** -->
     <!-- jQuery 2.2.4 -->
-    <script src="assets/new-js/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
     <!-- Popper -->
-    <script src="assets/new-js/js/popper.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
     <!-- Bootstrap -->
-    <script src="assets/new-js/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
     <!-- All Plugins -->
-    <script src="assets/new-js/js/confer.bundle.js"></script>
+    <script src="assets/js/confer.bundle.js"></script>
     <!-- Active -->
-    <script src="assets/new-js/js/default-assets/active.js"></script>
+    <script src="assets/js/default-assets/active.js"></script>
     <script src="https://kit.fontawesome.com/7f9bada808.js" crossorigin="anonymous"></script>
+    <!-- <script src="assets/js/new-script.js"></script> -->
 </body>
 
 </html>
