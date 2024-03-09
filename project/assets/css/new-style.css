@@ -46,12 +46,13 @@ body {
 }
 
 .akc-holi {
-  background-image: url(../images/home-page/hero.png);
-  background-size: cover;
+  background-image: url(../images/home-page/group.jpg);
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: 850px;
+  margin-top: -110px;
 }
 
 .akc-color {
@@ -111,5 +112,30 @@ body {
 }
 
 .akc-timer {
-  background-image: linear-gradient(#69257B, #D6207C);
+  background-image: linear-gradient(#69257b, #d6207c);
+}
+.akc-gallery {
+  background-image: url(../images/home-page/galary.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 450px;
+  margin-top: -105px;
+}
+
+.custom-gtext {
+  font-size: 60px;
+  color: #1d28b2;
+}
+
+.gnew-text{
+  font-size: 35px;
+}
+.akc-custom-divider{
+  border-bottom: 2px solid #ed1e79;
+}
+.btn-custom{
+  background-color: #ff0000 !important;
+  color: white !important;
 }

@@ -7,29 +7,32 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
+                    <li class="nav-item akc-fw-large ">
                         <a class="nav-link active" href="#">ABOUT US</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item akc-fw-large ">
                         <a class="nav-link active" href="event-details.php">EVENT DETAILS</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item akc-fw-large ">
                         <a class="nav-link active" href="#">SPONSORSHIP</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item akc-fw-large ">
                         <a class="nav-link active" href="infopack.php">INFOPACK</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item akc-fw-large ">
+                        <a class="nav-link active" href="gallery.php">GALLERY</a>
+                    </li>
+                    <li class="nav-item akc-fw-large ">
                         <a class="nav-link active" href="#">FAQ'S</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item akc-fw-large ">
                         <a class="nav-link active" href="#">CONTACT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#"><button type="button" class="btn btn-primary">Book Now</button></a>
+                        <a class="nav-link active" href="#"><button type="button" class="btn btn-custom"><i class="fa-solid fa-share" style="color: #ffffff;"></i>  Book Now</button></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#"><button type="button" class="btn btn-primary">live Now</button></a>
+                        <a class="nav-link active" href="#"><button type="button" class="btn btn-custom"><i class="fa-solid fa-circle-play" style="color: #ffffff;"></i>   live Now</button></a>
                     </li>
                 </ul>
             </div>

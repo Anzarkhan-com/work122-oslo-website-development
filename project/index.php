@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/new-style.css">
     <link rel="stylesheet" href="assets/css/akc-sheep.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -151,10 +152,13 @@
                 </div>
                 <div class="row justify-content-center py-3">
                     <div class="col-md-2">
+                        <img src="assets/images/client-logo/new.png" alt="image" class="img-fluid">
+                    </div>
+                    <div class="col-md-2">
                         <img src="assets/images/client-logo/1.png" alt="image" class="img-fluid">
                     </div>
                     <div class="col-md-2">
-                        <img src="assets/images/client-logo/14.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/2.png" alt="image" class="img-fluid">
                     </div>
                     <div class="col-md-2">
                         <img src="assets/images/client-logo/3.png" alt="image" class="img-fluid">
@@ -162,11 +166,11 @@
                     <div class="col-md-2">
                         <img src="assets/images/client-logo/4.png" alt="image" class="img-fluid">
                     </div>
-                    <div class="col-md-2">
-                        <img src="assets/images/client-logo/11.png" alt="image" class="img-fluid">
-                    </div>
                 </div>
                 <div class="row justify-content-center py-3">
+                    <div class="col-md-2">
+                        <img src="assets/images/client-logo/5.png" alt="image" class="img-fluid">
+                    </div>
                     <div class="col-md-2">
                         <img src="assets/images/client-logo/6.png" alt="image" class="img-fluid">
                     </div>
@@ -179,25 +183,22 @@
                     <div class="col-md-2">
                         <img src="assets/images/client-logo/9.png" alt="image" class="img-fluid">
                     </div>
-                    <div class="col-md-2">
-                        <img src="assets/images/client-logo/10.png" alt="image" class="img-fluid">
-                    </div>
                 </div>
                 <div class="row justify-content-center py-3">
                     <div class="col-md-2">
-                        <img src="assets/images/old-img/client-logo/15.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/10.png" alt="image" class="img-fluid">
                     </div>
                     <div class="col-md-2">
-                        <img src="assets/images/client-logo/5.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/11.png" alt="image" class="img-fluid">
                     </div>
                     <div class="col-md-2">
                         <img src="assets/images/client-logo/12.png" alt="image" class="img-fluid">
                     </div>
                     <div class="col-md-2">
-                        <img src="assets/images/client-logo/2.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/13.png" alt="image" class="img-fluid">
                     </div>
                     <div class="col-md-2">
-                        <img src="assets/images/client-logo/13.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/14.png" alt="image" class="img-fluid">
                     </div>
                 </div>
             </div>
