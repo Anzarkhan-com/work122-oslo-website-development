@@ -117,8 +117,8 @@
                     <p class="text-center galary-color py-2">CULTURE</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="assets/images/new-galary/2.png" alt="image" class="img-fluid">
-                    <p class="text-center galary-color py-2">HOLI PLAYING</p>
+                    <img src="assets/images/new-galary/children-dance.JPG" alt="image" class="img-fluid">
+                    <p class="text-center galary-color py-2">KIDS PERFORMANCES</p>
                 </div>
                 <div class="col-md-4">
                     <img src="assets/images/new-galary/3.png" alt="image" class="img-fluid">
@@ -135,7 +135,7 @@
                     <p class="text-center galary-color py-2">OCF 2023</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="assets/images/new-galary/6.png" alt="image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi-playing.JPG" alt="image" class="img-fluid">
                     <p class="text-center galary-color py-2">OCF 2022</p>
                 </div>
             </div>
