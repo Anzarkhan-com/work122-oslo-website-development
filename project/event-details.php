@@ -138,7 +138,7 @@
     ?>
     <!-- Header Area End -->
     <section>
-        <img src="assets/images/old-img/banners/2.png" alt="event banner" class="w-100 img-fluid">
+        <img src="assets/images/home-page/group.jpg" alt="event banner" class="w-100 img-fluid" style="margin-top: -140px;">
     </section>
     <!-- partner logo section  -->
     <section>
@@ -161,7 +161,6 @@
                         <div class="row d-flex flex-column">
                             <div class="col">
                                 <img src="assets/images/old-img/partner-logo/gold-partner.png" alt="partner logo" class="img-fluid w-100" style="">
-
                             </div>
                         </div>
                     </div>
@@ -181,10 +180,8 @@
                         <div class="row d-flex flex-column">
                             <div class="col">
                                 <img src="assets/images/old-img/partner-logo/silver-partner.png" alt="partner logo" class="img-fluid">
-
                             </div>
                         </div>
-
                     </div>
                     <div class="col-md-3 py-4">
                         <div class="row d-flex align-items-center">
@@ -207,8 +204,6 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="container-fluid pt-4">
                 <div class="row align-items-end">
                     <div class="col-md-2 py-3 text-center">
@@ -291,13 +286,10 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
             <div class="container py-4 ">
                 <div class="row justify-content-center align-items-end">
-
                     <div class="col-md-2 py-3 text-center">
                         <div class="row d-flex align-items-center justify-content-center">
                             <div class="col d-flex align-items-center justify-content-center">
@@ -388,7 +380,6 @@
                             <img src="assets/images/old-img/partner-logo/timma.png" alt="partner logo" class="img-fluid">
                         </a>
                     </div>
-
                 </div>
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-2 py-5 text-center">
@@ -413,7 +404,6 @@
                     </div>
                 </div>
                 <div class="row py-4 align-items-center">
-
                 </div>
             </div>
     </section>

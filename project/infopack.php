@@ -29,7 +29,7 @@
     ?>
     <!-- Header Area End -->
     <!-- Breadcrumb Area Start -->
-    <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(assets/images/old-img/bg-img/infopack1.jpg);">
+    <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(assets/images/home-page/group.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -62,7 +62,7 @@
                     <tbody>
                         <tr>
                             <td>Date</td>
-                            <td>Saturday 6th May 2023 13:00 to 18:00</td>
+                            <td>Saturday 4th May 2024 </td>
                         </tr>
                         <tr>
                             <td>Arrival Time</td>

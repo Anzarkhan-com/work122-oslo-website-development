@@ -77,51 +77,277 @@
 
     <!-- divider section start  -->
     <section class="py-2">
-        <div class="container akc-custom-divider">
-        </div>
+        <div class="container akc-custom-divider"></div>
     </section>
     <!-- divider section end  -->
-    <!-- new gallery section start  -->
+    <!-- culture gallery section start  -->
     <section class="akc-gallery-section py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 py-2">
                     <div class="text-center">
                         <p class="galary-color gnew-text">CULTURE</p>
                     </div>
                 </div>
             </div>
-                <!-- <div class="row">
-                    <div class="col-md-3">
-                        <img src="assets/images/new-galary/Inauguration/1.pg" alt="gallery image" class="img-fluid">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/images/new-galary/Inauguration/2.pg" alt="gallery image" class="img-fluid">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/images/new-galary/Inauguration/3.pg" alt="gallery image" class="img-fluid">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/images/new-galary/Inauguration/4.pg" alt="gallery image" class="img-fluid">
-                    </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/culture/1.png" alt="gallery image" class="img-fluid">
                 </div>
-                <div class="row py-5">
-                    <div class="col-md-3">
-                        <img src="assets/images/new-galary/Inauguration/5.pg" alt="gallery image" class="img-fluid">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/images/new-galary/Inauguration/6.pg" alt="gallery image" class="img-fluid">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/images/new-galary/Inauguration/7.pg" alt="gallery image" class="img-fluid">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/images/new-galary/Inauguration/8.pg" alt="gallery image" class="img-fluid">
-                    </div>
-                </div> -->
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/culture/2.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/culture/3.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/culture/4.png" alt="gallery image" class="img-fluid">
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/culture/5.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/culture/6.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/culture/7.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/culture/8.png" alt="gallery image" class="img-fluid">
+                </div>
+            </div>
         </div>
     </section>
-    <!-- new gallery section end  -->
+    <!-- culture gallery section end  -->
+
+    <!-- divider section start  -->
+    <section class="py-2">
+        <div class="container akc-custom-divider"></div>
+    </section>
+    <!-- divider section end  -->
+
+    <!-- kids-performance gallery section start  -->
+    <section class="akc-gallery-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 py-2">
+                    <div class="text-center">
+                        <p class="galary-color gnew-text">KIDS PERFORMANCE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/kids-performance/1.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/kids-performance/2.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/kids-performance/3.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/kids-performance/4.png" alt="gallery image" class="img-fluid">
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/kids-performance/5.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/kids-performance/6.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/kids-performance/7.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/kids-performance/8.png" alt="gallery image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- kids-performance gallery section end  -->
+
+    <!-- divider section start  -->
+    <section class="py-2">
+        <div class="container akc-custom-divider"></div>
+    </section>
+    <!-- divider section end  -->
+
+    <!-- shopping gallery section start  -->
+    <section class="akc-gallery-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 py-2">
+                    <div class="text-center">
+                        <p class="galary-color gnew-text">SHOPPING</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/shopping/1.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/shopping/2.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/shopping/3.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/shopping/4.png" alt="gallery image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- shopping gallery section end  -->
+
+    <!-- divider section start  -->
+    <section class="py-2">
+        <div class="container akc-custom-divider"></div>
+    </section>
+    <!-- divider section end  -->
+
+    <!-- food gallery section start  -->
+    <section class="akc-gallery-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 py-2">
+                    <div class="text-center">
+                        <p class="galary-color gnew-text">FOOD</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/food/1.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/food/2.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/food/3.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/food/4.png" alt="gallery image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- food gallery section end -->
+
+    <!-- divider section start  -->
+    <section class="py-2">
+        <div class="container akc-custom-divider"></div>
+    </section>
+    <!-- divider section end  -->
+
+    <!-- holi gallery section start  -->
+    <section class="akc-gallery-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 py-2">
+                    <div class="text-center">
+                        <p class="galary-color gnew-text">HOLI PLAYING</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/1.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/2.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/3.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/4.png" alt="gallery image" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/5.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/6.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/7.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/8.png" alt="gallery image" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/9.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/10.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/11.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/12.png" alt="gallery image" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/13.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/14.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/15.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/16.png" alt="gallery image" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/17.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/18.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/19.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/20.png" alt="gallery image" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/21.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/22.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/23.png" alt="gallery image" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/holi/24.png" alt="gallery image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- holi gallery section end -->
+
+    <!-- divider section start  -->
+    <section class="py-2">
+        <div class="container akc-custom-divider"></div>
+    </section>
+    <!-- divider section end  -->
+
     <!--footer section start -->
     <?php
     include 'elements/footer.php';

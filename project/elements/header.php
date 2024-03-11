@@ -11,7 +11,7 @@
             <div class="collapse navbar-collapse align-items-baseline" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item akc-fw-large ">
-                        <a class="nav-link active fs-15 " href="#">ABOUT US </a>
+                        <a class="nav-link active fs-15 " href="about.php">ABOUT US </a>
                     </li>
                     <div class="akc-home-divider"></div>
                     <li class="nav-item akc-fw-large ">
@@ -33,7 +33,7 @@
                     <li class="nav-item akc-fw-large ">
                         <a class="nav-link active fs-15" href="#">FAQ'S</a>
                     </li>
-                    <div class="akc-home-divider"></div>
+                    <div class="akc-home-divider"></div>`
                     <li class="nav-item akc-fw-large ">
                         <a class="nav-link active fs-15" href="#">CONTACT</a>
                     </li>
