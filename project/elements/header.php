@@ -33,17 +33,17 @@
                     <li class="nav-item akc-fw-large ">
                         <a class="nav-link active fs-15" href="#">FAQ'S</a>
                     </li>
-                    <div class="akc-home-divider"></div>`
+                    <div class="akc-home-divider"></div>
                     <li class="nav-item akc-fw-large ">
                         <a class="nav-link active fs-15" href="#">CONTACT</a>
                     </li>
                 </ul>
                 <div class="d-flex flex-column ml">
                     <div class="d-flex justify-content-between">
-                        <a class="nav-link active" href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a class="nav-link active" href="#"><i class="fa-brands fa-youtube"></i></a>
-                        <a class="nav-link active" href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a class="nav-link active" href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a class="nav-link active" href="https://www.facebook.com/oslocolourfestival"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="nav-link active" href="https://www.youtube.com/@oslocolourfestival6777"><i class="fa-brands fa-youtube"></i></a>
+                        <a class="nav-link active" href="https://www.instagram.com/oslocolourfestival.no/?igshid=YmMyMTA2M2Y%3D"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="nav-link active" href="https://www.tiktok.com/@oslocolourfestival?_t=8kdoxKyywL3&_r=1"><i class="fa-brands fa-tiktok"></i></a>
                     </div>
                     <div class="pt-2">
                         <a class="nav-link active" href="#"><button type="button" class="btn btn-custom btn-sm"><i class="fa-solid fa-share" style="color: #ffffff;"></i> Book Now</button></a>

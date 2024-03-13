@@ -145,7 +145,7 @@
         <div class="container">
             <div class="row pt-5">
                 <div class="col-md-12 text-center">
-                    <h2 style="color: #808080;">PARTNERS</h2>
+                    <h2 style="color: #808080;">PAST PARTNERS</h2>
                 </div>
             </div>
             <div class="container pt-5">
