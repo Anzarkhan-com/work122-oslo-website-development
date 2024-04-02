@@ -12,6 +12,11 @@
 </head>
 
 <body>
+    <!-- preloader start -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- preloader end -->
     <!-- header section start  -->
     <?php
     include 'elements/header.php';
@@ -45,30 +50,30 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/Inauguration/1.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/Inauguration/1.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/Inauguration/2.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/Inauguration/2.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/Inauguration/3.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/Inauguration/3.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/Inauguration/4.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/Inauguration/4.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
             <div class="row py-5">
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/Inauguration/5.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/Inauguration/5.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/Inauguration/6.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/Inauguration/6.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/Inauguration/7.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/Inauguration/7.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/Inauguration/8.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/Inauguration/8.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
         </div>
@@ -92,30 +97,30 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/culture/1.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/culture/1.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/culture/2.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/culture/2.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/culture/3.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/culture/3.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/culture/4.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/culture/4.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
             <div class="row py-5">
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/culture/5.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/culture/5.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/culture/6.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/culture/6.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/culture/7.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/culture/7.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/culture/8.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/culture/8.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
         </div>
@@ -140,30 +145,30 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/kids-performance/1.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/kids-performance/1.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/kids-performance/2.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/kids-performance/2.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/kids-performance/3.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/kids-performance/3.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/kids-performance/4.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/kids-performance/4.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
             <div class="row py-5">
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/kids-performance/5.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/kids-performance/5.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/kids-performance/6.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/kids-performance/6.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/kids-performance/7.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/kids-performance/7.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/kids-performance/8.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/kids-performance/8.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
         </div>
@@ -188,16 +193,16 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/shopping/1.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/shopping/1.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/shopping/2.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/shopping/2.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/shopping/3.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/shopping/3.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/shopping/4.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/shopping/4.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
         </div>
@@ -222,16 +227,16 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/food/1.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/food/1.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/food/2.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/food/2.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/food/3.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/food/3.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/food/4.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/food/4.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
         </div>
@@ -256,86 +261,86 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/1.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/1.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/2.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/2.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/3.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/3.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/4.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/4.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
             <div class="row py-5">
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/5.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/5.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/6.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/6.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/7.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/7.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/8.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/8.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/9.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/9.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/10.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/10.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/11.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/11.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/12.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/12.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
             <div class="row py-5">
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/13.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/13.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/14.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/14.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/15.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/15.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/16.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/16.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/17.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/17.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/18.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/18.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/19.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/19.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/20.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/20.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
             <div class="row py-5">
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/21.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/21.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/22.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/22.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/23.png" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi/23.png" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/holi/24.jpg" alt="gallery image" class="img-fluid" style="height: 150px; width:100%">
+                    <img src="assets/images/new-galary/holi/24.jpg" alt="gallery image" class="img-fluid"  loading="lazy" style="height: 150px; width:100%">
                 </div>
             </div>
         </div>
@@ -358,44 +363,44 @@
             </div>
             <div class="row ">
                 <div class="col-md-3">
-                    <img src="assets/images/old-img/color/colornew/1.jpg" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/old-img/color/colornew/1.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/old-img/color/colornew/2.jpg" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/old-img/color/colornew/2.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/old-img/color/colornew/3.jpg" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/old-img/color/colornew/3.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/old-img/color/colornew/4.jpg" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/old-img/color/colornew/4.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
             <div class="row  py-5">
                 <div class="col-md-3">
-                    <img src="assets/images/old-img/color/colornew/5.jpg" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/old-img/color/colornew/5.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/old-img/color/colornew/6.jpg" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/old-img/color/colornew/6.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/old-img/color/colornew/7.jpg" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/old-img/color/colornew/7.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/old-img/color/colornew/8.jpg" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/old-img/color/colornew/8.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <img src="assets/images/old-img/color/colornew/9.jpg" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/old-img/color/colornew/9.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/old-img/color/colornew/10.jpg" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/old-img/color/colornew/10.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/old-img/color/colornew/11.jpg" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/old-img/color/colornew/11.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/old-img/color/colornew/12.jpg" alt="gallery image" class="img-fluid">
+                    <img src="assets/images/old-img/color/colornew/12.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
         </div>

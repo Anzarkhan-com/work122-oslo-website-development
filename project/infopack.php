@@ -23,13 +23,17 @@
 </head>
 
 <body>
+    
+    <div id="new-preloader">
+        <div class="new-loader"></div>
+    </div>
     <!-- Header Area Start -->
     <?php
     include 'elements/header.php';
     ?>
     <!-- Header Area End -->
     <!-- Breadcrumb Area Start -->
-    <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(assets/images/new-galary/info.jpg);">
+    <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(assets/images/new-galary/info.jpg) loading='lazy';">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">

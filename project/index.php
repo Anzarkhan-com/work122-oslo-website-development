@@ -12,15 +12,19 @@
 </head>
 
 <body>
+    <!-- preloader start -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- preloader end -->
     <!-- header section start  -->
     <?php
     include 'elements/header.php';
     ?>
     <!--header section end -->
     <!-- main section start  -->
-    <section class="akc-holi">
-        <div class="container">
-        </div>
+    <section>
+        <img class="akc-holi" src="assets/images/home-page/group.jpg" alt="" loading="lazy">
     </section>
     <!-- main section end -->
     <!-- day counter  -->
@@ -35,58 +39,58 @@
         <div class="container">
             <div class="row p-0">
                 <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/1.png" alt="image" class="img-fluid">
+                    <img src="assets/images/galary/1.png" alt="image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/2.png" alt="image" class="img-fluid">
+                    <img src="assets/images/galary/2.png" alt="image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/3.png" alt="image" class="img-fluid">
+                    <img src="assets/images/galary/3.png" alt="image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/4.png" alt="image" class="img-fluid">
-                </div>
-            </div>
-            <div class="row p-0">
-                <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/5.png" alt="image" class="img-fluid">
-                </div>
-                <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/6.png" alt="image" class="img-fluid">
-                </div>
-                <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/7.png" alt="image" class="img-fluid">
-                </div>
-                <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/8.png" alt="image" class="img-fluid">
+                    <img src="assets/images/galary/4.png" alt="image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
             <div class="row p-0">
                 <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/9.png" alt="image" class="img-fluid">
+                    <img src="assets/images/galary/5.png" alt="image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/10.png" alt="image" class="img-fluid">
+                    <img src="assets/images/galary/6.png" alt="image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/11.png" alt="image" class="img-fluid">
+                    <img src="assets/images/galary/7.png" alt="image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/12.png" alt="image" class="img-fluid">
+                    <img src="assets/images/galary/8.png" alt="image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
             <div class="row p-0">
                 <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/13.png" alt="image" class="img-fluid">
+                    <img src="assets/images/galary/9.png" alt="image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/14.png" alt="image" class="img-fluid">
+                    <img src="assets/images/galary/10.png" alt="image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/15.png" alt="image" class="img-fluid">
+                    <img src="assets/images/galary/11.png" alt="image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3 p-0">
-                    <img src="assets/images/galary/16.png" alt="image" class="img-fluid">
+                    <img src="assets/images/galary/12.png" alt="image" class="img-fluid"  loading="lazy">
+                </div>
+            </div>
+            <div class="row p-0">
+                <div class="col-md-3 p-0">
+                    <img src="assets/images/galary/13.png" alt="image" class="img-fluid"  loading="lazy">
+                </div>
+                <div class="col-md-3 p-0">
+                    <img src="assets/images/galary/14.png" alt="image" class="img-fluid"  loading="lazy">
+                </div>
+                <div class="col-md-3 p-0">
+                    <img src="assets/images/galary/15.png" alt="image" class="img-fluid"  loading="lazy">
+                </div>
+                <div class="col-md-3 p-0">
+                    <img src="assets/images/galary/16.png" alt="image" class="img-fluid"  loading="lazy">
                 </div>
             </div>
         </div>
@@ -113,29 +117,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="assets/images/new-galary/1.png" alt="image" class="img-fluid">
+                    <img src="assets/images/new-galary/1.png" alt="image" class="img-fluid"  loading="lazy">
                     <p class="text-center galary-color py-2">CULTURE</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="assets/images/new-galary/children-dance.JPG" alt="image" class="img-fluid">
+                    <img src="assets/images/new-galary/children-dance.JPG" alt="image" class="img-fluid"  loading="lazy">
                     <p class="text-center galary-color py-2">KIDS PERFORMANCES</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="assets/images/new-galary/3.png" alt="image" class="img-fluid">
+                    <img src="assets/images/new-galary/3.png" alt="image" class="img-fluid"  loading="lazy">
                     <p class="text-center galary-color py-2">SHOPPING</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="assets/images/new-galary/4.png" alt="image" class="img-fluid">
+                    <img src="assets/images/new-galary/4.png" alt="image" class="img-fluid"  loading="lazy">
                     <p class="text-center galary-color py-2">FOOD</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="assets/images/new-galary/5.png" alt="image" class="img-fluid">
+                    <img src="assets/images/new-galary/5.png" alt="image" class="img-fluid"  loading="lazy">
                     <p class="text-center galary-color py-2">OCF 2023</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="assets/images/new-galary/holi-playing.JPG" alt="image" class="img-fluid">
+                    <img src="assets/images/new-galary/holi-playing.JPG" alt="image" class="img-fluid"  loading="lazy">
                     <p class="text-center galary-color py-2">OCF 2022</p>
                 </div>
             </div>
@@ -152,53 +156,53 @@
                 </div>
                 <div class="row justify-content-center py-3">
                     <div class="col-md-2">
-                        <img src="assets/images/client-logo/new.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/new.png" alt="image" class="img-fluid"  loading="lazy">
                     </div>
                     <div class="col-md-2">
-                        <img src="assets/images/client-logo/1.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/1.png" alt="image" class="img-fluid"  loading="lazy">
                     </div>
                     <div class="col-md-2">
-                        <img src="assets/images/client-logo/2.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/2.png" alt="image" class="img-fluid"  loading="lazy">
                     </div>
                     <div class="col-md-2">
-                        <img src="assets/images/client-logo/3.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/3.png" alt="image" class="img-fluid"  loading="lazy">
                     </div>
                     <div class="col-md-2">
-                        <img src="assets/images/client-logo/4.png" alt="image" class="img-fluid">
-                    </div>
-                </div>
-                <div class="row justify-content-center py-3">
-                    <div class="col-md-2">
-                        <img src="assets/images/client-logo/5.png" alt="image" class="img-fluid">
-                    </div>
-                    <div class="col-md-2">
-                        <img src="assets/images/client-logo/6.png" alt="image" class="img-fluid">
-                    </div>
-                    <div class="col-md-2">
-                        <img src="assets/images/client-logo/7.png" alt="image" class="img-fluid">
-                    </div>
-                    <div class="col-md-2">
-                        <img src="assets/images/client-logo/8.png" alt="image" class="img-fluid">
-                    </div>
-                    <div class="col-md-2">
-                        <img src="assets/images/client-logo/9.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/4.png" alt="image" class="img-fluid"  loading="lazy">
                     </div>
                 </div>
                 <div class="row justify-content-center py-3">
                     <div class="col-md-2">
-                        <img src="assets/images/client-logo/10.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/5.png" alt="image" class="img-fluid"  loading="lazy">
                     </div>
                     <div class="col-md-2">
-                        <img src="assets/images/client-logo/11.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/6.png" alt="image" class="img-fluid"  loading="lazy">
                     </div>
                     <div class="col-md-2">
-                        <img src="assets/images/client-logo/12.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/7.png" alt="image" class="img-fluid"  loading="lazy">
                     </div>
                     <div class="col-md-2">
-                        <img src="assets/images/client-logo/13.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/8.png" alt="image" class="img-fluid"  loading="lazy">
                     </div>
                     <div class="col-md-2">
-                        <img src="assets/images/client-logo/14.png" alt="image" class="img-fluid">
+                        <img src="assets/images/client-logo/9.png" alt="image" class="img-fluid"  loading="lazy">
+                    </div>
+                </div>
+                <div class="row justify-content-center py-3">
+                    <div class="col-md-2">
+                        <img src="assets/images/client-logo/10.png" alt="image" class="img-fluid"  loading="lazy">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="assets/images/client-logo/11.png" alt="image" class="img-fluid"  loading="lazy">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="assets/images/client-logo/12.png" alt="image" class="img-fluid"  loading="lazy">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="assets/images/client-logo/13.png" alt="image" class="img-fluid"  loading="lazy">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="assets/images/client-logo/14.png" alt="image" class="img-fluid"  loading="lazy">
                     </div>
                 </div>
             </div>

@@ -46,7 +46,6 @@ body {
 }
 
 .akc-holi {
-  background-image: url(../images/home-page/group.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -153,3 +152,4 @@ body {
 .fs-15{
   font-size: 15px !important;
 }
+

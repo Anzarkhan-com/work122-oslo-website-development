@@ -128,9 +128,9 @@
 
 <body>
     <!-- Preloader -->
-    <!-- <div id="preloader">
-      <div class="loader"></div>
-   </div> -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
     <!-- /Preloader -->
     <!-- Header Area Start -->
     <?php
@@ -138,7 +138,7 @@
     ?>
     <!-- Header Area End -->
     <section>
-        <img src="assets/images/home-page/group.jpg" alt="event banner" class="w-100 img-fluid" style="margin-top: -140px;">
+        <img src="assets/images/home-page/group.jpg" alt="event banner" class="w-100 img-fluid" style="margin-top: -140px;" loading="lazy">
     </section>
     <!-- partner logo section  -->
     <section>
@@ -154,13 +154,13 @@
                         <div class="row d-flex align-items-center">
                             <div class="col d-flex align-items-center ">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/tcs-logo.png" alt="partner logo" class="img-fluid">
+                                    <img src="assets/images/old-img/partner-logo/tcs-logo.png" alt="partner logo"  loading="lazy" class="img-fluid">
                                 </a>
                             </div>
                         </div>
                         <div class="row d-flex flex-column">
                             <div class="col">
-                                <img src="assets/images/old-img/partner-logo/gold-partner.png" alt="partner logo" class="img-fluid w-100" style="">
+                                <img src="assets/images/old-img/partner-logo/gold-partner.png" alt="partner logo"  loading="lazy" class="img-fluid w-100" style="">
                             </div>
                         </div>
                     </div>
@@ -168,18 +168,18 @@
                         <div class="row d-flex align-items-center">
                             <div class="col d-flex align-items-center ">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/yara.png" alt="partner logo" class="img-fluid">
+                                    <img src="assets/images/old-img/partner-logo/yara.png" alt="partner logo"  loading="lazy" class="img-fluid">
                                 </a>
                             </div>
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/tgs.png" alt="partner logo" class="img-fluid">
+                                    <img src="assets/images/old-img/partner-logo/tgs.png" alt="partner logo"  loading="lazy" class="img-fluid">
                                 </a>
                             </div>
                         </div>
                         <div class="row d-flex flex-column">
                             <div class="col">
-                                <img src="assets/images/old-img/partner-logo/silver-partner.png" alt="partner logo" class="img-fluid">
+                                <img src="assets/images/old-img/partner-logo/silver-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -187,18 +187,18 @@
                         <div class="row d-flex align-items-center">
                             <div class="col d-flex align-items-center ">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/infosys_logo.svg" alt="partner logo" class="img-fluid">
+                                    <img src="assets/images/old-img/partner-logo/infosys_logo.svg" alt="partner logo"  loading="lazy" class="img-fluid">
                                 </a>
                             </div>
                             <div class="col d-flex align-items-center ">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/indian-street-food.png" alt="partner logo" class="img-fluid">
+                                    <img src="assets/images/old-img/partner-logo/indian-street-food.png" alt="partner logo"  loading="lazy" class="img-fluid">
                                 </a>
                             </div>
                         </div>
                         <div class="row d-flex flex-column">
                             <div class="col">
-                                <img src="assets/images/old-img/partner-logo/bronze-partner.png" alt="partner logo" class="img-fluid">
+                                <img src="assets/images/old-img/partner-logo/bronze-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -210,13 +210,13 @@
                         <div class="row d-flex align-items-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/cocacola.png" alt="partner logo" class="img-fluid" style="max-width: 120px;">
+                                    <img src="assets/images/old-img/partner-logo/cocacola.png" alt="partner logo"  loading="lazy" class="img-fluid" style="max-width: 120px;">
                                 </a>
                             </div>
                         </div>
                         <div class="row d-flex ">
                             <div class="col">
-                                <img src="assets/images/old-img/partner-logo/beverage-partner.png" alt="partner logo" class="img-fluid">
+                                <img src="assets/images/old-img/partner-logo/beverage-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -224,13 +224,13 @@
                         <div class="row d-flex align-items-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/skg.png" alt="partner logo" class="img-fluid" style="max-width: 120px;">
+                                    <img src="assets/images/old-img/partner-logo/skg.png" alt="partner logo"  loading="lazy" class="img-fluid" style="max-width: 120px;">
                                 </a>
                             </div>
                         </div>
                         <div class="row d-flex ">
                             <div class="col">
-                                <img src="assets/images/old-img/partner-logo/pkg-partner.png" alt="partner logo" class="img-fluid">
+                                <img src="assets/images/old-img/partner-logo/pkg-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -238,13 +238,13 @@
                         <div class="row d-flex align-items-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/tech-agrim.png" alt="partner logo" class="img-fluid" style="max-width:150px;">
+                                    <img src="assets/images/old-img/partner-logo/tech-agrim.png" alt="partner logo"  loading="lazy" class="img-fluid" style="max-width:150px;">
                                 </a>
                             </div>
                         </div>
                         <div class="row d-flex flex-column">
                             <div class="col">
-                                <img src="assets/images/old-img/partner-logo/digital-partner.png" alt="partner logo" class="img-fluid">
+                                <img src="assets/images/old-img/partner-logo/digital-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -252,23 +252,23 @@
                         <div class="row d-flex align-items-center">
                             <div class="col-3 d-flex align-items-center justify-content-center">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/nimbu.png" alt="partner logo">
+                                    <img src="assets/images/old-img/partner-logo/nimbu.png" alt="partner logo"  loading="lazy">
                                 </a>
                             </div>
                             <div class="col-3 d-flex align-items-center justify-content-center">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/new-delhi.png" alt="partner logo">
+                                    <img src="assets/images/old-img/partner-logo/new-delhi.png" alt="partner logo"  loading="lazy">
                                 </a>
                             </div>
                             <div class="col-6 d-flex align-items-center justify-content-center">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/hayeli.png" alt="partner logo">
+                                    <img src="assets/images/old-img/partner-logo/hayeli.png" alt="partner logo"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="row d-flex flex-column">
                             <div class="col">
-                                <img src="assets/images/old-img/partner-logo/hospitality-partner.png" alt="partner logo" class="img-fluid">
+                                <img src="assets/images/old-img/partner-logo/hospitality-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -276,13 +276,13 @@
                         <div class="row d-flex align-items-center justify-content-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/malhistream.png" alt="partner logo" class="img-fluid">
+                                    <img src="assets/images/old-img/partner-logo/malhistream.png" alt="partner logo"  loading="lazy" class="img-fluid">
                                 </a>
                             </div>
                         </div>
                         <div class="row d-flex flex-column">
                             <div class="col">
-                                <img src="assets/images/old-img/partner-logo/live-stream-partner.png" alt="partner logo" class="img-fluid">
+                                <img src="assets/images/old-img/partner-logo/live-stream-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -294,13 +294,13 @@
                         <div class="row d-flex align-items-center justify-content-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/inglot.png" alt="partner logo" class="img-fluid" style="max-width:150px;">
+                                    <img src="assets/images/old-img/partner-logo/inglot.png" alt="partner logo"  loading="lazy" class="img-fluid" style="max-width:150px;">
                                 </a>
                             </div>
                         </div>
                         <div class="row d-flex flex-column">
                             <div class="col">
-                                <img src="assets/images/old-img/partner-logo/gift-partner.png" alt="partner logo" class="img-fluid">
+                                <img src="assets/images/old-img/partner-logo/gift-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -308,23 +308,23 @@
                         <div class="row d-flex align-items-center">
                             <div class="col-3 d-flex align-items-center justify-content-center">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/scandic-desi.png" alt="partner logo">
+                                    <img src="assets/images/old-img/partner-logo/scandic-desi.png" alt="partner logo"  loading="lazy">
                                 </a>
                             </div>
                             <div class="col-3 d-flex align-items-center justify-content-center">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/complete-smile.png" alt="partner logo">
+                                    <img src="assets/images/old-img/partner-logo/complete-smile.png" alt="partner logo"  loading="lazy">
                                 </a>
                             </div>
                             <div class="col-6 d-flex align-items-center justify-content-center">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/eco.jpg" alt="partner logo">
+                                    <img src="assets/images/old-img/partner-logo/eco.jpg" alt="partner logo"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="row d-flex flex-column">
                             <div class="col">
-                                <img src="assets/images/old-img/partner-logo/hospitality-partner.png" alt="partner logo" class="img-fluid">
+                                <img src="assets/images/old-img/partner-logo/hospitality-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -332,13 +332,13 @@
                         <div class="row d-flex align-items-center justify-content-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/lofoten-seaweed.png" alt="partner logo" class="img-fluid">
+                                    <img src="assets/images/old-img/partner-logo/lofoten-seaweed.png" alt="partner logo"  loading="lazy" class="img-fluid">
                                 </a>
                             </div>
                         </div>
                         <div class="row d-flex flex-column">
                             <div class="col">
-                                <img src="assets/images/old-img/partner-logo/nutritional-partner.png" alt="partner logo" class="img-fluid">
+                                <img src="assets/images/old-img/partner-logo/nutritional-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -357,49 +357,49 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-2 py-5 text-center">
                         <a href="">
-                            <img src="assets/images/old-img/partner-logo/qatar.png" alt="partner logo" class="img-fluid">
+                            <img src="assets/images/old-img/partner-logo/qatar.png" alt="partner logo"  loading="lazy" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-md-1 py-5 text-center">
                         <a href="">
-                            <img src="assets/images/old-img/partner-logo/tusenfryd.png" alt="partner logo" class="img-fluid">
+                            <img src="assets/images/old-img/partner-logo/tusenfryd.png" alt="partner logo"  loading="lazy" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-md-2 py-5 text-center">
                         <a href="">
-                            <img src="assets/images/old-img/partner-logo/megazone.png" alt="partner logo" class="img-fluid">
+                            <img src="assets/images/old-img/partner-logo/megazone.png" alt="partner logo"  loading="lazy" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-md-1 py-5 text-center">
                         <a href="">
-                            <img src="assets/images/old-img/partner-logo/rituals.png" alt="partner logo" class="img-fluid">
+                            <img src="assets/images/old-img/partner-logo/rituals.png" alt="partner logo"  loading="lazy" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-md-2 py-5 text-center">
                         <a href="">
-                            <img src="assets/images/old-img/partner-logo/timma.png" alt="partner logo" class="img-fluid">
+                            <img src="assets/images/old-img/partner-logo/timma.png" alt="partner logo"  loading="lazy" class="img-fluid">
                         </a>
                     </div>
                 </div>
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-2 py-5 text-center">
                         <a href="">
-                            <img src="assets/images/old-img/partner-logo/snx.png" alt="partner logo" class="img-fluid">
+                            <img src="assets/images/old-img/partner-logo/snx.png" alt="partner logo"  loading="lazy" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-md-2 py-5 text-center">
                         <a href="">
-                            <img src="assets/images/old-img/partner-logo/visit-oslo.png" alt="partner logo" class="img-fluid">
+                            <img src="assets/images/old-img/partner-logo/visit-oslo.png" alt="partner logo"  loading="lazy" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-md-1 py-5 text-center">
                         <a href="">
-                            <img src="assets/images/old-img/partner-logo/burger-king.png" alt="partner logo" class="img-fluid">
+                            <img src="assets/images/old-img/partner-logo/burger-king.png" alt="partner logo"  loading="lazy" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-md-2 py-5 text-center">
                         <a href="">
-                            <img src="assets/images/old-img/partner-logo/nila-indian-rendezvous.png" alt="partner logo" class="img-fluid">
+                            <img src="assets/images/old-img/partner-logo/nila-indian-rendezvous.png" alt="partner logo"  loading="lazy" class="img-fluid">
                         </a>
                     </div>
                 </div>
