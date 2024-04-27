@@ -152,15 +152,30 @@
                 <div class="row justify-content-center align-items-end">
                     <div class="col-md-3 py-4">
                         <div class="row d-flex align-items-center">
+
                             <div class="col d-flex align-items-center ">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/tcs-logo.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                                    <img src="assets/images/partner-logo/new.png" alt="partner logo" loading="lazy" class="img-fluid">
                                 </a>
                             </div>
+                            <!-- <div class="col d-flex align-items-center ">
+                                <a href="">
+                                    <img src="assets/images/partner-logo/Capgemini.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                                </a>
+                            </div> -->
                         </div>
-                        <div class="row d-flex flex-column">
+                        <!-- <div class="row d-flex flex-column al">
                             <div class="col">
-                                <img src="assets/images/old-img/partner-logo/gold-partner.png" alt="partner logo"  loading="lazy" class="img-fluid w-100">
+                                <img src="assets/images/partner-logo/rectangle-1.png" alt="partner logo"  loading="lazy" class="img-fluid w-100">
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="col-md-3 py-4">
+                        <div class="row d-flex align-items-center">
+                            <div class="col d-flex align-items-center ">
+                                <a href="">
+                                    <img src="assets/images/partner-logo/gold-sponsor.png" alt="partner logo" loading="lazy" class="img-fluid">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -168,18 +183,8 @@
                         <div class="row d-flex align-items-center">
                             <div class="col d-flex align-items-center ">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/yara.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                                    <img src="assets/images/partner-logo/Silver Sponsor.png" alt="partner logo" loading="lazy" class="img-fluid">
                                 </a>
-                            </div>
-                            <div class="col d-flex align-items-center justify-content-center">
-                                <a href="">
-                                    <img src="assets/images/old-img/partner-logo/tgs.png" alt="partner logo"  loading="lazy" class="img-fluid">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row d-flex flex-column">
-                            <div class="col">
-                                <img src="assets/images/old-img/partner-logo/silver-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -187,18 +192,8 @@
                         <div class="row d-flex align-items-center">
                             <div class="col d-flex align-items-center ">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/infosys_logo.svg" alt="partner logo"  loading="lazy" class="img-fluid">
+                                    <img src="assets/images/partner-logo/Bronze Partner.png" alt="partner logo" loading="lazy" class="img-fluid">
                                 </a>
-                            </div>
-                            <div class="col d-flex align-items-center ">
-                                <a href="">
-                                    <img src="assets/images/old-img/partner-logo/indian-street-food.png" alt="partner logo"  loading="lazy" class="img-fluid">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row d-flex flex-column">
-                            <div class="col">
-                                <img src="assets/images/old-img/partner-logo/bronze-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -206,21 +201,36 @@
             </div>
             <div class="container-fluid pt-4">
                 <div class="row align-items-end">
-                    <div class="col-md-2 py-3 text-center">
+                    <div class="col-md-4 py-4">
                         <div class="row d-flex align-items-center">
-                            <div class="col d-flex align-items-center justify-content-center">
+                            <div class="col d-flex align-items-center ">
                                 <a href="">
-                                    <img src="assets/images/old-img/partner-logo/cocacola.png" alt="partner logo"  loading="lazy" class="img-fluid" style="max-width: 120px;">
+                                    <img src="assets/images/partner-logo/Beverage Partner.png" alt="Beverage logo" loading="lazy" class="img-fluid">
                                 </a>
                             </div>
                         </div>
-                        <div class="row d-flex ">
-                            <div class="col">
-                                <img src="assets/images/old-img/partner-logo/beverage-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                    </div>
+
+
+                    <div class="col-md-4 py-4">
+                        <div class="row d-flex align-items-center">
+                            <div class="col d-flex align-items-center ">
+                                <a href="">
+                                    <img src="assets/images/partner-logo/PKG. Partner.png " alt="PKG logo" loading="lazy" class="img-fluid">
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2 py-3 text-center">
+                    <div class="col-md-4 py-4">
+                        <div class="row d-flex align-items-center">
+                            <div class="col d-flex align-items-center ">
+                                <a href="">
+                                    <img src="assets/images/partner-logo/Raffle Partner.png" alt="Raffle logo" loading="lazy" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-2 py-3 text-center">
                         <div class="row d-flex align-items-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
@@ -233,10 +243,19 @@
                                 <img src="assets/images/old-img/partner-logo/pkg-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2 py-3 text-center">
+                    </div> -->
+                    <div class="col-md-12 py-3 text-center">
                         <div class="row d-flex align-items-center">
-                            <div class="col d-flex align-items-center justify-content-center">
+                            <div class="col-md-12 py-4" style=margin-left:110px>
+                                <div class="row d-flex align-items-center">
+                                    <div class="col d-flex align-items-center ">
+                                        <a href="">
+                                            <img src="assets/images/partner-logo/Display Partner.png" alt="Raffle logo" loading="lazy" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
                                     <img src="assets/images/old-img/partner-logo/tech-agrim.png" alt="partner logo"  loading="lazy" class="img-fluid" style="max-width:150px;">
                                 </a>
@@ -283,12 +302,12 @@
                         <div class="row d-flex flex-column">
                             <div class="col">
                                 <img src="assets/images/old-img/partner-logo/live-stream-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container py-4 ">
+            <!-- <div class="container py-4 ">
                 <div class="row justify-content-center align-items-end">
                     <div class="col-md-2 py-3 text-center">
                         <div class="row d-flex align-items-center justify-content-center">
@@ -303,8 +322,8 @@
                                 <img src="assets/images/old-img/partner-logo/gift-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 py-3 text-center">
+                    </div> -->
+            <!-- <div class="col-md-4 py-3 text-center">
                         <div class="row d-flex align-items-center">
                             <div class="col-3 d-flex align-items-center justify-content-center">
                                 <a href="">
@@ -327,8 +346,8 @@
                                 <img src="assets/images/old-img/partner-logo/hospitality-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2 py-3">
+                    </div> -->
+            <!-- <div class="col-md-2 py-3">
                         <div class="row d-flex align-items-center justify-content-center">
                             <div class="col d-flex align-items-center justify-content-center">
                                 <a href="">
@@ -341,26 +360,26 @@
                                 <img src="assets/images/old-img/partner-logo/nutritional-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+                    </div> -->
+        </div>
+        </div>
         </div>
     </section>
     <section>
         <div class="container">
             <div class="row pt-5">
                 <div class="col-md-12 text-center">
-                    <h2 style="color: #808080;">RAFFLE PARTNERS</h2>
+                    <h2 style="color: #ED1E79;">RAFFLE PARTNERS</h2>
                 </div>
             </div>
             <div class="container pt-5">
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-md-2 py-5 text-center">
+                    <div class="col-md-12 py-5 text-center" style=margin-top:-100px>
                         <a href="">
-                            <img src="assets/images/old-img/partner-logo/qatar.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                            <img src="assets/images/partner-logo/Group 47.png" alt="Group logo" loading="lazy" class="img-fluid">
                         </a>
                     </div>
-                    <div class="col-md-1 py-5 text-center">
+                    <!-- <div class="col-md-1 py-5 text-center">
                         <a href="">
                             <img src="assets/images/old-img/partner-logo/tusenfryd.png" alt="partner logo"  loading="lazy" class="img-fluid">
                         </a>
@@ -404,8 +423,42 @@
                     </div>
                 </div>
                 <div class="row py-4 align-items-center">
+                </div> -->
+                </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="new-ed-text">
+                    In 2023, the Oslo Colour Festival emerged as a vibrant highlight in Oslo's cultural landscape. On May 6th 2023, Vallhall Arena hosted over 4,000 attendees who enjoyed a rich tapestry of cultural performances, delightful cuisine, and the joyful tradition of playing with colors. Our event featured more than 500 artists showcasing diverse dance styles and musical acts from around the globe, complemented by a lively street food festival.
+
+                    </p>
+                    <p class="new-ed-text">As we look forward to 2024, the festival is poised to become even bigger and grander. We are thrilled to welcome renowned performers from Norway and abroad, including top-tier artists, musicians, and dancers. This year, we are especially excited to host prominent artists traveling all the way from India, bringing with them a vibrant spectrum of talents that promise to enrich our celebration. Additionally, we are embracing new-age technology to enhance the immersive experience of our color celebrations, ensuring an unforgettable event for all attendees.
+
+                        
+                    </p>
+                    <p class="new-ed-text">The Oslo Colour Festival aims to be a cornerstone event in Oslo’s annual cultural calendar, a celebration of life and diversity. With more spectacular performances and cultural showcases planned, we invite you to join us for what promises to be an unforgettable event.
+
+                        
+                    </p>
+                    <p class="new-ed-text">
+                    Save the date for May 4th, 2024! Join us for a breathtaking celebration of diversity and life in colors.
+Stay tuned for more details!
+
+                        
+                    </p>
+                    <p class="new-ed-text">Venue: Vallhall Arena, Dronning Margretes Vei 11, 0663 Oslo.
+
+                        
+                    </p>
+                    <p class="new-ed-text">Book Your Tickets here: 
+                        
+                    </p>
+                    
                 </div>
             </div>
+        </div>
     </section>
     <?php
     require_once 'elements/footer.php'
