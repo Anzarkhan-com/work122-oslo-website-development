@@ -138,14 +138,14 @@
     ?>
     <!-- Header Area End -->
     <section>
-        <img src="assets/images/home-page/group.jpg" alt="event banner" class="w-100 img-fluid" style="margin-top: -140px;" loading="lazy">
+        <img src="assets/images/banner/1.png" alt="event banner" class="w-100 img-fluid" style="margin-top: -135px;" loading="lazy">
     </section>
     <!-- partner logo section  -->
     <section>
         <div class="container">
             <div class="row pt-5">
                 <div class="col-md-12 text-center">
-                    <h2 style="color: #808080;">PAST PARTNERS</h2>
+                    <h2 class="custom-color-new">SPONSORS & PARTNERS</h2>
                 </div>
             </div>
             <div class="container pt-5">
@@ -160,7 +160,7 @@
                         </div>
                         <div class="row d-flex flex-column">
                             <div class="col">
-                                <img src="assets/images/old-img/partner-logo/gold-partner.png" alt="partner logo"  loading="lazy" class="img-fluid w-100" style="">
+                                <img src="assets/images/old-img/partner-logo/gold-partner.png" alt="partner logo"  loading="lazy" class="img-fluid w-100">
                             </div>
                         </div>
                     </div>
@@ -407,7 +407,6 @@
                 </div>
             </div>
     </section>
-    <!-- Footer Area Start -->
     <?php
     require_once 'elements/footer.php'
     ?>
