@@ -6,7 +6,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="nav-link active" href="#"><button type="button" class="btn btn-custom2 btn-sm ">LIVE <i class="fa-solid fa-circle-play" style="color: #ffffff;"></i> </button></a>
+                <a class="nav-link active" href="#"><button type="button" class="btn btn-custom2 btn-sm "><a class="text-white text-decoration-none" href="https://www.youtube.com/live/kp5rxhux9-0?si=dp8rE5DrqA4tEvWR">LIVE</a> <i class="fa-solid fa-circle-play" style="color: #ffffff;"></i> </button></a>
             </div>
             <div class="collapse navbar-collapse align-items-baseline" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
