@@ -70,7 +70,7 @@
                         </tr>
                         <tr>
                             <td>Arrival Time</td>
-                            <td>Registration and Check-in starts at 12:00 hrs.</td>
+                            <td>Registration and Check-in starts at 10:00 AM .</td>
                         </tr>
                         <tr>
                             <td>Venue</td>
@@ -108,7 +108,7 @@
             </br>
             <h5>Practical Information</h5></br>
             <ul>
-                <li style="list-style: decimal;list-style-position: inside;">Check-in starts at 12:00.</span></li>
+                <li style="list-style: decimal;list-style-position: inside;">Check-in starts at 10:00 AM.</span></li>
                 <li style="list-style: decimal;list-style-position: inside;">Keep QR code/EntryPass visible for smooth check-in. </span></li>
                 <li style="list-style: decimal;list-style-position: inside;">Entry-pass (QR Code) can be scanned only once.</span></li>
                 <li style="list-style: decimal;list-style-position: inside;">Parking at Vallhall is only allowed for pre-booked cars. </span></li>
