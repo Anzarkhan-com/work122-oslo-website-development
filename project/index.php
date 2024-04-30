@@ -147,7 +147,293 @@
     </section>
     <!-- new section end  -->
     <!-- client section start  -->
-    <section class="akc-client-section">
+   
+    <section>
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-12 text-center">
+                    <h2 class="custom-color-new">SPONSORS & PARTNERS</h2>
+                </div>
+            </div>
+            <div class="container pt-5">
+                <div class="row justify-content-center align-items-end">
+                    <div class="col-md-3 py-4">
+                        <div class="row d-flex align-items-center">
+
+                            <div class="col d-flex align-items-center ">
+                                <a href="">
+                                    <img src="assets/images/partner-logo/new.png" alt="partner logo" loading="lazy" class="img-fluid">
+                                </a>
+                            </div>
+                            <!-- <div class="col d-flex align-items-center ">
+                                <a href="">
+                                    <img src="assets/images/partner-logo/Capgemini.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                                </a>
+                            </div> -->
+                        </div>
+                        <!-- <div class="row d-flex flex-column al">
+                            <div class="col">
+                                <img src="assets/images/partner-logo/rectangle-1.png" alt="partner logo"  loading="lazy" class="img-fluid w-100">
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="col-md-3 py-4">
+                        <div class="row d-flex align-items-center">
+                            <div class="col d-flex align-items-center ">
+                                <a href="">
+                                    <img src="assets/images/partner-logo/gold-sponsor.png" alt="partner logo" loading="lazy" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-4">
+                        <div class="row d-flex align-items-center">
+                            <div class="col d-flex align-items-center ">
+                                <a href="">
+                                    <img src="assets/images/partner-logo/Silver Sponsor.png" alt="partner logo" loading="lazy" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-4">
+                        <div class="row d-flex align-items-center">
+                            <div class="col d-flex align-items-center ">
+                                <a href="">
+                                    <img src="assets/images/partner-logo/Bronze Partner.png" alt="partner logo" loading="lazy" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid pt-4">
+                <div class="row align-items-end">
+                    <div class="col-md-4 py-4">
+                        <div class="row d-flex align-items-center">
+                            <div class="col d-flex align-items-center ">
+                                <a href="">
+                                    <img src="assets/images/partner-logo/Beverage Partner.png" alt="Beverage logo" loading="lazy" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 py-4">
+                        <div class="row d-flex align-items-center">
+                            <div class="col d-flex align-items-center ">
+                                <a href="">
+                                    <img src="assets/images/partner-logo/PKG. Partner.png " alt="PKG logo" loading="lazy" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-4">
+                        <div class="row d-flex align-items-center">
+                            <div class="col d-flex align-items-center ">
+                                <a href="">
+                                    <img src="assets/images/partner-logo/Raffle Partner.png" alt="Raffle logo" loading="lazy" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-2 py-3 text-center">
+                        <div class="row d-flex align-items-center">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <a href="">
+                                    <img src="assets/images/old-img/partner-logo/skg.png" alt="partner logo"  loading="lazy" class="img-fluid" style="max-width: 120px;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row d-flex ">
+                            <div class="col">
+                                <img src="assets/images/old-img/partner-logo/pkg-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-md-12 py-3 text-center">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-md-12 py-4" style=margin-left:110px>
+                                <div class="row d-flex align-items-center">
+                                    <div class="col d-flex align-items-center ">
+                                        <a href="">
+                                            <img src="assets/images/partner-logo/Display Partner.png" alt="Raffle logo" loading="lazy" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col d-flex align-items-center justify-content-center">
+                                <a href="">
+                                    <img src="assets/images/old-img/partner-logo/tech-agrim.png" alt="partner logo"  loading="lazy" class="img-fluid" style="max-width:150px;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row d-flex flex-column">
+                            <div class="col">
+                                <img src="assets/images/old-img/partner-logo/digital-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 text-center">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-3 d-flex align-items-center justify-content-center">
+                                <a href="">
+                                    <img src="assets/images/old-img/partner-logo/nimbu.png" alt="partner logo"  loading="lazy">
+                                </a>
+                            </div>
+                            <div class="col-3 d-flex align-items-center justify-content-center">
+                                <a href="">
+                                    <img src="assets/images/old-img/partner-logo/new-delhi.png" alt="partner logo"  loading="lazy">
+                                </a>
+                            </div>
+                            <div class="col-6 d-flex align-items-center justify-content-center">
+                                <a href="">
+                                    <img src="assets/images/old-img/partner-logo/hayeli.png" alt="partner logo"  loading="lazy">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row d-flex flex-column">
+                            <div class="col">
+                                <img src="assets/images/old-img/partner-logo/hospitality-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 py-3 text-center">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <a href="">
+                                    <img src="assets/images/old-img/partner-logo/malhistream.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row d-flex flex-column">
+                            <div class="col">
+                                <img src="assets/images/old-img/partner-logo/live-stream-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container py-4 ">
+                <div class="row justify-content-center align-items-end">
+                    <div class="col-md-2 py-3 text-center">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <a href="">
+                                    <img src="assets/images/old-img/partner-logo/inglot.png" alt="partner logo"  loading="lazy" class="img-fluid" style="max-width:150px;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row d-flex flex-column">
+                            <div class="col">
+                                <img src="assets/images/old-img/partner-logo/gift-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                            </div>
+                        </div>
+                    </div> -->
+            <!-- <div class="col-md-4 py-3 text-center">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-3 d-flex align-items-center justify-content-center">
+                                <a href="">
+                                    <img src="assets/images/old-img/partner-logo/scandic-desi.png" alt="partner logo"  loading="lazy">
+                                </a>
+                            </div>
+                            <div class="col-3 d-flex align-items-center justify-content-center">
+                                <a href="">
+                                    <img src="assets/images/old-img/partner-logo/complete-smile.png" alt="partner logo"  loading="lazy">
+                                </a>
+                            </div>
+                            <div class="col-6 d-flex align-items-center justify-content-center">
+                                <a href="">
+                                    <img src="assets/images/old-img/partner-logo/eco.jpg" alt="partner logo"  loading="lazy">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row d-flex flex-column">
+                            <div class="col">
+                                <img src="assets/images/old-img/partner-logo/hospitality-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                            </div>
+                        </div>
+                    </div> -->
+            <!-- <div class="col-md-2 py-3">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <a href="">
+                                    <img src="assets/images/old-img/partner-logo/lofoten-seaweed.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row d-flex flex-column">
+                            <div class="col">
+                                <img src="assets/images/old-img/partner-logo/nutritional-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                            </div>
+                        </div>
+                    </div> -->
+        </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-12 text-center">
+                    <h2 style="color: #ED1E79;">RAFFLE PARTNERS</h2>
+                </div>
+            </div>
+            <div class="container pt-5">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-12 py-5 text-center" style=margin-top:-100px>
+                        <a href="">
+                            <img src="assets/images/partner-logo/Group 47.png" alt="Group logo" loading="lazy" class="img-fluid">
+                        </a>
+                    </div>
+                    <!-- <div class="col-md-1 py-5 text-center">
+                        <a href="">
+                            <img src="assets/images/old-img/partner-logo/tusenfryd.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-2 py-5 text-center">
+                        <a href="">
+                            <img src="assets/images/old-img/partner-logo/megazone.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-1 py-5 text-center">
+                        <a href="">
+                            <img src="assets/images/old-img/partner-logo/rituals.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-2 py-5 text-center">
+                        <a href="">
+                            <img src="assets/images/old-img/partner-logo/timma.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-2 py-5 text-center">
+                        <a href="">
+                            <img src="assets/images/old-img/partner-logo/snx.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-2 py-5 text-center">
+                        <a href="">
+                            <img src="assets/images/old-img/partner-logo/visit-oslo.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-1 py-5 text-center">
+                        <a href="">
+                            <img src="assets/images/old-img/partner-logo/burger-king.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-2 py-5 text-center">
+                        <a href="">
+                            <img src="assets/images/old-img/partner-logo/nila-indian-rendezvous.png" alt="partner logo"  loading="lazy" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="row py-4 align-items-center">
+                </div> -->
+                </div>
+    </section>
+    <!-- <section class="akc-client-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 py-5">
@@ -206,7 +492,7 @@
                     </div>
                 </div>
             </div>
-    </section>
+    </section> -->
     <!--- client section end  -->
     <!--footer section start -->
     <?php

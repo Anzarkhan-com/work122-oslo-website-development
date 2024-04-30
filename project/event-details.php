@@ -426,30 +426,13 @@
                 </div> -->
                 </div>
     </section>
-    <section>
+    <!-- <section>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p class="new-ed-text">
-                    In 2023, the Oslo Colour Festival emerged as a vibrant highlight in Oslo's cultural landscape. On May 6th 2023, Vallhall Arena hosted over 4,000 attendees who enjoyed a rich tapestry of cultural performances, delightful cuisine, and the joyful tradition of playing with colors. Our event featured more than 500 artists showcasing diverse dance styles and musical acts from around the globe, complemented by a lively street food festival.
-
-                    </p>
-                    <p class="new-ed-text">As we look forward to 2024, the festival is poised to become even bigger and grander. We are thrilled to welcome renowned performers from Norway and abroad, including top-tier artists, musicians, and dancers. This year, we are especially excited to host prominent artists traveling all the way from India, bringing with them a vibrant spectrum of talents that promise to enrich our celebration. Additionally, we are embracing new-age technology to enhance the immersive experience of our color celebrations, ensuring an unforgettable event for all attendees.
-
-                        
-                    </p>
-                    <p class="new-ed-text">The Oslo Colour Festival aims to be a cornerstone event in Oslo’s annual cultural calendar, a celebration of life and diversity. With more spectacular performances and cultural showcases planned, we invite you to join us for what promises to be an unforgettable event.
-
-                        
-                    </p>
-                    <p class="new-ed-text">
-                    Save the date for May 4th, 2024! Join us for a breathtaking celebration of diversity and life in colors.
-Stay tuned for more details!
-
-                        
-                    </p>
-                    <p class="new-ed-text">Venue: Vallhall Arena, Dronning Margretes Vei 11, 0663 Oslo.
-
+                   
+                
+                    
                         
                     </p>
                     <p class="new-ed-text">Book Your Tickets here: 
@@ -459,7 +442,7 @@ Stay tuned for more details!
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <?php
     require_once 'elements/footer.php'
     ?>

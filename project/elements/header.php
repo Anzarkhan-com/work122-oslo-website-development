@@ -19,7 +19,7 @@
                     </li>
                     <div class="akc-home-divider"></div>
                     <li class="nav-item akc-fw-large ">
-                        <a class="nav-link active fs-15" href="#">SPONSORSHIP</a>
+                        <a class="nav-link active fs-15" href="sponsorship.php">SPONSORSHIP</a>
                     </li>
                     <div class="akc-home-divider"></div>
                     <li class="nav-item akc-fw-large ">
