@@ -138,7 +138,7 @@
     ?>
     <!-- Header Area End -->
     <section>
-        <img src="assets/images/banner/1.png" alt="event banner" class="w-100 img-fluid" style="margin-top: -135px;" loading="lazy">
+        <img src="assets/images/banner/new.jpg" alt="event banner" class="w-100 img-fluid" style="margin-top: -135px;" loading="lazy">
     </section>
     <!-- partner logo section  -->
     <section>
