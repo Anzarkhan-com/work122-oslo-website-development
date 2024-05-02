@@ -46,7 +46,7 @@
                         <a class="nav-link active" href="https://www.tiktok.com/@oslocolourfestival?_t=8kdoxKyywL3&_r=1"><i class="fa-brands fa-tiktok"></i></a>
                     </div>
                     <div class="pt-2">
-                        <a class="nav-link active" href="#"><button type="button" class="btn btn-custom btn-sm"><i class="fa-solid fa-share" style="color: #ffffff;"></i> Book Now</button></a>
+                        <a class="nav-link active" href="https://billetto.no/e/oslo-colour-festival-2024-billetter-958670"><button type="button" class="btn btn-custom btn-sm"><i class="fa-solid fa-share" style="color: #ffffff;"></i> Book Now</button></a>
                     </div>
                 </div>
             </div>
