@@ -102,11 +102,11 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="akc-d-flex justify-content-center custom-text-color text-center akc-ft-size-xxx-large ">
-                        Welcome to Oslo Colour Festival 2024</h1>
+                        Welcome to Oslo Colour Festival 2025</h1>
                     <p class="akc-d-flex justify-content-center custom-text-color akc-ft-size-large text-center">The
                         Indian community in Norway is bringing together the festival of colours. <br>
                         To unleash the hues of joy, carefreeness, love, unity and togetherness.</p>
-                    <a class="custom-link akc-d-flex justify-content-center custom-text-color" href="#">Read More</a>
+                    <a class="custom-link akc-d-flex justify-content-center custom-text-color" href="about.php">Read More</a>
                 </div>
             </div>
         </div>
@@ -152,7 +152,7 @@
         <div class="container">
             <div class="row pt-5">
                 <div class="col-md-12 text-center">
-                    <h2 class="custom-color-new">SPONSORS & PARTNERS</h2>
+                    <h2 class="custom-color-new"> PAST SPONSORS & PARTNERS</h2>
                 </div>
             </div>
             <div class="container pt-5">
@@ -376,7 +376,7 @@
         <div class="container">
             <div class="row pt-5">
                 <div class="col-md-12 text-center">
-                    <h2 style="color: #ED1E79;">RAFFLE PARTNERS</h2>
+                    <h2 style="color: #ED1E79;"> PAST RAFFLE PARTNERS</h2>
                 </div>
             </div>
             <div class="container pt-5">

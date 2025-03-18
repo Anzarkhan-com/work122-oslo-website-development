@@ -15,7 +15,7 @@
                     </li>
                     <div class="akc-home-divider"></div>
                     <li class="nav-item akc-fw-large ">
-                        <a class="nav-link active fs-15" href="event-details.php">EVENT DETAILS</a>
+                        <a class="nav-link active fs-15" href="#">EVENT DETAILS</a>
                     </li>
                     <div class="akc-home-divider"></div>
                     <li class="nav-item akc-fw-large ">
@@ -23,7 +23,7 @@
                     </li>
                     <div class="akc-home-divider"></div>
                     <li class="nav-item akc-fw-large ">
-                        <a class="nav-link active fs-15" href="infopack.php">INFOPACK</a>
+                        <a class="nav-link active fs-15" href="#">INFOPACK</a>
                     </li>
                     <div class="akc-home-divider"></div>
                     <li class="nav-item akc-fw-large ">
