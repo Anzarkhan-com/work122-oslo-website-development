@@ -80,7 +80,7 @@
             <p class="new-ed-text">
                 Save the date for June 7th, 2025! Join us for a breathtaking celebration of diversity and life in colors.
                 Stay tuned for more details!</p>
-                <p class="new-ed-text">Venue: Vallhall Arena, Dronning Margretes Vei 11, 0663 Oslo.
+                <p class="new-ed-text">Venue: Spikersuppa Karl Johans Gate.
 
             <!-- <p style="color:black"> Oslo Colour Festival aspires to become one of the landmark events in Oslo’s annual cultural calendar, celebrating life and diversity. On May 6th, 2023, we are expecting an attendance of over 4,000 people who will come and experience a variety of cultural performances, delicious cuisine, and the unique experience of playing with colors.</p> -->
             <!-- <p style="color:black">We will have over 500+ artists performing in various dance formats of Indian and global origin, a street food festival, dance and music, and celebrating diversity through the use of colors.</p>

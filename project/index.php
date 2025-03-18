@@ -125,14 +125,14 @@
                     <p class="text-center galary-color py-2">KIDS PERFORMANCES</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="assets/images/new-galary/3.png" alt="image" class="img-fluid"  loading="lazy">
-                    <p class="text-center galary-color py-2">SHOPPING</p>
+                    <img src="assets/images/new-galary/4.png" alt="image" class="img-fluid"  loading="lazy">
+                    <p class="text-center galary-color py-2">FOOD</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="assets/images/new-galary/4.png" alt="image" class="img-fluid"  loading="lazy">
-                    <p class="text-center galary-color py-2">FOOD</p>
+                    <img src="assets/images/new-galary/holi-playing.JPG" alt="image" class="img-fluid"  loading="lazy">
+                    <p class="text-center galary-color py-2">OCF 2022</p>
                 </div>
                 <div class="col-md-4">
                     <img src="assets/images/new-galary/5.png" alt="image" class="img-fluid"  loading="lazy">
@@ -140,7 +140,7 @@
                 </div>
                 <div class="col-md-4">
                     <img src="assets/images/new-galary/holi-playing.JPG" alt="image" class="img-fluid"  loading="lazy">
-                    <p class="text-center galary-color py-2">OCF 2022</p>
+                    <p class="text-center galary-color py-2">OCF 2024</p>
                 </div>
             </div>
         </div>
