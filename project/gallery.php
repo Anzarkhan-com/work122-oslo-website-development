@@ -33,6 +33,69 @@
         </div>
     </section>
     <!-- main section end -->
+
+ <!-- new gallery section start  -->
+ <section class="akc-gallery-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <p class="galary-color gnew-text">Oslo Colour Festival 2024</p>
+                    </div>
+                </div>
+                <!-- <div class="col-md-12 pb-3">
+                    <div class="text-center">
+                        <h3 class="galary-color">INAUGRATION</h3>
+                    </div>
+                </div> -->
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/1-17.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/1-18.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/1-19.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/1-20.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/1-21.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/1-6.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/1-7.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/1-4.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
+                </div>
+            </div>
+           
+            <div class="row py-2">
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/1-10.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/1-14.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/1-15.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/new-galary/1-16.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- new gallery section end  -->
+
     <!-- new gallery section start  -->
     <section class="akc-gallery-section">
         <div class="container">
