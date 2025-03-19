@@ -24,7 +24,7 @@
     <!--header section end -->
     <!-- main section start  -->
     <section>
-        <img class="akc-holi" src="assets/images/home-page/group.jpg" alt="" loading="lazy">
+        <img class="akc-holi" src="assets/images/banner/2.jpg" alt="" loading="lazy">
     </section>
     <!-- main section end -->
     <!-- day counter  -->
