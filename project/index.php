@@ -501,6 +501,117 @@
     <!--footer section end -->
     <script src="assets/js/new-script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Cookie Consent Section -->
+    <div class="cookie-consent-overlay" id="cookieConsent">
+        <div class="cookie-consent-popup">
+            <div class="cookie-content">
+                <h3 class="cookie-title">Cookie Consent</h3>
+                <p>We use cookies to enhance your experience on our website. By continuing to use our site, you agree to our use of cookies.</p>
+                <div class="cookie-buttons">
+                    <button class="btn btn-custom" onclick="acceptCookies()">Accept All</button>
+                    <button class="btn btn-custom2" onclick="declineCookies()">Decline</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .cookie-consent-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+        .cookie-consent-popup {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 600px;
+            width: 90%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            animation: popupFadeIn 0.3s ease-out;
+        }
+        .cookie-title {
+            color: #ed1e79;
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .cookie-content {
+            text-align: center;
+        }
+        .cookie-content p {
+            margin: 0 0 25px 0;
+            font-size: 18px;
+            color: #0e485b;
+            line-height: 1.5;
+        }
+        .cookie-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .cookie-buttons .btn {
+            padding: 10px 30px;
+            font-size: 16px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+        .cookie-buttons .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        @keyframes popupFadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        @media (max-width: 576px) {
+            .cookie-consent-popup {
+                width: 95%;
+                padding: 20px;
+            }
+            .cookie-buttons {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .cookie-buttons .btn {
+                width: 100%;
+            }
+        }
+    </style>
+
+    <script>
+        function checkCookieConsent() {
+            if (!localStorage.getItem('cookieConsent')) {
+                document.getElementById('cookieConsent').style.display = 'flex';
+            }
+        }
+
+        function acceptCookies() {
+            localStorage.setItem('cookieConsent', 'accepted');
+            document.getElementById('cookieConsent').style.display = 'none';
+        }
+
+        function declineCookies() {
+            localStorage.setItem('cookieConsent', 'declined');
+            document.getElementById('cookieConsent').style.display = 'none';
+        }
+
+        // Check cookie consent on page load
+        window.onload = checkCookieConsent;
+    </script>
 </body>
 
 </html>
