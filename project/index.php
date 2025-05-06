@@ -9,6 +9,94 @@
     <link rel="stylesheet" href="assets/css/akc-sheep.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Banner Slider Styles */
+        #osloBannerSlider {
+            position: relative;
+            overflow: hidden;
+        }
+        .carousel-inner {
+            width: 100%;
+        }
+        .carousel-item {
+            transition: transform 1.2s ease-in-out;
+        }
+        .carousel-item img {
+            width: 100%;
+            object-fit: cover;
+        }
+        .carousel-control-prev, .carousel-control-next {
+            width: 5%;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        #osloBannerSlider:hover .carousel-control-prev,
+        #osloBannerSlider:hover .carousel-control-next {
+            opacity: 0.8;
+        }
+        .carousel-indicators {
+            margin-bottom: 1rem;
+        }
+        .carousel-indicators button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin: 0 5px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border: 2px solid transparent;
+        }
+        .carousel-indicators button.active {
+            background-color: #fff;
+            transform: scale(1.2);
+        }
+        /* Carousel Caption Styling */
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            bottom: 50px;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+            animation-delay: 0.5s;
+        }
+        .carousel-caption h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .carousel-caption p {
+            font-size: 1.2rem;
+            margin-bottom: 0;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @media (max-width: 768px) {
+            .carousel-control-prev, .carousel-control-next {
+                width: 10%;
+            }
+            .carousel-indicators button {
+                width: 8px;
+                height: 8px;
+            }
+            .carousel-caption {
+                bottom: 20px;
+                padding: 10px;
+            }
+            .carousel-caption h2 {
+                font-size: 1.5rem;
+            }
+            .carousel-caption p {
+                font-size: 1rem;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -17,16 +105,65 @@
         <div class="loader"></div>
     </div>
     <!-- preloader end -->
+    
     <!-- header section start  -->
     <?php
     include 'elements/header.php';
     ?>
     <!--header section end -->
+    
     <!-- main section start  -->
-    <section>
-        <img class="akc-holi" src="assets/images/banner/2.jpg" alt="" loading="lazy">
+    <section style="margin-top: -137px;">
+        <div id="osloBannerSlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#osloBannerSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#osloBannerSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <!-- <button type="button" data-bs-target="#osloBannerSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#osloBannerSlider" data-bs-slide-to="3" aria-label="Slide 4"></button> -->
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/banner/2.jpg" class="d-block w-100 akc-holi" alt="Oslo Colour Festival" loading="lazy">
+                    <!-- <div class="carousel-caption">
+                        <h2>Welcome to Oslo Colour Festival</h2>
+                        <p>Experience the vibrant colors of Holi in Norway</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/banner/3.jpg" class="d-block w-100 akc-holi" alt="Oslo Colour Festival" loading="lazy">
+                    <!-- <div class="carousel-caption">
+                        <h2>Celebrate Together</h2>
+                        <p>Join us for a day of joy, colors and togetherness</p>
+                    </div> -->
+                </div>
+                <!-- <div class="carousel-item">
+                    <img src="assets/images/banner/02.jpg" class="d-block w-100 akc-holi" alt="Oslo Colour Festival" loading="lazy">
+                    <div class="carousel-caption">
+                        <h2>Colors of Unity</h2>
+                        <p>Bringing cultures together through the festival of colors</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/banner/3.jpg" class="d-block w-100 akc-holi" alt="Oslo Colour Festival" loading="lazy">
+                    <div class="carousel-caption">
+                        <h2>Oslo Colour Festival 2025</h2>
+                        <p>Mark your calendars for the biggest celebration of Holi</p>
+                    </div>
+                </div> -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#osloBannerSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#osloBannerSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
     <!-- main section end -->
+
+    
     <!-- day counter  -->
     <section>
         <div class="row akc-timer text-center py-2 W-100">
@@ -611,6 +748,85 @@
 
         // Check cookie consent on page load
         window.onload = checkCookieConsent;
+    </script>
+
+    <!-- Slider JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize the carousel
+            var myCarousel = document.getElementById('osloBannerSlider');
+            var carousel = new bootstrap.Carousel(myCarousel, {
+                interval: 5000,  // Change slides every 5 seconds
+                wrap: true,      // Continuously cycle through slides
+                keyboard: true,  // Allow keyboard navigation
+                pause: 'hover',  // Pause on hover
+                touch: true      // Enable touch swiping on mobile
+            });
+
+            // Enhanced animation effects for slides
+            myCarousel.addEventListener('slide.bs.carousel', function(event) {
+                // Current slide that's about to be hidden
+                const activeSlide = event.relatedTarget;
+                
+                // Reset caption animation by removing and adding animation class
+                const captions = document.querySelectorAll('.carousel-caption');
+                captions.forEach(caption => {
+                    caption.style.opacity = '0';
+                    caption.style.animation = 'none';
+                    caption.offsetHeight; // Trigger reflow
+                    caption.style.animation = null;
+                });
+                
+                // Add a small delay before showing the new caption
+                setTimeout(() => {
+                    const nextCaption = activeSlide.querySelector('.carousel-caption');
+                    if (nextCaption) {
+                        nextCaption.style.opacity = '0';
+                        nextCaption.style.animation = 'fadeIn 1s ease-in-out forwards';
+                    }
+                }, 300);
+            });
+
+            // Swipe support enhancement for mobile
+            let touchStartX = 0;
+            let touchEndX = 0;
+            
+            myCarousel.addEventListener('touchstart', function(event) {
+                touchStartX = event.changedTouches[0].screenX;
+            }, false);
+            
+            myCarousel.addEventListener('touchend', function(event) {
+                touchEndX = event.changedTouches[0].screenX;
+                handleSwipe();
+            }, false);
+            
+            function handleSwipe() {
+                const swipeThreshold = 50; // Minimum distance for swipe
+                if (touchEndX < touchStartX - swipeThreshold) {
+                    // Swipe left - go to next slide
+                    carousel.next();
+                }
+                if (touchEndX > touchStartX + swipeThreshold) {
+                    // Swipe right - go to previous slide
+                    carousel.prev();
+                }
+            }
+
+            // Handle preloading of images for better performance
+            var slideImages = document.querySelectorAll('#osloBannerSlider img');
+            slideImages.forEach(function(img) {
+                const image = new Image();
+                image.src = img.src;
+            });
+            
+            // Auto-initialize the first slide caption
+            setTimeout(() => {
+                const firstCaption = document.querySelector('.carousel-item.active .carousel-caption');
+                if (firstCaption) {
+                    firstCaption.style.animation = 'fadeIn 1s ease-in-out forwards';
+                }
+            }, 500);
+        });
     </script>
 </body>
 

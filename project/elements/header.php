@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style="z-index: 1;">
         <div class="container">
             <div class="d-flex flex-column align-items-center">
                 <a class="navbar-brand" href="index.php"><img src="./assets/images/logo/1.png" alt="logo" width="100px"></a>
