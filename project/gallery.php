@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -86,7 +87,7 @@
                     <img src="assets/images/new-galary/1-14.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/new-galary/1-15.jpg" alt="gallery image" class="img-fluid"  loading="lazy">
+                    <img src="assets/images/new-galary/1-15.JPG" alt="gallery image" class="img-fluid"  loading="lazy">
                 </div>
                 <div class="col-md-3">
                     <img src="assets/images/new-galary/1-16.jpg" alt="gallery image" class="img-fluid"  loading="lazy">

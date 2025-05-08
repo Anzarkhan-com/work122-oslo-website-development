@@ -55,7 +55,7 @@
         <div class="container">
 
             <ul>
-                <li>Here you will find important and practical information about the <b>Oslo Colour Festival.</b> </li>
+                <li>Here you will find important and practical information about the  <b>Oslo Colour Festival.</b> </li>
                 <li>Please read the document carefully and if you have any queries, please do not hesitate to contact us at 
                     <a href="mailto:info@oslocolourfestival.no">info@oslocolourfestival.no</a>
                 </li>

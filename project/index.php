@@ -276,7 +276,7 @@
                     <p class="text-center galary-color py-2">OCF 2023</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="assets/images/new-galary/1-14.JPG" alt="image" class="img-fluid"  loading="lazy">
+                    <img src="assets/images/new-galary/1-16.jpg" alt="image" class="img-fluid"  loading="lazy">
                     <p class="text-center galary-color py-2">OCF 2024</p>
                 </div>
             </div>

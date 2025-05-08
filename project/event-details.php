@@ -145,7 +145,7 @@
         <div class="container">
             <div class="row pt-5">
                 <div class="col-md-12 text-center">
-                    <h2 class="custom-color-new">SPONSORS & PARTNERS</h2>
+                    <h2 class="custom-color-new"> PAST SPONSORS & PARTNERS</h2>
                 </div>
             </div>
             <div class="container pt-5">
