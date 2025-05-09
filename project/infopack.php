@@ -117,11 +117,7 @@
             <h5>Practical Information</h5></br>
             <ul>
                 <li style="list-style: decimal;list-style-position: inside;">Event  starts at 10:00.</span></li>
-                <li style="list-style: decimal;list-style-position: inside;">Keep QR code/EntryPass visible for smooth check-in. </span></li>
-                <li style="list-style: decimal;list-style-position: inside;">Entry-pass (QR Code) can be scanned only once.</span></li>
-                <li style="list-style: decimal;list-style-position: inside;">Parking at Vallhall is only allowed for pre-booked cars. </span></li>
-                <li style="list-style: decimal;list-style-position: inside;">Please use QR Code which is connected to Parking before entering to the parking area</span></li>
-                <li style="list-style: decimal;list-style-position: inside;">A wristband will be provided during Check In.</span></li>
+                
             </ul>
             </br></br>
             <h5>Food</h5></br>
@@ -149,8 +145,7 @@
             </br></br>
             <h5>General</h5></br>
             <ul>
-                <li style="list-style: decimal;list-style-position: inside;">Follow instructions provided by Volunteers during the event.
-                </span></li>
+              
                 <li style="list-style: decimal;list-style-position: inside;">Follow instructions provided by Volunteers during the event.</span></li>
                 <li style="list-style: decimal;list-style-position: inside;">Parents take full responsibility for their children throughout the event at the venue.
                 </span></li>
