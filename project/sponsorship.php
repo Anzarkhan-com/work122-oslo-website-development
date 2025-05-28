@@ -34,9 +34,12 @@
     <!-- Header Area End -->
    
     
+<section>
+                <img src="assets/images/partner-logo/sponsers-and-partners.jpg" alt="event banner" class="w-100 img-fluid" loading="lazy">
 
+    </section>
  
-  <section class="akc-client-section">
+<!-- <section class="akc-client-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 py-5">
@@ -95,7 +98,7 @@
                     </div>
                 </div>
             </div>
-    </section> 
+</section>  -->
     <!--- client section end  -->
 
     <!-- Footer Area Start -->

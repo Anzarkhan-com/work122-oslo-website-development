@@ -47,7 +47,7 @@
                     </div>
                     <div class="pt-2">
                         <button type="button" class="btn btn-custom btn-sm" onclick="showNewsletterPopup()">
-                            <i class="fa-solid fa-share" style="color: #ffffff;"></i> Sign Up
+                            <i class="fa-solid fa-share" style="color: #ffffff;"></i> Register Now
                         </button>
                     </div>
                 </div>

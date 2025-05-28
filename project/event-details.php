@@ -138,15 +138,24 @@
     ?>
     <!-- Header Area End -->
     <section>
-        <img src="assets/images/banner/new.jpg" alt="event banner" class="w-100 img-fluid" loading="lazy">
+                <img src="assets/images/partner-logo/event-details-2.jpg" alt="event banner" class="w-100 img-fluid" loading="lazy">
+
+        <img src="assets/images/partner-logo/event-details-new.jpg" alt="event banner" class="w-100 img-fluid" loading="lazy">
     </section>
     <!-- partner logo section  -->
+
     <section>
+
+        <img src="assets/images/partner-logo/sponsers-and-partners.jpg" alt="event banner" class="w-100 img-fluid" loading="lazy">
+    </section>
+
+
+    <!-- <section>
         <div class="container">
             <div class="row pt-5">
                 <div class="col-md-12 text-center">
                     <h2 class="custom-color-new"> PAST SPONSORS & PARTNERS</h2>
-                </div>
+                </div> 
             </div>
             <div class="container pt-5">
                 <div class="row justify-content-center align-items-end">
@@ -155,20 +164,13 @@
 
                             <div class="col d-flex align-items-center ">
                                 <a href="">
+
                                     <img src="assets/images/partner-logo/new.png" alt="partner logo" loading="lazy" class="img-fluid">
                                 </a>
                             </div>
-                            <!-- <div class="col d-flex align-items-center ">
-                                <a href="">
-                                    <img src="assets/images/partner-logo/Capgemini.png" alt="partner logo"  loading="lazy" class="img-fluid">
-                                </a>
-                            </div> -->
+                           
                         </div>
-                        <!-- <div class="row d-flex flex-column al">
-                            <div class="col">
-                                <img src="assets/images/partner-logo/rectangle-1.png" alt="partner logo"  loading="lazy" class="img-fluid w-100">
-                            </div>
-                        </div> -->
+                      
                     </div>
                     <div class="col-md-3 py-4">
                         <div class="row d-flex align-items-center">
@@ -230,20 +232,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-md-2 py-3 text-center">
-                        <div class="row d-flex align-items-center">
-                            <div class="col d-flex align-items-center justify-content-center">
-                                <a href="">
-                                    <img src="assets/images/old-img/partner-logo/skg.png" alt="partner logo"  loading="lazy" class="img-fluid" style="max-width: 120px;">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row d-flex ">
-                            <div class="col">
-                                <img src="assets/images/old-img/partner-logo/pkg-partner.png" alt="partner logo"  loading="lazy" class="img-fluid">
-                            </div>
-                        </div>
-                    </div> -->
+                   
                     <div class="col-md-12 py-3 text-center">
                         <div class="row d-flex align-items-center">
                             <div class="col-md-12 py-4" style=margin-left:110px>
@@ -364,7 +353,9 @@
         </div>
         </div>
         </div>
-    </section>
+    </section> -->
+
+
     <section>
         <div class="container">
             <div class="row pt-5">
