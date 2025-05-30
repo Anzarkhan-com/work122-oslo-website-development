@@ -71,11 +71,11 @@
                             <td>Date</td>
                             <td>Saturday 7th June 2025 10:00 to 22:00</td>
                         </tr>
-                        <tr>
+                        <!-- <tr>
                             <td>Arrival Time</td>
                             <td>Registration and Check-in starts at 10:00 hrs.
                             </td>
-                        </tr>
+                        </tr> -->
                         <tr>
                             <td>Venue</td>
                             <td>Spikersuppa, karl Johans Gate

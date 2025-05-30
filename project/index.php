@@ -123,14 +123,14 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/images/banner/2.jpg" class="d-block w-100 akc-holi" alt="Oslo Colour Festival" loading="lazy">
+                    <img src="assets/images/banner/3.jpg" class="d-block w-100 akc-holi" alt="Oslo Colour Festival" loading="lazy">
                     <!-- <div class="carousel-caption">
                         <h2>Welcome to Oslo Colour Festival</h2>
                         <p>Experience the vibrant colors of Holi in Norway</p>
                     </div> -->
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/images/banner/3.jpg" class="d-block w-100 akc-holi" alt="Oslo Colour Festival" loading="lazy">
+                    <img src="assets/images/banner/2.jpg" class="d-block w-100 akc-holi" alt="Oslo Colour Festival" loading="lazy">
                     <!-- <div class="carousel-caption">
                         <h2>Celebrate Together</h2>
                         <p>Join us for a day of joy, colors and togetherness</p>

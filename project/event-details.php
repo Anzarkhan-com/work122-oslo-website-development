@@ -138,9 +138,9 @@
     ?>
     <!-- Header Area End -->
     <section>
-                <img src="assets/images/partner-logo/event-details-2.jpg" alt="event banner" class="w-100 img-fluid" loading="lazy">
+                <img src="assets/images/banner/event-details-english.jpg" alt="event banner" class="w-100 img-fluid" loading="lazy">
 
-        <img src="assets/images/partner-logo/event-details-new.jpg" alt="event banner" class="w-100 img-fluid" loading="lazy">
+        <img src="assets/images/banner/event-details-nova.jpg" alt="event banner" class="w-100 img-fluid" loading="lazy">
     </section>
     <!-- partner logo section  -->
 
